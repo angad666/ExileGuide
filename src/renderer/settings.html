@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'">
+  <title>Exile Guide: Build &amp; Settings</title>
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="settings.css">
+</head>
+<body>
+  <header>
+    <div class="brand">Exile Guide</div>
+    <nav id="tabs">
+      <button data-tab="build" class="on">Build</button>
+      <button data-tab="plan">Gem plan</button>
+      <button data-tab="route">Route</button>
+      <button data-tab="settings">Settings</button>
+      <button data-tab="json">Raw JSON</button>
+    </nav>
+    <div class="spacer"></div>
+    <div id="status" class="status"></div>
+  </header>
+
+  <main>
+    <!-- BUILD -->
+    <section id="tab-build" class="tab on">
+      <div class="toolbar">
+        <label>Active build <select id="buildSelect"></select></label>
+        <button id="btnNew">New blank</button>
+        <button id="btnDup">Duplicate</button>
+        <button id="btnDelete" class="danger">Delete</button>
+        <button id="btnFolder">Open builds folder</button>
+        <div class="spacer"></div>
+        <span id="dirty" class="dirty hidden">Unsaved changes</span>
+        <button id="btnSave" class="primary">Save &amp; apply</button>
+      </div>
+
+      <div class="card">
+        <h3>Import from Path of Building</h3>
+        <p class="muted">Paste a PoB code or a pobb.in / pastebin / poe.ninja link. Skill sets and item sets become stages; numbers in their titles (for example <code>lvl 1-12</code>) become stage levels. Name your PoB sets by level for the best result.</p>
+        <div class="row">
+          <input id="pobInput" type="text" placeholder="https://pobb.in/…  or  eNrtvWl…" spellcheck="false">
+          <button id="btnImport" class="primary">Import as new build</button>
+        </div>
+        <div id="importMsg" class="msg"></div>
+      </div>
+
+      <div class="card">
+        <h3>Build</h3>
+        <div class="grid4">
+          <label>Name <input id="bName" type="text"></label>
+          <label>Class <select id="bClass"></select></label>
+          <label>Ascendancy <input id="bAsc" type="text"></label>
+          <label>Bandit <select id="bBandit"><option>None</option><option>Alira</option><option>Oak</option><option>Kraityn</option></select></label>
+          <label>Pantheon <input id="bPantheon" type="text"></label>
+          <label class="check"><input id="bLeague" type="checkbox"> League start route (trials, extra stops)</label>
+          <label class="check"><input id="bLibrary" type="checkbox"> Do the Act 3 Library (Siosa gems)</label>
+          <label>Source <input id="bSource" type="text" placeholder="PoB link"></label>
+        </div>
+        <div id="buildWarnings" class="msg warn hidden"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>Stages</h3><span class="muted">The overlay picks the stage from your character level. Links: one group per line, <code>Label: Gem, Gem, Gem</code>. Gear: one item per line, <code>Slot: Item | details | mod; mod</code>.</span><div class="spacer"></div><button id="btnAddStage">Add stage</button></div>
+        <div id="stages"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>Extra gems</h3><span class="muted">Gems you want that aren't in any link group (one per line, <code>Gem name @ level</code>).</span></div>
+        <textarea id="extraGems" rows="3" spellcheck="false"></textarea>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>Build search strings</h3><span class="muted">Shown in the F3 menu for this build, one per line: <code>Label =&gt; "search"</code>. Gem-buy strings are added automatically.</span></div>
+        <textarea id="buildSearches" rows="3" spellcheck="false"></textarea>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>Route notes</h3><span class="muted">Your own reminders inside the route: gear buys, vendor recipes, flask swaps. They show on the step where they belong.</span><div class="spacer"></div><button id="btnAddNote">Add note</button></div>
+        <table class="tbl" id="notesTbl"><thead><tr><th style="width:110px">Trigger</th><th style="width:270px">Where</th><th>Text</th><th style="width:200px">Search string</th><th style="width:60px">Kind</th><th style="width:30px"></th></tr></thead><tbody></tbody></table>
+      </div>
+
+      <div class="card">
+        <div class="card-head"><h3>Gear milestones</h3><span class="muted">Shown in the overlay's Gear panel from level <i>From</i> until <i>Until</i> (and 2 levels ahead as a preview).</span><div class="spacer"></div><button id="btnAddMile">Add milestone</button></div>
+        <table class="tbl" id="mileTbl"><thead><tr><th style="width:60px">From</th><th style="width:60px">Until</th><th style="width:100px">Slot</th><th>Text</th><th style="width:200px">Search string</th><th style="width:30px"></th></tr></thead><tbody></tbody></table>
+      </div>
+
+      <div class="card" id="pobNotesCard">
+        <h3>PoB notes</h3>
+        <pre id="pobNotes" class="pre"></pre>
+      </div>
+    </section>
+
+    <!-- PLAN -->
+    <section id="tab-plan" class="tab">
+      <div class="toolbar">
+        <span class="muted">Gems are bought just in time: when the route reaches about 3 levels below the stage that first uses them, or at the last vendor that sells them. Free quest rewards prefer the gem you need soonest. Change the plan per gem below, then save on the Build tab.</span>
+        <div class="spacer"></div>
+        <button id="btnSave2" class="primary">Save &amp; apply</button>
+      </div>
+      <div class="cols">
+        <div class="card">
+          <h3>Quest by quest</h3>
+          <div id="planSteps"></div>
+        </div>
+        <div class="card">
+          <h3>Per gem</h3>
+          <table class="tbl" id="planTbl"><thead><tr><th>Gem</th><th style="width:70px">Needed</th><th>Source</th><th style="width:70px">Lv override</th><th style="width:150px">Pin to quest</th><th style="width:40px">Skip</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROUTE -->
+    <section id="tab-route" class="tab">
+      <div class="toolbar">
+        <label>Act <select id="routeAct"></select></label>
+        <label><input id="routeGemsOnly" type="checkbox"> Only steps with gems/notes</label>
+        <button id="btnToCurrent">Show current step</button>
+        <div class="spacer"></div>
+        <span class="muted">Click a step to move the overlay there.</span>
+      </div>
+      <div id="routeList" class="route"></div>
+    </section>
+
+    <!-- SETTINGS -->
+    <section id="tab-settings" class="tab">
+      <div class="card">
+        <h3>Path of Exile log</h3>
+        <p class="muted">The overlay reads <code>Client.txt</code> to follow you through zones and level ups. Keep local chat on in game.</p>
+        <div class="row">
+          <input id="sLog" type="text" spellcheck="false">
+          <button id="btnBrowse">Browse…</button>
+          <button id="btnLogApply">Apply</button>
+        </div>
+        <div id="logMsg" class="msg"></div>
+      </div>
+
+      <div class="card">
+        <h3>Hotkeys</h3>
+        <p class="muted">Click a box and press the key combination. Backspace clears. F5 and F9 are Awakened PoE Trade's /hideout and /exit. Windows reserves F12.</p>
+        <div id="hotkeys" class="grid2"></div>
+        <div id="hkMsg" class="msg"></div>
+        <div class="row">
+          <label>Search hotkey does
+            <select id="sPaste"><option value="paste">paste into PoE search (Ctrl+F, Ctrl+V)</option><option value="clipboard">copy to clipboard only</option></select>
+          </label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>F3 search menu: general strings</h3>
+        <p class="muted">Shown for every build, below the current act's gem buys and your build's strings. One per line: <code>Label =&gt; "search"</code>. PoE limits a search to 50 characters.</p>
+        <textarea id="sSearches" rows="7" spellcheck="false"></textarea>
+        <div class="row"><button id="btnSearchesSave">Save strings</button><span id="searchMsg" class="msg"></span></div>
+      </div>
+
+      <div class="card">
+        <h3>Overlay</h3>
+        <div class="grid4">
+          <label>Opacity <input id="sOpacity" type="range" min="0.4" max="1" step="0.02"></label>
+          <label>Scale <input id="sScale" type="range" min="0.75" max="1.6" step="0.05"></label>
+          <label>Upcoming steps shown <input id="sUpcoming" type="number" min="0" max="6"></label>
+          <label class="check"><input id="sAutoReset" type="checkbox"> Restart route when a new character enters the Twilight Strand</label>
+          <label class="check"><input id="sLinks" type="checkbox"> Show links panel</label>
+          <label class="check"><input id="sGear" type="checkbox"> Show gear panel</label>
+          <label class="check"><input id="sCompact" type="checkbox"> Compact mode (step only)</label>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Run timer</h3>
+        <p class="muted">Starts when you enter The Twilight Strand on a new run. It splits at Brutus (F2 on the Brutus step, or entering Prisoner's Gate) and at the end of each act (entering the next act). The run finishes on F2 at Kitava in Act 10, or when you go from The Feeding Trough to Oriath Docks. The pause hotkey also starts the timer if it isn't running, and undoes an accidental finish.</p>
+        <div class="row">
+          <label>Compare against <select id="tCompare"></select></label>
+          <label class="check"><input id="tLab" type="checkbox"> Pause in the Labyrinth (the goal times don't include labs)</label>
+          <label class="check"><input id="tShow" type="checkbox"> Show on the overlay</label>
+          <div class="spacer"></div>
+          <button id="btnTimerReset" class="danger">Reset timer</button>
+        </div>
+        <div id="timerRuns"></div>
+      </div>
+
+      <div class="card">
+        <h3>Progress</h3>
+        <div class="row">
+          <label>Character level <input id="sLevel" type="number" min="1" max="100" style="width:80px"></label>
+          <button id="btnSetLevel">Set level</button>
+          <button id="btnReset" class="danger">Restart route from Act 1</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- JSON -->
+    <section id="tab-json" class="tab">
+      <div class="toolbar">
+        <span class="muted">The whole build profile. Edit freely, then apply.</span>
+        <div class="spacer"></div>
+        <button id="btnJsonApply" class="primary">Apply JSON to editor</button>
+      </div>
+      <textarea id="json" spellcheck="false"></textarea>
+      <div id="jsonMsg" class="msg"></div>
+    </section>
+  </main>
+
+  <datalist id="gemList"></datalist>
+  <script src="common.js"></script>
+  <script src="settings.js"></script>
+</body>
+</html>

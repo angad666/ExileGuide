@@ -1,0 +1,6 @@
+node_modules/
+# personal state: route progress, run timer, per-PC settings (paths, window position)
+user/
+# optional custom filter sounds
+filter/sounds/
+*.log

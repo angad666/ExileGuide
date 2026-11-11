@@ -1,0 +1,14 @@
+{
+  "name": "exile-guide",
+  "version": "1.0.0",
+  "description": "PoE1 campaign speedrun overlay: step-by-step route, build-aware gem and gear guidance",
+  "main": "src/main/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/engine.test.js"
+  },
+  "devDependencies": {
+    "electron": "^38.8.6"
+  }
+}

@@ -1,0 +1,219 @@
+# STATIC STRIKE SLAYER: KEY BASES FROM ACT 1 TO 4 VOIDSTONES (3.30)
+# These rules come first in the filter, so they win over the NeverSink / Tytykiller rules below.
+#
+# Styles (one look per meaning, so you learn them fast):
+#   PINK, big, sound 4, pink star + beam .... KEY BASE: pick it up (crafting base or a direct upgrade)
+#   PINK frame on dark, pink diamond ........ KEY RARE: same bases as rares; pick up and identify (life, res, phys)
+#   GOLD, sound 1, red star + beam .......... 5- and 6-links; 4-links while levelling (colours don't matter since 3.29)
+#   CYAN, sound 2 ........................... movement-speed boots while levelling; 3.30 Threads
+#
+# Any base name in a "BaseType ==" line must exist in the game, or the whole filter fails to load.
+# Every name below is either in NeverSink's 3.29 filter or in the official 3.30 patch notes.
+
+#------------------------------------------------------------------------------------------------
+# 1. Links: any colour fits any socket, so links are all that matter
+#------------------------------------------------------------------------------------------------
+Show # 6-link, anywhere
+	LinkedSockets 6
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 0 255
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # 5-link: the Static Strike body armour (campaign and maps)
+	LinkedSockets 5
+	Class == "Body Armours" "Two Hand Axes" "Two Hand Swords" "Two Hand Maces"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 200 0 255
+	PlayAlertSound 1 300
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Star
+
+Show # 4-link gear while levelling (Static Strike 4L in Acts 1-5, utility links later)
+	LinkedSockets >= 4
+	AreaLevel <= 60
+	Class == "Body Armours" "Helmets" "Gloves" "Boots" "Two Hand Axes" "Two Hand Swords" "Two Hand Maces"
+	Rarity Normal Magic Rare
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 200 0 230
+	PlayAlertSound 1 300
+	PlayEffect Yellow Temp
+	MinimapIcon 1 Yellow Star
+
+Show # 3-link 2H axe early (Spectral Throw / Static Strike 3L until a 4L shows up)
+	LinkedSockets 3
+	AreaLevel <= 22
+	Class == "Two Hand Axes" "Two Hand Swords" "Two Hand Maces"
+	SetFontSize 42
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 200 0 255
+	SetBackgroundColor 70 50 0 230
+	MinimapIcon 2 Yellow Star
+
+#------------------------------------------------------------------------------------------------
+# 2. Campaign: movement speed and the level-61 crit swap (1H axe + tower shield)
+#------------------------------------------------------------------------------------------------
+Show # magic boots with movement speed (10-35%), campaign only
+	Class == "Boots"
+	Rarity Magic
+	HasExplicitMod "Runner's" "Sprinter's" "Stallion's" "Gazelle's" "Cheetah's" "Hellion's"
+	AreaLevel <= 67
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 0 220 255 255
+	PlayAlertSound 2 300
+	PlayEffect Cyan
+	MinimapIcon 1 Cyan Circle
+
+Show # KEY BASE: Reaver Axe is the crit-swap weapon base (level 61): take every one from Act 6 on
+	BaseType == "Reaver Axe"
+	AreaLevel >= 45
+	AreaLevel <= 67
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY RARE: rare 1H axes for the crit swap (look for flat + % physical damage)
+	Class == "One Hand Axes"
+	Rarity Rare
+	AreaLevel >= 45
+	AreaLevel <= 67
+	SetFontSize 42
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 60 0 45 240
+	PlayEffect Pink Temp
+	MinimapIcon 1 Pink Diamond
+
+Show # KEY RARE: rare tower shields for the crit swap (life + resistances)
+	Class == "Shields"
+	BaseType "Tower Shield"
+	Rarity Rare
+	AreaLevel >= 40
+	AreaLevel <= 67
+	SetFontSize 42
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 60 0 45 240
+	PlayEffect Pink Temp
+	MinimapIcon 1 Pink Diamond
+
+#------------------------------------------------------------------------------------------------
+# 3. Maps: crafting bases for the voidstone gear (normal/magic = craft it, rare = identify it)
+#------------------------------------------------------------------------------------------------
+Show # KEY BASE: weapon. Deafening Essence of Contempt / alt-regal base. ilvl 83+ can roll the top % phys tier
+	BaseType == "Reaver Axe"
+	Rarity Normal Magic
+	AreaLevel >= 68
+	ItemLevel >= 68
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY BASE: body armour for the 6-link (Royal/Astral Plate). Essence of Greed or alt-regal base
+	BaseType == "Royal Plate" "Astral Plate"
+	Rarity Normal Magic
+	AreaLevel >= 68
+	ItemLevel >= 75
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY BASE: gloves for the Exarch "physical converted to cold" implicit (Eldritch Embers), then Essence of Greed
+	BaseType == "Leviathan Gauntlets" "Precursor Gauntlets" "Spiked Gloves"
+	Rarity Normal Magic
+	AreaLevel >= 68
+	ItemLevel >= 75
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY BASE: helmet, boots and shield bases (Essence of Greed + bench resistances / movement speed)
+	BaseType == "Giantslayer Helmet" "General's Helmet" "Leviathan Greaves" "Brimstone Treads" "Two-Toned Boots" "Colossal Tower Shield" "Pinnacle Tower Shield" "Ebony Tower Shield"
+	Rarity Normal Magic
+	AreaLevel >= 68
+	ItemLevel >= 75
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY BASE: Stygian Vise (3.30: only drops at Item Tier 5, so every one counts)
+	BaseType == "Stygian Vise"
+	SetFontSize 45
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 200 0 140 255
+	PlayAlertSound 4 300
+	PlayEffect Pink
+	MinimapIcon 0 Pink Star
+
+Show # KEY RARE: the build's bases as rares. Identify: life + resistances (+ phys/attack speed/accuracy)
+	BaseType == "Reaver Axe" "Runic Hatchet" "Vaal Hatchet" "Royal Axe" "Infernal Axe" "Royal Plate" "Astral Plate" "Glorious Plate" "Giantslayer Helmet" "General's Helmet" "Eternal Burgonet" "Royal Burgonet" "Leviathan Gauntlets" "Precursor Gauntlets" "Spiked Gloves" "Titan Gauntlets" "Leviathan Greaves" "Brimstone Treads" "Two-Toned Boots" "Titan Greaves" "Colossal Tower Shield" "Pinnacle Tower Shield" "Ebony Tower Shield" "Ezomyte Tower Shield" "Amethyst Ring" "Two-Stone Ring" "Vermillion Ring" "Heavy Belt"
+	Rarity Rare
+	AreaLevel >= 68
+	SetFontSize 42
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 60 0 45 240
+	PlayEffect Pink Temp
+	MinimapIcon 1 Pink Diamond
+
+Show # KEY BASE: endgame flasks (ilvl 82+ for the best "Endless"/"of the Tortoise" style rolls) and the Prismatic Tincture
+	BaseType == "Divine Life Flask" "Quicksilver Flask" "Diamond Flask" "Granite Flask" "Silver Flask" "Ruby Flask"
+	Rarity Normal Magic
+	AreaLevel >= 68
+	ItemLevel >= 82
+	SetFontSize 40
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 60 0 45 240
+	MinimapIcon 2 Pink Diamond
+
+Show # KEY BASE: Prismatic Tincture (elemental penetration for Static Strike)
+	BaseType == "Prismatic Tincture"
+	SetFontSize 42
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 60 0 45 240
+	MinimapIcon 1 Pink Diamond
+
+#------------------------------------------------------------------------------------------------
+# 4. 3.30 league items: Threads replace Scarabs (they feed the Map Device, up to 8 per map)
+#------------------------------------------------------------------------------------------------
+Show # Threads
+	BaseType == "Abyss Thread" "Bestiary Thread" "Betrayal Thread" "Blight Thread" "Breach Thread" "Expedition Thread" "Incursion Thread" "Legion Thread" "Ritual Thread" "Ultimatum Thread" "Frayed Thread"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 0 220 255 230
+	PlayAlertSound 2 300
+	PlayEffect Cyan
+	MinimapIcon 1 Cyan Hexagon

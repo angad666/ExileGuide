@@ -1,0 +1,1733 @@
+{
+  "schema": 1,
+  "name": "Static Strike Slayer (Alohaa, 3.30)",
+  "class": "Duelist",
+  "ascendancy": "Slayer",
+  "bandit": "Alira",
+  "leagueStart": true,
+  "library": true,
+  "pantheon": "Soul of Lunaris (needs a freeze-immunity flask) + Soul of Gruthkul",
+  "source": {
+    "pob": "https://pobb.in/2FlZU8rRPp3F",
+    "guide": "https://www.youtube.com/watch?v=jQy7qtUnQHM",
+    "sheet": "https://docs.google.com/spreadsheets/d/1UGBybGpDGgNuewBudqyATyZwY-i81vjFpufj0020DvQ"
+  },
+  "stages": [
+    {
+      "title": "lvl 1-11",
+      "from": 1,
+      "to": 11,
+      "tree": "lvl 1-11",
+      "links": [
+        {
+          "label": "Spectral Throw",
+          "gems": [
+            "Spectral Throw",
+            "Volley Support",
+            "Chance to Bleed Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Sniper's Mark",
+          "gems": [
+            "Sniper's Mark"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Precision",
+          "gems": [
+            "Precision"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Frostblink",
+          "gems": [
+            "Frostblink"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Leap Slam",
+          "gems": [
+            "Leap Slam",
+            "Faster Attacks Support"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "magic",
+          "name": "Heavy Jade Chopper",
+          "base": "Heavy Jade Chopper",
+          "sockets": "6S 6L",
+          "levelReq": 9,
+          "mods": [
+            "49% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "normal",
+          "name": "Lapis Amulet",
+          "base": "Lapis Amulet",
+          "sockets": "",
+          "levelReq": 5,
+          "mods": []
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "normal",
+          "name": "Greater Life Flask",
+          "base": "Greater Life Flask",
+          "sockets": "",
+          "levelReq": 12,
+          "mods": []
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "normal",
+          "name": "Greater Life Flask",
+          "base": "Greater Life Flask",
+          "sockets": "",
+          "levelReq": 12,
+          "mods": []
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "normal",
+          "name": "Quicksilver Flask",
+          "base": "Quicksilver Flask",
+          "sockets": "",
+          "levelReq": 4,
+          "mods": []
+        }
+      ],
+      "notes": [
+        "Spectral Throw until 12, then Static Strike. Get 3 Transmutes: Static Strike, Intimidating Cry, Lapis Amulet (Frostblink)."
+      ]
+    },
+    {
+      "title": "12-17",
+      "from": 12,
+      "to": 17,
+      "tree": "12-17",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Ruthless Support",
+            "Ancestral Call Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Intimidating Cry",
+          "gems": [
+            "Intimidating Cry"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Poacher's Mark",
+          "gems": [
+            "Poacher's Mark"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Leap Slam",
+          "gems": [
+            "Leap Slam",
+            "Faster Attacks Support",
+            "Momentum Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Frostblink",
+          "gems": [
+            "Frostblink"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Spectral Helix",
+          "gems": [
+            "Spectral Helix",
+            "Chance to Bleed Support"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "magic",
+          "name": "Serrated Woodsplitter",
+          "base": "Serrated Woodsplitter",
+          "sockets": "6S 6L",
+          "levelReq": 13,
+          "mods": [
+            "58% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "normal",
+          "name": "Lapis Amulet",
+          "base": "Lapis Amulet",
+          "sockets": "",
+          "levelReq": 5,
+          "mods": []
+        }
+      ],
+      "notes": [
+        "Static Strike + Ruthless + Ancestral Call. After Sharp and Cruel, Close Combat replaces Chance to Bleed."
+      ]
+    },
+    {
+      "title": "18-28",
+      "from": 18,
+      "to": 28,
+      "tree": "18-28",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Ruthless Support",
+            "Melee Physical Damage Support",
+            "Close Combat Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Intimidating Cry",
+          "gems": [
+            "Intimidating Cry"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Haste",
+          "gems": [
+            "Haste"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Poacher's Mark",
+          "gems": [
+            "Poacher's Mark"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Leap Slam",
+          "gems": [
+            "Leap Slam",
+            "Spectral Helix",
+            "Faster Attacks Support",
+            "Momentum Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Frostblink",
+          "gems": [
+            "Frostblink"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "magic",
+          "name": "Serrated Double Axe",
+          "base": "Serrated Double Axe",
+          "sockets": "6S 6L",
+          "levelReq": 23,
+          "mods": [
+            "62% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "normal",
+          "name": "Colossal Life Flask",
+          "base": "Colossal Life Flask",
+          "sockets": "",
+          "levelReq": 30,
+          "mods": []
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "normal",
+          "name": "Colossal Life Flask",
+          "base": "Colossal Life Flask",
+          "sockets": "",
+          "levelReq": 30,
+          "mods": []
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "normal",
+          "name": "Quicksilver Flask",
+          "base": "Quicksilver Flask",
+          "sockets": "",
+          "levelReq": 4,
+          "mods": []
+        }
+      ],
+      "notes": [
+        "Level 18 Attack Mastery (+1 strike target): Melee Physical Damage replaces Ancestral Call."
+      ]
+    },
+    {
+      "title": "28-60",
+      "from": 28,
+      "to": 60,
+      "tree": "28-60",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Ruthless Support",
+            "Melee Physical Damage Support",
+            "Close Combat Support",
+            "Fortify Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Poacher's Mark",
+          "gems": [
+            "Poacher's Mark",
+            "Mark On Hit Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Leap Slam",
+          "gems": [
+            "Leap Slam",
+            "Spectral Helix",
+            "Faster Attacks Support",
+            "Momentum Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Intimidating Cry",
+          "gems": [
+            "Intimidating Cry"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Haste",
+          "gems": [
+            "Haste"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Frostblink",
+          "gems": [
+            "Frostblink"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "rare",
+          "name": "Karui Chopper",
+          "base": "Karui Chopper",
+          "sockets": "6S 6L",
+          "levelReq": 58,
+          "mods": [
+            "Adds 14 to 29 Physical Damage",
+            "(60-79)% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Body Armour",
+          "rarity": "rare",
+          "name": "Golden Plate",
+          "base": "Golden Plate",
+          "sockets": "6S 6L",
+          "levelReq": 56,
+          "mods": [
+            "+126 to Armour",
+            "72% increased Armour",
+            "+29% to Fire Resistance",
+            "+27% to Cold Resistance",
+            "+29% to Lightning Resistance"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "unique",
+          "name": "Daresso's Salute",
+          "base": "Citrine Amulet",
+          "sockets": "",
+          "levelReq": 16,
+          "mods": [
+            "50% reduced maximum Energy Shield",
+            "+(30-40)% to Fire Resistance",
+            "+(30-40)% to Cold Resistance",
+            "10% increased Movement Speed when on Full Life",
+            "+0.2 metres to Melee Strike Range",
+            "60% increased Melee Damage when on Full Life"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "normal",
+          "name": "Divine Life Flask",
+          "base": "Divine Life Flask",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": []
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "normal",
+          "name": "Divine Life Flask",
+          "base": "Divine Life Flask",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": []
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "normal",
+          "name": "Quicksilver Flask",
+          "base": "Quicksilver Flask",
+          "sockets": "",
+          "levelReq": 4,
+          "mods": []
+        }
+      ],
+      "notes": [
+        "Act 6 Lilly Roth: buy Fortify, Ambush, Trinity, Hatred. Fortify is the 5th link until Trinity. Level Ambush, Trinity and Hatred in weapon swap."
+      ]
+    },
+    {
+      "title": "61 Crit Swap",
+      "from": 61,
+      "tree": "61 Crit Swap",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Melee Physical Damage Support",
+            "Close Combat Support",
+            "Trinity Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Ambush",
+          "gems": [
+            "Ambush",
+            "Second Wind Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Hatred",
+          "gems": [
+            "Hatred"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Elemental Weakness",
+          "gems": [
+            "Elemental Weakness"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Shield Charge",
+          "gems": [
+            "Shield Charge",
+            "Frostblink",
+            "Faster Attacks Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Flesh and Stone",
+          "gems": [
+            "Flesh and Stone"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Hydrosphere",
+          "gems": [
+            "Hydrosphere"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "rare",
+          "name": "Reaver Axe",
+          "base": "Reaver Axe",
+          "sockets": "3S 3L",
+          "levelReq": 61,
+          "mods": [
+            "Adds 14 to 25 Physical Damage",
+            "(60-79)% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Offhand",
+          "rarity": "rare",
+          "name": "Ebony Tower Shield",
+          "base": "Ebony Tower Shield",
+          "sockets": "3S 3L",
+          "levelReq": 61,
+          "mods": [
+            "+95 to maximum Life",
+            "+29% to Fire Resistance",
+            "+29% to Cold Resistance",
+            "6% additional Physical Damage Reduction"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "unique",
+          "name": "Daresso's Salute",
+          "base": "Citrine Amulet",
+          "sockets": "",
+          "levelReq": 16,
+          "mods": [
+            "50% reduced maximum Energy Shield",
+            "+(30-40)% to Fire Resistance",
+            "+(30-40)% to Cold Resistance",
+            "10% increased Movement Speed when on Full Life",
+            "+0.2 metres to Melee Strike Range",
+            "60% increased Melee Damage when on Full Life"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "magic",
+          "name": "Seething Divine Life Flask of Alleviation",
+          "base": "Seething Divine Life Flask of Alleviation",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": [
+            "66% reduced Amount Recovered",
+            "Instant Recovery",
+            "Grants Immunity to Bleeding for 11 seconds if used while Bleeding",
+            "Grants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+          ]
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "magic",
+          "name": "Natural Prismatic Tincture of Infusing",
+          "base": "Natural Prismatic Tincture of Infusing",
+          "sockets": "",
+          "levelReq": 28,
+          "mods": [
+            "16% increased effect",
+            "Melee Weapon Damage Penetrates 10% Elemental Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "magic",
+          "name": "Endless Diamond Flask of Rupturing",
+          "base": "Endless Diamond Flask of Rupturing",
+          "sockets": "",
+          "levelReq": 40,
+          "mods": [
+            "28% increased Charge Recovery",
+            "41% increased Critical Strike Chance during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 4",
+          "rarity": "magic",
+          "name": "Endless Granite Flask of the Tortoise",
+          "base": "Endless Granite Flask of the Tortoise",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "50% increased Armour during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 5",
+          "rarity": "magic",
+          "name": "Endless Silver Flask of the Walrus",
+          "base": "Endless Silver Flask of the Walrus",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "42% less Duration",
+            "Immunity to Freeze and Chill during Effect"
+          ]
+        }
+      ],
+      "notes": [
+        "Only swap with a high-phys Reaver Axe (flat + % phys). Otherwise stay on the 2H axe and swap in white maps.",
+        "Respec with Faustus gold + refund points: drop 2H nodes; take Dismembering, Eagle Eye, axe damage/crit. Ambush replaces Intimidating Cry."
+      ],
+      "to": 67
+    },
+    {
+      "title": "61-Early Maps",
+      "from": 68,
+      "tree": "61-Early Maps",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Melee Physical Damage Support",
+            "Ruthless Support",
+            "Trinity Support",
+            "Close Combat Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Ambush",
+          "gems": [
+            "Ambush",
+            "Second Wind Support",
+            "Lifetap Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Hatred",
+          "gems": [
+            "Hatred"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Shield Charge",
+          "gems": [
+            "Shield Charge",
+            "Frostblink",
+            "Faster Attacks Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Flesh and Stone",
+          "gems": [
+            "Flesh and Stone"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Cast when Damage Taken Support",
+          "gems": [
+            "Cast when Damage Taken Support"
+          ],
+          "slot": ""
+        },
+        {
+          "label": "Hydrosphere",
+          "gems": [
+            "Hydrosphere",
+            "Arcanist Brand",
+            "Elemental Weakness"
+          ],
+          "slot": ""
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "rare",
+          "name": "Reaver Axe",
+          "base": "Reaver Axe",
+          "sockets": "3S 3L",
+          "levelReq": 61,
+          "mods": [
+            "Adds 25 to 48 Physical Damage",
+            "(100-129)% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Offhand",
+          "rarity": "rare",
+          "name": "Ebony Tower Shield",
+          "base": "Ebony Tower Shield",
+          "sockets": "3S 3L",
+          "levelReq": 61,
+          "mods": [
+            "+95 to maximum Life",
+            "+29% to Fire Resistance",
+            "+29% to Cold Resistance",
+            "6% additional Physical Damage Reduction"
+          ]
+        },
+        {
+          "slot": "Helmet",
+          "rarity": "rare",
+          "name": "General's Helmet",
+          "base": "General's Helmet",
+          "sockets": "4S 4L",
+          "levelReq": 73,
+          "mods": [
+            "+144 to maximum Life",
+            "+32% to Fire Resistance",
+            "+32% to Lightning Resistance",
+            "+(13-15)% to Lightning and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Body Armour",
+          "rarity": "rare",
+          "name": "Astral Plate",
+          "base": "Astral Plate",
+          "sockets": "6S 6L",
+          "levelReq": 67,
+          "mods": [
+            "+241 to Armour",
+            "96% increased Armour",
+            "+43% to Fire Resistance",
+            "7% additional Physical Damage Reduction",
+            "+(13-15)% to Cold and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Gloves",
+          "rarity": "rare",
+          "name": "Precursor Gauntlets",
+          "base": "Precursor Gauntlets",
+          "sockets": "4S 4L",
+          "levelReq": 78,
+          "mods": [
+            "10% increased Attack Speed",
+            "+407 to Accuracy Rating",
+            "+129 to maximum Life",
+            "(20-25)% of Physical Damage Converted to Cold Damage"
+          ]
+        },
+        {
+          "slot": "Boots",
+          "rarity": "rare",
+          "name": "Brimstone Treads",
+          "base": "Brimstone Treads",
+          "sockets": "4S 4L",
+          "levelReq": 80,
+          "mods": [
+            "+129 to maximum Life",
+            "+39% to Lightning Resistance",
+            "30% increased Movement Speed",
+            "+(13-15)% to Cold and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "unique",
+          "name": "Daresso's Salute",
+          "base": "Citrine Amulet",
+          "sockets": "",
+          "levelReq": 16,
+          "mods": [
+            "50% reduced maximum Energy Shield",
+            "+(30-40)% to Fire Resistance",
+            "+(30-40)% to Cold Resistance",
+            "10% increased Movement Speed when on Full Life",
+            "+0.2 metres to Melee Strike Range",
+            "60% increased Melee Damage when on Full Life"
+          ]
+        },
+        {
+          "slot": "Ring",
+          "rarity": "rare",
+          "name": "Amethyst Ring",
+          "base": "Amethyst Ring",
+          "sockets": "",
+          "levelReq": 35,
+          "mods": [
+            "+30 to Intelligence",
+            "+114 to maximum Life",
+            "+29% to Fire Resistance",
+            "+(13-15)% to Lightning and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Ring 2",
+          "rarity": "rare",
+          "name": "Amethyst Ring",
+          "base": "Amethyst Ring",
+          "sockets": "",
+          "levelReq": 35,
+          "mods": [
+            "+30 to Intelligence",
+            "+114 to maximum Life",
+            "+29% to Fire Resistance",
+            "+(13-15)% to Lightning and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Belt",
+          "rarity": "rare",
+          "name": "Rustic Sash",
+          "base": "Rustic Sash",
+          "sockets": "",
+          "levelReq": 52,
+          "mods": [
+            "+144 to maximum Life",
+            "+29% to Chaos Resistance",
+            "+(13-15)% to Fire and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "magic",
+          "name": "Seething Divine Life Flask of Alleviation",
+          "base": "Seething Divine Life Flask of Alleviation",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": [
+            "66% reduced Amount Recovered",
+            "Instant Recovery",
+            "Grants Immunity to Bleeding for 11 seconds if used while Bleeding",
+            "Grants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+          ]
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "magic",
+          "name": "Horticultural Prismatic Tincture of Overpowering",
+          "base": "Horticultural Prismatic Tincture of Overpowering",
+          "sockets": "",
+          "levelReq": 68,
+          "mods": [
+            "22% increased effect",
+            "Melee Weapon Damage Penetrates 19% Elemental Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "magic",
+          "name": "Endless Quicksilver Flask of Rupturing",
+          "base": "Endless Quicksilver Flask of Rupturing",
+          "sockets": "",
+          "levelReq": 40,
+          "mods": [
+            "28% increased Charge Recovery",
+            "41% increased Critical Strike Chance during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 4",
+          "rarity": "magic",
+          "name": "Endless Silver Flask of the Walrus",
+          "base": "Endless Silver Flask of the Walrus",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "42% less Duration",
+            "Immunity to Freeze and Chill during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 5",
+          "rarity": "magic",
+          "name": "Endless Granite Flask of the Tortoise",
+          "base": "Endless Granite Flask of the Tortoise",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "50% increased Armour during Effect"
+          ]
+        }
+      ],
+      "notes": [
+        "Early-maps target gear (item level 67+ bases). The pink filter labels are these bases."
+      ],
+      "to": 70
+    },
+    {
+      "title": "Midgame",
+      "tree": "Midgame",
+      "links": [
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Melee Physical Damage Support",
+            "Ruthless Support",
+            "Trinity Support",
+            "Elemental Damage with Attacks Support",
+            "Close Combat Support"
+          ],
+          "slot": "Body Armour"
+        },
+        {
+          "label": "Ambush",
+          "gems": [
+            "Ambush",
+            "Second Wind Support",
+            "Lifetap Support"
+          ],
+          "slot": "Helmet"
+        },
+        {
+          "label": "Hatred",
+          "gems": [
+            "Hatred"
+          ],
+          "slot": "Weapon 1"
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage"
+          ],
+          "slot": "Weapon 1"
+        },
+        {
+          "label": "Elemental Weakness",
+          "gems": [
+            "Elemental Weakness",
+            "Arcanist Brand",
+            "Hydrosphere"
+          ],
+          "slot": "Boots"
+        },
+        {
+          "label": "Shield Charge",
+          "gems": [
+            "Shield Charge",
+            "Frostblink",
+            "Faster Attacks Support"
+          ],
+          "slot": "Weapon 2"
+        },
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash"
+          ],
+          "slot": "Gloves"
+        },
+        {
+          "label": "Flesh and Stone",
+          "gems": [
+            "Flesh and Stone"
+          ],
+          "slot": "Gloves"
+        },
+        {
+          "label": "Cast when Damage Taken Support",
+          "gems": [
+            "Cast when Damage Taken Support"
+          ],
+          "slot": "Gloves"
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "rare",
+          "name": "Reaver Axe",
+          "base": "Reaver Axe",
+          "sockets": "3S 3L",
+          "levelReq": 61,
+          "mods": [
+            "32% increased Physical Damage",
+            "Adds 29 to 52 Physical Damage",
+            "+65 to Accuracy Rating",
+            "(100-129)% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Offhand",
+          "rarity": "unique",
+          "name": "Dawnbreaker",
+          "base": "Colossal Tower Shield",
+          "sockets": "3S 3L",
+          "levelReq": 67,
+          "mods": [
+            "(150-250)% increased Armour",
+            "+(20-25)% Chance to Block",
+            "-1% Chance to Block Attack Damage for every 200 Fire Damage taken from Hits Recently",
+            "(10-20)% of Cold Damage taken as Fire Damage",
+            "(10-20)% of Lightning Damage taken as Fire Damage",
+            "(10-20)% of Physical Damage taken as Fire Damage"
+          ]
+        },
+        {
+          "slot": "Helmet",
+          "rarity": "rare",
+          "name": "Giantslayer Helmet",
+          "base": "Giantslayer Helmet",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "+484 to Accuracy Rating",
+            "+124 to maximum Life",
+            "+45% to Cold Resistance",
+            "+(21-25) to Dexterity and Intelligence"
+          ]
+        },
+        {
+          "slot": "Body Armour",
+          "rarity": "rare",
+          "name": "Royal Plate",
+          "base": "Royal Plate",
+          "sockets": "6S 6L",
+          "levelReq": 84,
+          "mods": [
+            "+500 to Armour",
+            "110% increased Armour",
+            "8% additional Physical Damage Reduction",
+            "+(21-25) to Dexterity and Intelligence"
+          ]
+        },
+        {
+          "slot": "Gloves",
+          "rarity": "rare",
+          "name": "Leviathan Gauntlets",
+          "base": "Leviathan Gauntlets",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "14% increased Attack Speed",
+            "+109 to maximum Life",
+            "+43% to Lightning Resistance",
+            "(20-25)% of Physical Damage Converted to Cold Damage"
+          ]
+        },
+        {
+          "slot": "Boots",
+          "rarity": "rare",
+          "name": "Leviathan Greaves",
+          "base": "Leviathan Greaves",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "+112 to maximum Life",
+            "+44% to Fire Resistance",
+            "+45% to Cold Resistance",
+            "(18-20)% increased Movement Speed",
+            "100% chance to Avoid being Chilled"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "unique",
+          "name": "Marylene's Fallacy",
+          "base": "Lapis Amulet",
+          "sockets": "",
+          "levelReq": 40,
+          "mods": [
+            "+(80-120) to Accuracy Rating",
+            "+(140-160)% to Global Critical Strike Multiplier",
+            "+(210-240)% to Global Critical Strike Multiplier",
+            "+(80-100) to Evasion Rating",
+            "(10-15)% increased Light Radius",
+            "60% less Critical Strike Chance"
+          ]
+        },
+        {
+          "slot": "Ring",
+          "rarity": "rare",
+          "name": "Amethyst Ring",
+          "base": "Amethyst Ring",
+          "sockets": "",
+          "levelReq": 64,
+          "mods": [
+            "+114 to maximum Life",
+            "+15% to all Elemental Resistances",
+            "+35% to Chaos Resistance",
+            "+(13-16)% to Fire and Cold Resistances"
+          ]
+        },
+        {
+          "slot": "Ring 2",
+          "rarity": "rare",
+          "name": "Amethyst Ring",
+          "base": "Amethyst Ring",
+          "sockets": "",
+          "levelReq": 64,
+          "mods": [
+            "+114 to maximum Life",
+            "+15% to all Elemental Resistances",
+            "+44% to Lightning Resistance",
+            "+35% to Chaos Resistance"
+          ]
+        },
+        {
+          "slot": "Belt",
+          "rarity": "rare",
+          "name": "Stygian Vise",
+          "base": "Stygian Vise",
+          "sockets": "1S",
+          "levelReq": 65,
+          "mods": [
+            "+53 to Strength",
+            "+122 to maximum Life",
+            "41% increased Elemental Damage with Attack Skills",
+            "+(13-15)% to Fire and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "magic",
+          "name": "Seething Divine Life Flask of Alleviation",
+          "base": "Seething Divine Life Flask of Alleviation",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": [
+            "66% reduced Amount Recovered",
+            "Instant Recovery",
+            "Grants Immunity to Bleeding for 11 seconds if used while Bleeding",
+            "Grants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+          ]
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "magic",
+          "name": "Horticultural Prismatic Tincture of Overpowering",
+          "base": "Horticultural Prismatic Tincture of Overpowering",
+          "sockets": "",
+          "levelReq": 68,
+          "mods": [
+            "22% increased effect",
+            "Melee Weapon Damage Penetrates 19% Elemental Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "magic",
+          "name": "Endless Quicksilver Flask of Rupturing",
+          "base": "Endless Quicksilver Flask of Rupturing",
+          "sockets": "",
+          "levelReq": 40,
+          "mods": [
+            "28% increased Charge Recovery",
+            "41% increased Critical Strike Chance during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 4",
+          "rarity": "magic",
+          "name": "Endless Silver Flask of the Lynx",
+          "base": "Endless Silver Flask of the Lynx",
+          "sockets": "",
+          "levelReq": 52,
+          "mods": [
+            "28% increased Charge Recovery",
+            "10% increased Movement Speed during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 5",
+          "rarity": "magic",
+          "name": "Endless Ruby Flask of the Tortoise",
+          "base": "Endless Ruby Flask of the Tortoise",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "50% increased Armour during Effect"
+          ]
+        }
+      ],
+      "notes": [],
+      "from": 71,
+      "to": 100
+    },
+    {
+      "title": "Endgame Red Maps",
+      "tree": "Endgame Red Maps",
+      "links": [
+        {
+          "label": "Herald of Ash",
+          "gems": [
+            "Herald of Ash",
+            "Hatred",
+            "Flesh and Stone",
+            "Enlighten Support"
+          ],
+          "slot": "Helmet"
+        },
+        {
+          "label": "Static Strike",
+          "gems": [
+            "Static Strike",
+            "Melee Physical Damage Support",
+            "Ruthless Support",
+            "Trinity Support",
+            "Elemental Damage with Attacks Support",
+            "Fortify Support"
+          ],
+          "slot": "Body Armour"
+        },
+        {
+          "label": "Ambush",
+          "gems": [
+            "Ambush",
+            "Second Wind Support",
+            "Lifetap Support",
+            "Cooldown Recovery Support"
+          ],
+          "slot": "Boots"
+        },
+        {
+          "label": "Shield Charge",
+          "gems": [
+            "Shield Charge",
+            "Frostblink",
+            "Faster Attacks Support"
+          ],
+          "slot": "Weapon 2"
+        },
+        {
+          "label": "Elemental Weakness",
+          "gems": [
+            "Elemental Weakness",
+            "Hydrosphere"
+          ],
+          "slot": "Gloves"
+        },
+        {
+          "label": "Precision",
+          "gems": [
+            "Precision",
+            "Arrogance Support"
+          ],
+          "slot": "Gloves"
+        },
+        {
+          "label": "Blood Rage",
+          "gems": [
+            "Blood Rage",
+            "Cast when Damage Taken Support"
+          ],
+          "slot": "Weapon 1"
+        }
+      ],
+      "gear": [
+        {
+          "slot": "Weapon",
+          "rarity": "rare",
+          "name": "Reaver Axe",
+          "base": "Reaver Axe",
+          "sockets": "3S 3L",
+          "levelReq": 66,
+          "mods": [
+            "79% increased Physical Damage",
+            "Adds 29 to 52 Physical Damage",
+            "+200 to Accuracy Rating",
+            "(100-129)% increased Physical Damage"
+          ]
+        },
+        {
+          "slot": "Offhand",
+          "rarity": "unique",
+          "name": "Dawnbreaker",
+          "base": "Colossal Tower Shield",
+          "sockets": "3S 3L",
+          "levelReq": 67,
+          "mods": [
+            "(150-250)% increased Armour",
+            "+(20-25)% Chance to Block",
+            "-1% Chance to Block Attack Damage for every 200 Fire Damage taken from Hits Recently",
+            "(10-20)% of Cold Damage taken as Fire Damage",
+            "(10-20)% of Lightning Damage taken as Fire Damage",
+            "(10-20)% of Physical Damage taken as Fire Damage"
+          ]
+        },
+        {
+          "slot": "Helmet",
+          "rarity": "rare",
+          "name": "Giantslayer Helmet",
+          "base": "Giantslayer Helmet",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "+502 to Accuracy Rating",
+            "+124 to maximum Life",
+            "+45% to Lightning Resistance",
+            "+(13-15)% to Lightning and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Body Armour",
+          "rarity": "rare",
+          "name": "Royal Plate",
+          "base": "Royal Plate",
+          "sockets": "6S 6L",
+          "levelReq": 84,
+          "mods": [
+            "+241 to Armour",
+            "126% increased Armour",
+            "+29% to Lightning Resistance",
+            "15% increased Stun and Block Recovery",
+            "8% additional Physical Damage Reduction",
+            "+(25-25) to Dexterity and Intelligence"
+          ]
+        },
+        {
+          "slot": "Gloves",
+          "rarity": "rare",
+          "name": "Leviathan Gauntlets",
+          "base": "Leviathan Gauntlets",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "15% increased Attack Speed",
+            "+530 to Accuracy Rating",
+            "+117 to maximum Life",
+            "+29% to Fire Resistance",
+            "(20-25)% of Physical Damage Converted to Cold Damage"
+          ]
+        },
+        {
+          "slot": "Boots",
+          "rarity": "rare",
+          "name": "Leviathan Greaves",
+          "base": "Leviathan Greaves",
+          "sockets": "4S 4L",
+          "levelReq": 84,
+          "mods": [
+            "+117 to maximum Life",
+            "+45% to Fire Resistance",
+            "+25% to Chaos Resistance",
+            "(56-60)% chance to Avoid being Shocked"
+          ]
+        },
+        {
+          "slot": "Amulet",
+          "rarity": "unique",
+          "name": "Marylene's Fallacy",
+          "base": "Lapis Amulet",
+          "sockets": "",
+          "levelReq": 40,
+          "mods": [
+            "+(80-120) to Accuracy Rating",
+            "+(140-160)% to Global Critical Strike Multiplier",
+            "+(210-240)% to Global Critical Strike Multiplier",
+            "+(80-100) to Evasion Rating",
+            "(10-15)% increased Light Radius",
+            "60% less Critical Strike Chance"
+          ]
+        },
+        {
+          "slot": "Ring",
+          "rarity": "rare",
+          "name": "Amethyst Ring",
+          "base": "Amethyst Ring",
+          "sockets": "",
+          "levelReq": 67,
+          "mods": [
+            "+92 to maximum Life",
+            "+46% to Cold Resistance",
+            "+30% to Chaos Resistance",
+            "+(25-25) to Dexterity and Intelligence"
+          ]
+        },
+        {
+          "slot": "Ring 2",
+          "rarity": "rare",
+          "name": "Two-Stone Ring (Cold/Lightning)",
+          "base": "Two-Stone Ring (Cold/Lightning)",
+          "sockets": "",
+          "levelReq": 67,
+          "mods": [
+            "+114 to maximum Life",
+            "+46% to Fire Resistance",
+            "+32% to Chaos Resistance",
+            "+(13-15)% to Lightning and Chaos Resistances"
+          ]
+        },
+        {
+          "slot": "Belt",
+          "rarity": "rare",
+          "name": "Stygian Vise",
+          "base": "Stygian Vise",
+          "sockets": "1S",
+          "levelReq": 67,
+          "mods": [
+            "+172 to maximum Life",
+            "12% increased maximum Life",
+            "+48% to Cold Resistance",
+            "+(21-25) to Dexterity and Intelligence"
+          ]
+        },
+        {
+          "slot": "Flask 1",
+          "rarity": "magic",
+          "name": "Seething Divine Life Flask of Alleviation",
+          "base": "Seething Divine Life Flask of Alleviation",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": [
+            "66% reduced Amount Recovered",
+            "Instant Recovery",
+            "Grants Immunity to Bleeding for 11 seconds if used while Bleeding",
+            "Grants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+          ]
+        },
+        {
+          "slot": "Flask 2",
+          "rarity": "magic",
+          "name": "Concentrated Prismatic Tincture of Overpowering",
+          "base": "Concentrated Prismatic Tincture of Overpowering",
+          "sockets": "",
+          "levelReq": 68,
+          "mods": [
+            "Inflicts Mana Burn every 0,41 Seconds",
+            "8 Second Cooldown when Deactivated",
+            "35% increased effect",
+            "71% increased Mana Burn rate",
+            "Melee Weapon Damage Penetrates 30% Elemental Resistances"
+          ]
+        },
+        {
+          "slot": "Flask 3",
+          "rarity": "magic",
+          "name": "Endless Quicksilver Flask of the Tortoise",
+          "base": "Endless Quicksilver Flask of the Tortoise",
+          "sockets": "",
+          "levelReq": 34,
+          "mods": [
+            "28% increased Charge Recovery",
+            "50% increased Armour during Effect"
+          ]
+        },
+        {
+          "slot": "Flask 4",
+          "rarity": "unique",
+          "name": "Cinderswallow Urn",
+          "base": "Silver Flask",
+          "sockets": "",
+          "levelReq": 48,
+          "mods": [
+            "+90 to Maximum Charges",
+            "+(10-20) to Maximum Charges",
+            "Recharges 1 Charge when you Consume an Ignited corpse",
+            "Recharges 5 Charges when you Consume an Ignited corpse",
+            "(175-200)% increased Charges per use",
+            "Enemies Ignited by you during Effect take 10% increased Damage"
+          ]
+        },
+        {
+          "slot": "Flask 5",
+          "rarity": "unique",
+          "name": "Progenesis",
+          "base": "Amethyst Flask",
+          "sockets": "",
+          "levelReq": 60,
+          "mods": [
+            "(10-20)% reduced Charges per use",
+            "(-35-35)% reduced Duration",
+            "When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead"
+          ]
+        }
+      ],
+      "notes": [],
+      "from": 85,
+      "to": 100
+    }
+  ],
+  "extraGems": [],
+  "gemOverrides": {
+    "Ambush": {
+      "pin": "a6q4"
+    },
+    "Trinity Support": {
+      "pin": "a6q4"
+    },
+    "Fortify Support": {
+      "pin": "a6q4",
+      "neededAt": 45
+    }
+  },
+  "steps": [
+    {
+      "area": "1_1_town",
+      "text": "Buy Spectral Throw from Nessa (1 Wisdom). 3.30: Wisdom Scrolls are 15 gold at every vendor, Transmutes cost an Augmentation.",
+      "kind": "note"
+    },
+    {
+      "area": "1_2_town",
+      "text": "Bandits: help Alira for this build.",
+      "kind": "note"
+    },
+    {
+      "area": "1_3_town",
+      "text": "Check the weapon vendor for a better 2H axe. Socket colours do not matter (since 3.29).",
+      "search": "\"two hand (a|s|m)\" \"ed phys|adds \\d+ to \\d+ ph\"",
+      "kind": "item"
+    },
+    {
+      "area": "2_6_town",
+      "text": "Lilly Roth sells every gem from here on: Fortify, Ambush, Trinity, Hatred. Level Ambush/Trinity/Hatred in weapon swap.",
+      "kind": "note"
+    },
+    {
+      "quest": "a9q3",
+      "text": "Take the Reaver Axe: it is the crit-swap weapon base (craft it before you swap at 61).",
+      "kind": "item"
+    }
+  ],
+  "milestones": [
+    {
+      "level": 1,
+      "until": 30,
+      "slot": "Boots",
+      "text": "Movement speed boots: buy 10%+, or vendor normal boots + Quicksilver Flask + Orb of Augmentation.",
+      "search": "\"ent sp|runn|sprint\""
+    },
+    {
+      "level": 3,
+      "until": 60,
+      "slot": "Shop",
+      "text": "Every town visit: sweep the vendors for links and movement speed (any socket colour works).",
+      "search": "\"\\w-\\w-\\w-\\w|ent sp\""
+    },
+    {
+      "level": 9,
+      "until": 14,
+      "slot": "Weapon",
+      "text": "Level 9: gamble a 2H axe from the weapon vendor with gold (you want a Jade Chopper). Gamble is cheaper in 3.30."
+    },
+    {
+      "level": 9,
+      "until": 45,
+      "slot": "Weapon",
+      "text": "Weapon recipe: white 2H axe + Blacksmith's Whetstone + rare Rustic Sash = % phys axe. Then Augment, Regal, bench flat phys.",
+      "search": "\"two hand (a|s|m)\" \"ed phys|adds \\d+ to \\d+ ph\""
+    },
+    {
+      "level": 24,
+      "until": 30,
+      "slot": "Body",
+      "text": "Level 26: gamble an armour body armour for a 4-link and put Ruthless back in."
+    },
+    {
+      "level": 36,
+      "until": 45,
+      "slot": "Resists",
+      "text": "Cap fire, cold and lightning resistance before Kitava at the end of Act 5 (-30% after the kill)."
+    },
+    {
+      "level": 45,
+      "until": 61,
+      "slot": "Swap",
+      "text": "Level Ambush, Trinity and Hatred in weapon set 2 so they are ready for the level-61 crit swap."
+    },
+    {
+      "level": 58,
+      "until": 67,
+      "slot": "Weapon",
+      "text": "Crit-swap axe: the Storm Blade reward (Act 9) is a Reaver Axe. Scour, Transmute, Alteration to T3-T5 flat/% phys, Augment, Regal, bench."
+    },
+    {
+      "level": 62,
+      "until": 70,
+      "slot": "Resists",
+      "text": "Cap resistances again before Act 10 Kitava (another -30%)."
+    }
+  ],
+  "pobNotes": "3.30 Covens of Umbra (patch notes 11 Nov 2026): no changes to Static Strike, its supports, or the Slayer in normal leagues\n(the Slayer notable changes in the notes are Ruthless-only).\nChanges that touch this plan: Atlas tree starts in the centre (150 points); Scarabs replaced by Threads; Foundry/Atoll/Shipyard\nremoved from the Atlas (they unlocked bench crafts this build uses); meta-crafts cost more; Recombinator and Harvest reworked;\nStygian Vise only drops at Item Tier 5; Amethyst Ring chaos res lowered; gem prices: lvl 28-33 gems cost an Alteration, 34-37 an Alchemy.\n\nGeneral 3.29 Update:\nNo nerfs to static strike or Slayer\nYou can now socket all gems into gear without color requirements. Corresponding colored gems gain 10% quality\n\nDetailed information here:\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRKfBQPyRYNo5Ju-HD2dToaai9l1bXoZrWcO5NjkzF-AHFHF798b5IYsYIJIw7KYoWucsDeiaR0CmJT/pubhtml\n\nThis is an endgame Ephemereal Edge build, close to immortal build with 20 mil dps, no mageblood or HH: https://pobb.in/_l4x4bNqiZvk\n\nHydrosphere adds about 25-30% more damage. Can interact with static strike chain once per second",
+  "importWarnings": [],
+  "searches": [
+    {
+      "label": "2H axes with physical damage (levelling)",
+      "search": "\"two hand (a|s|m)\" \"ed phys|adds \\d+ to \\d+ ph\""
+    },
+    {
+      "label": "1H axes + shields (crit swap)",
+      "search": "\"one hand a|tower s\""
+    },
+    {
+      "label": "Alohaa gem/vendor regex (Acts 1-3)",
+      "search": "\"poa|ge on f|cis|atr|od rag|^spectral t|akn|dati|d win|ess su|^trin|stbl|^hast|lix|bush$|^ancestral ca|c st|ld ch|^melee p|f ash$|bat s|^mom|-[rgbw]-|Runn|rint|s:.+ax\""
+    },
+    {
+      "label": "% phys on axes (Alteration rolling)",
+      "search": "\"^Emperor's|^Dictator's|^Tyrannical|^Merciless\""
+    }
+  ],
+  "endgame": [
+    "#section Endgame 1: maps",
+    "#chapter After Kitava: set up for maps",
+    "#stage 61-Early Maps",
+    "Hideout: set up the {generic|crafting bench}, {generic|map device} and stash; open the {generic|Atlas}",
+    "    #sub 3.30: the Atlas tree starts in the CENTRE (150 points). Spend the first points on map sustain near the centre",
+    "    #sub Scarabs are gone: {generic|Threads} go in the map device (up to 8). Frayed Threads vendor for a random Thread",
+    "Weapon first: a high-phys {generic|Reaver Axe} is the biggest upgrade (the Storm Blade reward in Act 9 is one)",
+    "    #sub Scour + Transmute, then Alteration until a T3-T5 flat phys or % phys roll; Granite Flask recipe can raise flat phys one tier",
+    "    #sub Augment, Regal, then bench whichever phys mod is missing. Save at least 4 Exalted Orbs for the red-map axe",
+    "Buy {generic|Daresso's Salute} and fix accuracy: with Precise Technique, main-hand accuracy must be above your life",
+    "    #sub Weapon accuracy, Precision, or bench accuracy on gloves/helmet. Check it in the character sheet",
+    "First upgrade after the campaign: a {generic|5-link} body armour (bench \"Five Linked Sockets\" or buy one)",
+    "Rotation: Shield Charge in, Static Strike, then Ambush + Static Strike on tanky rares",
+    "    #sub Ambush (exert) and Ruthless snapshot for the whole Static Strike; flasks, tinctures and buffs only count while active",
+    "    #sub Set every skill to \"Always attack without moving\". Count Ruthless hits only on pinnacle bosses",
+    "#chapter White maps (T1-T5), level 68-75",
+    "Complete every map you can reach. Atlas bonus: complete white maps while they are {generic|magic}",
+    "    #sub Use Kirac's missions on maps you're missing. 3.30: his shop stops at T14 and costs more gold",
+    "Filter: pick up every {generic|pink} base. Rares with life + resistances are your gear for now",
+    "    #sub Priority on armour and jewellery: life > elemental resistances > Dex/Int > chaos resistance",
+    "Fill resistance gaps on the bench, then upgrade rings (Amethyst) and belt (Rustic Sash, later Stygian Vise)",
+    "    #sub Two-Toned Boots got a big implicit buff in 3.30 (+16-20% to two resistances) but only drop at Item Tier 3+",
+    "    #sub 3.30 Item Tiers: from Act 6, magic/rare items roll Tier 2-5; higher tiers roll better mods, links and quality",
+    "Essences now spawn in maps by default: {generic|Essence of Greed} (life) and {generic|Contempt} (flat phys) on your key bases",
+    "Level 75-80: get the {generic|6-link} and anoint the amulet",
+    "    #sub 6-link: bench 6-link (Fusings), or buy. 6L: Static Strike + MPD + Ruthless + Trinity + Elemental Damage with Attacks + Close Combat",
+    "Run the {generic|Eternal Labyrinth} (Uber Lab) around level 80 for the 4th ascendancy",
+    "    #sub Order: Impact, Bane of Legends, Brutal Fervour, Headsman (swap the last two if you need recovery)",
+    "#chapter Yellow maps (T6-T10), level 75-85",
+    "#stage Midgame",
+    "The {generic|Envoy} appears in yellow maps: talk to him to start the Maven and Eldritch (Exarch/Eater) questlines",
+    "Atlas bonus: complete yellow maps while they are {generic|rare}",
+    "Red-map axe: {generic|item level 77+} Reaver Axe, Alteration until T1/T2 flat phys, or a Deafening Essence of Contempt",
+    "    #sub Finish with the bench \"(100-129)% increased Physical Damage\" craft (4 Exalted). Alteration regex for % phys:",
+    "    #sub {copy|\"^Emperor's|^Dictator's|^Tyrannical|^Merciless\"}",
+    "    #sub 3.30: the maps that unlocked this craft (Foundry) and the glove cold-conversion craft (Atoll) are off the Atlas. Unlocked recipes stay on your bench",
+    "Rare jewels: life, increased physical damage, critical strike multiplier. Then {generic|Dawnbreaker} if cheap",
+    "    #sub Dawnbreaker priority: physical damage taken as fire, then block chance, then armour",
+    "Buy an {generic|ilvl 85 Prismatic Tincture} and Alteration it for penetration + effect",
+    "Buy {generic|Marylene's Fallacy}, anoint it, cap your crit chance. Early Taming is optional for more damage",
+    "#chapter Red maps (T11-T16), level 85+",
+    "#stage Endgame Red Maps",
+    "Atlas bonus: complete red maps while they are {generic|corrupted rares}",
+    "Gloves: {generic|Leviathan Gauntlets} with attack speed, accuracy, life, res + \"(20-25)% Physical Converted to Cold\" bench craft",
+    "    #sub Full conversion: 50% from Static Strike + 25% glove craft + 25% Eater implicit on gloves (20% phys to lightning)",
+    "    #sub Stash regex for ilvl 84 Leviathan Gauntlets: {copy|\"Leviathan Gauntlets\"}",
+    "Eldritch currency (Embers/Ichors from the altars) on gloves, helmet, body armour and boots",
+    "Body: {generic|Royal Plate} with high armour + \"% additional Physical Damage Reduction\". Buy it, or craft it (next step)",
+    "    #sub ilvl 86 Royal Plate, Alteration for T1 % armour / hybrid / flat: {copy|\"^Impenetrable|^Mammoth's|^Impervious|of the Conservator$\"}",
+    "    #sub Recombine to 2+2 prefixes, bench \"Prefixes cannot be changed\", Harvest reforge Physical until T1/T2 phys reduction, bench a suffix, Exalt",
+    "    #sub 3.30 cost check: \"Prefixes cannot be changed\" on armour is now 4 Divine + 4 Blessed; Recombinator result uses the chosen base's item level",
+    "Endgame flasks: {generic|Cinderswallow Urn} and {generic|Progenesis}; then Lethal Pride (5% double damage) and The Light of Meaning",
+    "#section Endgame 2: 4 voidstones",
+    "#chapter Voidstone 1: Eldritch (Exarch + Eater)",
+    "Run maps with Exarch/Eater {generic|altars}. Influenced T9+, T10+, T11+ map bosses advance the quest",
+    "The 3rd boss drops the {generic|Polaric Invitation} or {generic|Writhing Invitation}: kill {kill|The Black Star} and {kill|The Infinite Hunger}",
+    "    #sub Black Star: Polaric Void. Infinite Hunger: Seething Chyme. Use both invitations (you get the other one the same way)",
+    "Keep killing influenced T12+ to T16+ map bosses for the {generic|Incandescent Invitation} (Exarch) and {generic|Screaming Invitation} (Eater)",
+    "Kill the {kill|Searing Exarch} in {arena|Absence of Patience and Wisdom}",
+    "    #sub Before pinnacles: max resistances, Silver Flask of the Walrus (freeze immunity for Lunaris), Ambush before every Static Strike",
+    "Kill the {kill|Eater of Worlds} in {arena|Absence of Symmetry and Harmony}: both done = {generic|Eldritch Voidstone}, 2 Atlas points each",
+    "#chapter Voidstone 2: Originator (Incarnation of Dread)",
+    "Memory Tear in a T14+ map: {arena|Courtyard of Wasting}, then talk to {generic|Eagon Caeserius} in your hideout",
+    "Kill the {kill|Incarnation of Neglect} in {arena|Moment of Loneliness}",
+    "Memory Tear in a T15+ map: {arena|Chambers of Impurity}, then the {kill|Incarnation of Fear} in {arena|Moment of Trauma}",
+    "Memory Tear in a T16+ map: {arena|Theatre of Lies}, then the {kill|Incarnation of Dread} in {arena|Moment of Reverence} = {generic|Originator Voidstone}",
+    "    #sub The tradeable key for Dread is the Echo of Reverence if you want to buy the last step",
+    "#chapter Voidstone 3: Decayed (Shaper + Elder)",
+    "Shaper guardian maps drop from T14+ map bosses: {generic|Lair of the Hydra}, {generic|Maze of the Minotaur}, {generic|Forge of the Phoenix}, {generic|Pit of the Chimera}",
+    "    #sub Run them with the Maven's Beacon active for her \"The Formed\" invitation. 3.30: guardian fragments no longer add quantity and aren't consumed with a map",
+    "Elder guardians appear in Elder-influenced T14+ maps: the Purifier, Constrictor, Enslaver and Eradicator",
+    "Kill the {kill|Shaper} in {arena|The Shaper's Realm} with the 4 Shaper fragments",
+    "Kill the {kill|Elder} in {arena|Absence of Value and Meaning} with the 4 Elder fragments: Shaper + Elder = {generic|Decayed Voidstone}",
+    "    #sub Uber Elder (Terror + Emptiness + Knowledge + Shape) isn't needed for the stone, but gives 4 Atlas points in 3.30",
+    "#chapter Voidstone 4: Ceremonial (Maven)",
+    "Get the {generic|Maven's Beacon} from the Envoy and let the Maven witness map bosses (up to 10 different ones)",
+    "Complete Maven invitations in {arena|The Maven's Crucible}: The Formed (Shaper guardians), The Twisted (Elder guardians), region invitations",
+    "    #sub Every invitation drops Crescent Splinters; 10 make {generic|The Maven's Writ}. Each invitation is 2 Atlas points in 3.30",
+    "Kill the {kill|Maven} in {arena|Absence of Mercy and Empathy} = {generic|Ceremonial Voidstone}",
+    "4 voidstones: socket them on the Atlas. Done! Next: farm the Atlas strategy you like, upgrade toward the Endgame PoB set"
+  ]
+}

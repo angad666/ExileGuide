@@ -1,0 +1,400 @@
+2026/07/25 05:52:21 555084437 1186a8a3 [DEBUG Client 208008] Generating level 1 area "1_1_1" with seed 2304375105
+2026/07/25 05:54:39 555222234 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 2
+2026/07/25 05:54:49 555232203 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 05:57:28 555390906 1186a8a3 [DEBUG Client 208008] Generating level 2 area "1_1_2" with seed 21892410
+2026/07/25 05:59:21 555503968 1186a8a3 [DEBUG Client 208008] Generating level 1 area "DeepwaterHub" with seed 2437381164
+2026/07/25 05:59:40 555523656 1186a8a3 [DEBUG Client 208008] Generating level 2 area "DeepwaterEncounter" with seed 4188466850
+2026/07/25 06:00:01 555543687 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 3
+2026/07/25 06:01:36 555638859 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 4
+2026/07/25 06:02:51 555713890 1186a8a3 [DEBUG Client 208008] Generating level 2 area "1_1_2" with seed 21892410
+2026/07/25 06:03:05 555727953 1186a8a3 [DEBUG Client 208008] Generating level 1 area "DeepwaterHub" with seed 1829181484
+2026/07/25 06:03:54 555777218 1186a8a3 [DEBUG Client 208008] Generating level 2 area "1_1_2" with seed 21892410
+2026/07/25 06:04:02 555785562 1186a8a3 [DEBUG Client 208008] Generating level 4 area "1_1_3" with seed 1714435041
+2026/07/25 06:04:52 555834750 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 5
+2026/07/25 06:06:59 555962359 1186a8a3 [DEBUG Client 208008] Generating level 5 area "1_1_4_1" with seed 3847863759
+2026/07/25 06:07:07 555970109 1186a8a3 [DEBUG Client 208008] Generating level 2 area "1_1_2" with seed 21892410
+2026/07/25 06:07:18 555981359 1186a8a3 [DEBUG Client 208008] Generating level 3 area "1_1_2a" with seed 2651842143
+2026/07/25 06:07:40 556003656 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 6
+2026/07/25 06:08:27 556050640 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:12:36 556299390 1186a8a3 [DEBUG Client 208008] Generating level 1 area "DeepwaterHub" with seed 1829181484
+2026/07/25 06:13:01 556324328 1186a8a3 [DEBUG Client 208008] Generating level 4 area "DeepwaterEncounter" with seed 1003809525
+2026/07/25 06:14:34 556417156 1186a8a3 [DEBUG Client 208008] Generating level 5 area "1_1_4_1" with seed 3847863759
+2026/07/25 06:14:55 556438187 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:15:26 556469421 1186a8a3 [DEBUG Client 208008] Generating level 5 area "1_1_4_1" with seed 3847863759
+2026/07/25 06:16:13 556516140 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 7
+2026/07/25 06:17:58 556621296 1186a8a3 [DEBUG Client 208008] Generating level 6 area "1_1_5" with seed 2535093490
+2026/07/25 06:19:45 556727906 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 8
+2026/07/25 06:20:13 556755796 1186a8a3 [DEBUG Client 208008] Generating level 7 area "1_1_6" with seed 1010391243
+2026/07/25 06:22:01 556864250 1186a8a3 [DEBUG Client 208008] Generating level 8 area "1_1_7_1" with seed 3323493819
+2026/07/25 06:22:12 556875281 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:22:21 556884375 1186a8a3 [DEBUG Client 208008] Generating level 5 area "1_1_4_1" with seed 3847863759
+2026/07/25 06:22:29 556892140 1186a8a3 [DEBUG Client 208008] Generating level 6 area "1_1_4_0" with seed 456551565
+2026/07/25 06:22:55 556917703 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 9
+2026/07/25 06:24:38 557020890 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:28:20 557243156 1186a8a3 [DEBUG Client 208008] Generating level 1 area "DeepwaterHub" with seed 1829181484
+2026/07/25 06:28:43 557266343 1186a8a3 [DEBUG Client 208008] Generating level 7 area "DeepwaterEncounter" with seed 3010887941
+2026/07/25 06:31:22 557425484 1186a8a3 [DEBUG Client 208008] Generating level 6 area "DeepwaterEncounter" with seed 2498437427
+2026/07/25 06:31:45 557448281 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 10
+2026/07/25 06:34:23 557606437 1186a8a3 [DEBUG Client 208008] Generating level 8 area "1_1_7_1" with seed 231687787
+2026/07/25 06:35:15 557658171 1186a8a3 [DEBUG Client 208008] Generating level 9 area "1_1_7_2" with seed 930418941
+2026/07/25 06:35:19 557662312 1186a8a3 [DEBUG Client 208008] Generating level 8 area "1_1_7_1" with seed 231687787
+2026/07/25 06:37:02 557764687 1186a8a3 [DEBUG Client 208008] Generating level 9 area "1_1_7_2" with seed 930418941
+2026/07/25 06:37:34 557797046 cffb0658 [INFO Client 208008] : TestExile (Shadow) is now level 11
+2026/07/25 06:40:06 557948968 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:40:12 557955250 1186a8a3 [DEBUG Client 208008] Generating level 9 area "1_1_7_2" with seed 930418941
+2026/07/25 06:40:42 557985500 1186a8a3 [DEBUG Client 208008] Generating level 10 area "1_1_8" with seed 199122270
+2026/07/25 06:40:50 557993093 1186a8a3 [DEBUG Client 208008] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 06:45:12 558255000 1186a8a3 [DEBUG Client 208008] Generating level 10 area "1_1_8" with seed 199122270
+2026/07/25 06:47:05 558368640 1186a8a3 [DEBUG Client 208008] Generating level 11 area "1_1_9" with seed 2386997297
+2026/07/25 09:50:57 569400359 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 09:51:45 569448484 1186a8a3 [DEBUG Client 261784] Generating level 11 area "1_1_9" with seed 381651078
+2026/07/25 09:52:26 569488859 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 12
+2026/07/25 09:54:50 569632796 1186a8a3 [DEBUG Client 261784] Generating level 12 area "1_1_9a" with seed 3142683172
+2026/07/25 09:56:11 569714125 1186a8a3 [DEBUG Client 261784] Generating level 11 area "1_1_9" with seed 381651078
+2026/07/25 09:56:22 569725234 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 13
+2026/07/25 09:57:23 569785953 1186a8a3 [DEBUG Client 261784] Generating level 12 area "1_1_11_1" with seed 1550649584
+2026/07/25 09:57:46 569809203 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 10:03:56 570179328 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 584312330
+2026/07/25 10:04:42 570225546 1186a8a3 [DEBUG Client 261784] Generating level 12 area "DeepwaterEncounter" with seed 1244492089
+2026/07/25 10:05:53 570295921 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 14
+2026/07/25 10:08:19 570442406 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 10:08:59 570482437 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 584312330
+2026/07/25 10:10:44 570587656 1186a8a3 [DEBUG Client 261784] Generating level 12 area "1_1_11_1" with seed 490838837
+2026/07/25 10:12:06 570669093 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_11_2" with seed 291897790
+2026/07/25 10:13:23 570746250 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 15
+2026/07/25 10:15:12 570855484 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_2_1" with seed 2868383940
+2026/07/25 10:16:25 570928515 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:17:39 571002125 1186a8a3 [DEBUG Client 261784] Generating level 14 area "1_2_2" with seed 2884692928
+2026/07/25 10:17:53 571016125 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 16
+2026/07/25 10:18:19 571042046 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_3" with seed 798719761
+2026/07/25 10:20:08 571151328 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_6_1" with seed 709105634
+2026/07/25 10:20:21 571164046 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 17
+2026/07/25 10:20:50 571192906 1186a8a3 [DEBUG Client 261784] Generating level 16 area "1_2_6_2" with seed 1705579771
+2026/07/25 10:26:00 571503593 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:28:25 571647734 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_3" with seed 798719761
+2026/07/25 10:28:42 571665265 1186a8a3 [DEBUG Client 261784] Generating level 16 area "1_2_4" with seed 330905366
+2026/07/25 10:28:57 571679734 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 18
+2026/07/25 10:30:27 571770187 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:31:26 571828890 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_7" with seed 1242281712
+2026/07/25 10:32:27 571890031 1186a8a3 [DEBUG Client 261784] Generating level 19 area "1_2_12" with seed 261679766
+2026/07/25 10:33:06 571928984 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 19
+2026/07/25 10:33:25 571948156 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_3" with seed 798719761
+2026/07/25 10:33:37 571960359 1186a8a3 [DEBUG Client 261784] Generating level 16 area "1_2_15" with seed 923934246
+2026/07/25 10:34:41 572024546 1186a8a3 [DEBUG Client 261784] Generating level 17 area "1_2_5_1" with seed 3717282140
+2026/07/25 10:37:11 572174625 1186a8a3 [DEBUG Client 261784] Generating level 18 area "1_2_5_2" with seed 2232275822
+2026/07/25 10:38:08 572230984 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 20
+2026/07/25 10:38:49 572271984 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:39:34 572317437 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutRuinedTemple" with seed 1
+2026/07/25 10:39:52 572335203 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 10:40:15 572358125 1186a8a3 [DEBUG Client 261784] Generating level 15 area "1_2_7" with seed 1242281712
+2026/07/25 10:40:39 572382203 1186a8a3 [DEBUG Client 261784] Generating level 17 area "1_2_9" with seed 1126241802
+2026/07/25 10:43:34 572556921 1186a8a3 [DEBUG Client 261784] Generating level 18 area "1_2_10" with seed 1881105838
+2026/07/25 10:44:37 572620281 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 21
+2026/07/25 10:46:17 572720640 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:46:49 572752609 1186a8a3 [DEBUG Client 261784] Generating level 19 area "1_2_12" with seed 261679766
+2026/07/25 10:46:55 572757703 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_town" with seed 1
+2026/07/25 10:47:18 572781640 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 11:10:49 574191687 1186a8a3 [DEBUG Client 261784] Generating level 19 area "1_2_12" with seed 447623922
+2026/07/25 11:11:00 574203062 1186a8a3 [DEBUG Client 261784] Generating level 20 area "1_2_11" with seed 3465059875
+2026/07/25 11:11:52 574255609 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 22
+2026/07/25 11:14:07 574390140 1186a8a3 [DEBUG Client 261784] Generating level 21 area "1_2_8" with seed 4252098870
+2026/07/25 11:14:37 574420265 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 23
+2026/07/25 11:15:14 574456750 1186a8a3 [DEBUG Client 261784] Generating level 22 area "1_2_14_2" with seed 1078532932
+2026/07/25 11:16:46 574549265 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_2_14_3" with seed 3381067486
+2026/07/25 11:17:09 574572437 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 24
+2026/07/25 11:19:29 574712125 1186a8a3 [DEBUG Client 261784] Generating level 23 area "1_3_1" with seed 3512256149
+2026/07/25 11:20:25 574767671 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:22:16 574879593 1186a8a3 [DEBUG Client 261784] Generating level 24 area "1_3_2" with seed 832576543
+2026/07/25 11:23:51 574973734 1186a8a3 [DEBUG Client 261784] Generating level 25 area "1_3_3_1" with seed 1396449509
+2026/07/25 11:24:12 574994734 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 25
+2026/07/25 11:26:33 575136390 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:28:38 575261156 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 634635082
+2026/07/25 11:29:12 575294796 1186a8a3 [DEBUG Client 261784] Generating level 23 area "DeepwaterEncounter" with seed 4078131299
+2026/07/25 11:31:49 575451843 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:32:05 575468328 1186a8a3 [DEBUG Client 261784] Generating level 24 area "1_3_2" with seed 832576543
+2026/07/25 11:32:17 575480515 1186a8a3 [DEBUG Client 261784] Generating level 26 area "1_3_10_1" with seed 1084547654
+2026/07/25 11:32:33 575496609 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 26
+2026/07/25 11:35:04 575646718 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 27
+2026/07/25 11:36:57 575759984 1186a8a3 [DEBUG Client 261784] Generating level 26 area "1_3_5" with seed 3584441672
+2026/07/25 11:38:07 575829953 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_6" with seed 1225290612
+2026/07/25 11:40:21 575963843 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 28
+2026/07/25 11:41:30 576033656 1186a8a3 [DEBUG Client 261784] Generating level 26 area "1_3_5" with seed 3584441672
+2026/07/25 11:42:26 576089421 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_7" with seed 4111988310
+2026/07/25 11:43:06 576129156 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_8_1" with seed 4292581462
+2026/07/25 11:44:45 576228093 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:46:49 576352046 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutCourts" with seed 1
+2026/07/25 11:46:56 576359656 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 11:49:11 576493734 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:49:16 576499625 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_8_1" with seed 4292581462
+2026/07/25 11:49:57 576539703 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_7" with seed 4111988310
+2026/07/25 11:50:38 576580968 1186a8a3 [DEBUG Client 261784] Generating level 29 area "1_3_9" with seed 3332560736
+2026/07/25 11:51:04 576607156 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 29
+2026/07/25 11:52:14 576677062 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:52:21 576684171 1186a8a3 [DEBUG Client 261784] Generating level 27 area "1_3_8_1" with seed 4292581462
+2026/07/25 11:53:47 576769968 1186a8a3 [DEBUG Client 261784] Generating level 28 area "1_3_8_2" with seed 1078155193
+2026/07/25 11:55:38 576881046 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 11:57:03 576965734 1186a8a3 [DEBUG Client 261784] Generating level 26 area "1_3_10_1" with seed 2826943925
+2026/07/25 11:57:17 576980093 1186a8a3 [DEBUG Client 261784] Generating level 29 area "1_3_13" with seed 114757982
+2026/07/25 11:58:36 577058750 1186a8a3 [DEBUG Client 261784] Generating level 29 area "1_3_14_1" with seed 2886634491
+2026/07/25 11:58:46 577068921 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 30
+2026/07/25 12:00:34 577177359 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_14_2" with seed 2214703454
+2026/07/25 12:03:13 577335890 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 12:05:22 577463671 1186a8a3 [DEBUG Client 261784] Generating level 29 area "1_3_13" with seed 114757982
+2026/07/25 12:05:37 577478359 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 31
+2026/07/25 12:05:41 577482515 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_15" with seed 1271331231
+2026/07/25 12:08:03 577625218 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:09:13 577694921 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 32
+2026/07/25 12:13:37 577959140 1186a8a3 [DEBUG Client 261784] Generating level 31 area "1_3_17_2" with seed 1475780042
+2026/07/25 12:14:42 578023453 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 33
+2026/07/25 12:16:37 578138812 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 12:18:24 578245390 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 352431070
+2026/07/25 12:18:49 578271234 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:20:26 578368281 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 352431070
+2026/07/25 12:21:26 578427921 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:24:26 578607671 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 12:24:42 578623406 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:29:58 578940156 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 352431070
+2026/07/25 12:30:28 578969812 1186a8a3 [DEBUG Client 261784] Generating level 31 area "DeepwaterEncounter" with seed 2036704103
+2026/07/25 12:33:49 579170375 1186a8a3 [DEBUG Client 261784] Generating level 30 area "DeepwaterEncounter" with seed 1021571494
+2026/07/25 12:35:35 579276734 1186a8a3 [DEBUG Client 261784] Generating level 30 area "DeepwaterEncounter" with seed 116004302
+2026/07/25 12:36:23 579324968 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 34
+2026/07/25 12:39:15 579496703 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 12:44:11 579792515 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:44:38 579819671 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 12:44:53 579834968 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 2806396446
+2026/07/25 12:46:35 579936937 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_15" with seed 4082631715
+2026/07/25 12:47:43 580004734 1186a8a3 [DEBUG Client 261784] Generating level 32 area "1_3_18_1" with seed 2787257115
+2026/07/25 12:49:02 580083515 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_18_2" with seed 4219931363
+2026/07/25 12:53:22 580343734 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 35
+2026/07/25 12:53:30 580351906 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_4_1" with seed 3043385396
+2026/07/25 12:56:00 580502093 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 12:57:33 580594875 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 1377514392
+2026/07/25 13:01:05 580806609 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 13:01:21 580822671 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 13:01:44 580845390 1186a8a3 [DEBUG Client 261784] Generating level 33 area "Labyrinth_Airlock" with seed 2711259190
+2026/07/25 13:01:55 580856609 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_OH_straight" with seed 763144491
+2026/07/25 13:02:31 580892875 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_boss_1" with seed 1629173576
+2026/07/25 13:03:36 580957687 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_P_branch_bottleneck_2" with seed 2348503657
+2026/07/25 13:04:06 580988250 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_boss_2" with seed 1435605605
+2026/07/25 13:05:13 581054828 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_EH_block_branch" with seed 2731039133
+2026/07/25 13:06:53 581154359 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_OH_quad_#" with seed 1976685570
+2026/07/25 13:08:09 581231203 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_Labyrinth_boss_2_end" with seed 1545739495
+2026/07/25 13:08:36 581258109 cffb0658 [INFO Client 261784] : TestExile (Shadow) is now level 36
+2026/07/25 13:10:53 581395015 1186a8a3 [DEBUG Client 261784] Generating level 33 area "1_3_town" with seed 1
+2026/07/25 13:15:23 581664546 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 13:15:32 581673484 1186a8a3 [DEBUG Client 261784] Generating level 34 area "1_4_2" with seed 2585646952
+2026/07/25 13:18:50 581871703 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 37
+2026/07/25 13:19:12 581893984 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 13:30:56 582597390 1186a8a3 [DEBUG Client 261784] Generating level 34 area "1_4_3_1" with seed 654352833
+2026/07/25 13:32:37 582699328 1186a8a3 [DEBUG Client 261784] Generating level 35 area "1_4_3_2" with seed 2000002701
+2026/07/25 13:34:21 582803062 1186a8a3 [DEBUG Client 261784] Generating level 36 area "1_4_3_3" with seed 288095235
+2026/07/25 13:35:23 582865187 1186a8a3 [DEBUG Client 261784] Generating level 37 area "1_4_5_1" with seed 395449618
+2026/07/25 13:35:36 582877796 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 38
+2026/07/25 13:37:25 582987281 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 39
+2026/07/25 13:38:21 583043156 1186a8a3 [DEBUG Client 261784] Generating level 38 area "1_4_5_2" with seed 4270352418
+2026/07/25 13:41:40 583241890 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 13:46:12 583514265 1186a8a3 [DEBUG Client 261784] Generating level 36 area "1_4_3_3" with seed 2838087388
+2026/07/25 13:46:27 583528515 1186a8a3 [DEBUG Client 261784] Generating level 37 area "1_4_4_1" with seed 1218999895
+2026/07/25 13:48:33 583654625 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 40
+2026/07/25 13:49:04 583686031 1186a8a3 [DEBUG Client 261784] Generating level 38 area "1_4_4_3" with seed 103281052
+2026/07/25 13:51:42 583843468 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 13:51:57 583858375 1186a8a3 [DEBUG Client 261784] Generating level 36 area "1_4_3_3" with seed 2838087388
+2026/07/25 13:52:09 583870562 1186a8a3 [DEBUG Client 261784] Generating level 38 area "1_4_6_1" with seed 3777147217
+2026/07/25 13:54:31 584012984 1186a8a3 [DEBUG Client 261784] Generating level 39 area "1_4_6_2" with seed 110761128
+2026/07/25 13:55:30 584072140 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 41
+2026/07/25 13:56:51 584152718 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_6_3" with seed 4132065508
+2026/07/25 13:57:47 584208500 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 14:08:02 584823437 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_6_3" with seed 1434691421
+2026/07/25 14:13:13 585134890 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 14:14:11 585192734 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_7" with seed 997544922
+2026/07/25 14:14:52 585234203 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 42
+2026/07/25 14:15:51 585293031 1186a8a3 [DEBUG Client 261784] Generating level 41 area "1_5_1" with seed 405388287
+2026/07/25 14:17:43 585405250 1186a8a3 [DEBUG Client 261784] Generating level 45 area "1_5_town" with seed 1
+2026/07/25 14:32:16 586278234 1186a8a3 [DEBUG Client 261784] Generating level 41 area "1_5_2" with seed 3324840057
+2026/07/25 14:34:10 586392343 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 43
+2026/07/25 14:34:46 586428125 1186a8a3 [DEBUG Client 261784] Generating level 42 area "1_5_3" with seed 1461608756
+2026/07/25 14:35:34 586475593 1186a8a3 [DEBUG Client 261784] Generating level 42 area "1_5_4" with seed 2565068702
+2026/07/25 14:37:10 586571687 1186a8a3 [DEBUG Client 261784] Generating level 43 area "1_5_5" with seed 3589022820
+2026/07/25 14:37:16 586578296 1186a8a3 [DEBUG Client 261784] Generating level 42 area "1_5_4" with seed 2565068702
+2026/07/25 14:37:26 586587390 1186a8a3 [DEBUG Client 261784] Generating level 43 area "1_5_5" with seed 3589022820
+2026/07/25 14:41:33 586834453 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_4b" with seed 2256787319
+2026/07/25 14:42:39 586900515 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 44
+2026/07/25 14:44:02 586984234 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_3b" with seed 3606638293
+2026/07/25 14:44:43 587024765 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_6" with seed 2451731204
+2026/07/25 14:46:00 587101671 1186a8a3 [DEBUG Client 261784] Generating level 45 area "1_5_town" with seed 1
+2026/07/25 14:50:36 587377375 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 4291678071
+2026/07/25 14:51:08 587409890 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 14:53:49 587570390 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 4291678071
+2026/07/25 14:55:48 587689890 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_3b" with seed 832293164
+2026/07/25 14:57:11 587772468 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_7" with seed 271033823
+2026/07/25 14:57:56 587818265 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 45
+2026/07/25 15:00:07 587949125 1186a8a3 [DEBUG Client 261784] Generating level 45 area "1_5_town" with seed 1
+2026/07/25 15:00:56 587997406 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 4291678071
+2026/07/25 15:01:38 588039921 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 15:01:50 588051937 1186a8a3 [DEBUG Client 261784] Generating level 30 area "1_3_17_1" with seed 4291678071
+2026/07/25 15:03:27 588148687 1186a8a3 [DEBUG Client 261784] Generating level 40 area "1_4_town" with seed 1
+2026/07/25 15:04:59 588240640 1186a8a3 [DEBUG Client 261784] Generating level 44 area "1_5_3b" with seed 832293164
+2026/07/25 15:05:29 588270500 1186a8a3 [DEBUG Client 261784] Generating level 45 area "1_5_8" with seed 3711213690
+2026/07/25 15:06:24 588326140 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 46
+2026/07/25 15:10:45 588586843 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 15:10:59 588601156 1186a8a3 [DEBUG Client 261784] Generating level 45 area "2_6_1" with seed 3107382610
+2026/07/25 15:13:59 588780703 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 15:18:28 589049562 1186a8a3 [DEBUG Client 261784] Generating level 45 area "2_6_2" with seed 3432309445
+2026/07/25 15:19:45 589126968 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 47
+2026/07/25 15:20:12 589153750 1186a8a3 [DEBUG Client 261784] Generating level 46 area "2_6_4" with seed 2185129980
+2026/07/25 15:21:30 589231421 1186a8a3 [DEBUG Client 261784] Generating level 1 area "ChayulaLeague" with seed 3859448992
+2026/07/25 15:22:02 589263562 1186a8a3 [DEBUG Client 261784] Generating level 12 area "1_1_11_1" with seed 1237634347
+2026/07/25 15:22:08 589269796 1186a8a3 [DEBUG Client 261784] Generating level 45 area "2_6_2" with seed 3432309445
+2026/07/25 15:22:12 589274031 1186a8a3 [DEBUG Client 261784] Generating level 46 area "2_6_4" with seed 2185129980
+2026/07/25 15:23:41 589363078 1186a8a3 [DEBUG Client 261784] Generating level 46 area "2_6_5" with seed 3106515354
+2026/07/25 15:26:23 589524718 1186a8a3 [DEBUG Client 261784] Generating level 46 area "2_6_6" with seed 1972048003
+2026/07/25 15:26:30 589532156 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 48
+2026/07/25 15:27:50 589612281 1186a8a3 [DEBUG Client 261784] Generating level 47 area "2_6_7_1" with seed 1220866512
+2026/07/25 15:30:52 589793531 1186a8a3 [DEBUG Client 261784] Generating level 47 area "2_6_7_2" with seed 2341683528
+2026/07/25 15:33:37 589958437 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 49
+2026/07/25 15:34:44 590026031 1186a8a3 [DEBUG Client 261784] Generating level 47 area "2_6_8" with seed 4084204622
+2026/07/25 15:34:50 590032265 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 15:45:28 590670046 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 15:45:38 590680078 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 15:47:13 590774500 1186a8a3 [DEBUG Client 261784] Generating level 47 area "2_6_8" with seed 3469899042
+2026/07/25 15:50:35 590976609 1186a8a3 [DEBUG Client 261784] Generating level 48 area "2_6_9" with seed 1960391606
+2026/07/25 15:51:47 591048500 1186a8a3 [DEBUG Client 261784] Generating level 48 area "2_6_10" with seed 2322201583
+2026/07/25 15:52:34 591095859 1186a8a3 [DEBUG Client 261784] Generating level 48 area "2_6_11" with seed 216027207
+2026/07/25 15:54:16 591197421 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 50
+2026/07/25 15:54:24 591205921 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 15:55:55 591296828 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 2152268898
+2026/07/25 15:57:11 591372750 1186a8a3 [DEBUG Client 261784] Generating level 47 area "DeepwaterEncounter" with seed 1815989507
+2026/07/25 15:58:37 591459109 1186a8a3 [DEBUG Client 261784] Generating level 47 area "DeepwaterEncounter" with seed 4161059307
+2026/07/25 16:00:08 591549859 1186a8a3 [DEBUG Client 261784] Generating level 47 area "DeepwaterEncounter" with seed 3591927954
+2026/07/25 16:01:37 591638828 1186a8a3 [DEBUG Client 261784] Generating level 48 area "DeepwaterEncounter" with seed 3748321987
+2026/07/25 16:01:57 591658593 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 51
+2026/07/25 16:03:16 591737578 1186a8a3 [DEBUG Client 261784] Generating level 37 area "DeepwaterEncounterVoyage" with seed 1903222994
+2026/07/25 16:13:03 592324546 1186a8a3 [DEBUG Client 261784] Generating level 13 area "1_1_town" with seed 1
+2026/07/25 16:16:43 592545078 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 16:18:09 592630843 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 2152268898
+2026/07/25 16:20:55 592796546 1186a8a3 [DEBUG Client 261784] Generating level 48 area "2_6_10" with seed 3624827974
+2026/07/25 16:21:49 592850859 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_town" with seed 1
+2026/07/25 16:23:18 592940046 1186a8a3 [DEBUG Client 261784] Generating level 48 area "2_6_10" with seed 3624827974
+2026/07/25 16:23:37 592958562 1186a8a3 [DEBUG Client 261784] Generating level 49 area "2_6_12" with seed 3727040769
+2026/07/25 16:26:03 593104765 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 52
+2026/07/25 16:26:31 593132859 1186a8a3 [DEBUG Client 261784] Generating level 49 area "2_6_13" with seed 1725107332
+2026/07/25 16:28:46 593268328 1186a8a3 [DEBUG Client 261784] Generating level 49 area "2_6_14" with seed 2330380564
+2026/07/25 16:32:06 593467609 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 53
+2026/07/25 16:34:49 593631218 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_6_15" with seed 1587351958
+2026/07/25 16:39:23 593904375 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_town" with seed 1
+2026/07/25 16:59:23 595105312 1186a8a3 [DEBUG Client 261784] Generating level 50 area "2_7_1" with seed 3836832959
+2026/07/25 17:00:13 595154812 1186a8a3 [DEBUG Client 261784] Generating level 51 area "2_7_2" with seed 3627778615
+2026/07/25 17:00:35 595177250 1186a8a3 [DEBUG Client 261784] Generating level 51 area "2_7_3" with seed 507708258
+2026/07/25 17:01:43 595244781 1186a8a3 [DEBUG Client 261784] Generating level 51 area "2_7_4" with seed 160710771
+2026/07/25 17:02:32 595294125 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 54
+2026/07/25 17:04:14 595395843 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_town" with seed 1
+2026/07/25 17:04:21 595402625 1186a8a3 [DEBUG Client 261784] Generating level 51 area "2_7_2" with seed 3627778615
+2026/07/25 17:04:38 595420000 1186a8a3 [DEBUG Client 261784] Generating level 52 area "2_7_5_1" with seed 2384154528
+2026/07/25 17:05:23 595465046 1186a8a3 [DEBUG Client 261784] Generating level 52 area "2_7_5_map" with seed 532212721
+2026/07/25 17:07:21 595582796 1186a8a3 [DEBUG Client 261784] Generating level 52 area "2_7_5_1" with seed 2384154528
+2026/07/25 17:10:26 595768265 1186a8a3 [DEBUG Client 261784] Generating level 52 area "2_7_5_2" with seed 3656400878
+2026/07/25 17:13:49 595971093 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_6" with seed 1574053648
+2026/07/25 17:14:45 596027031 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 55
+2026/07/25 17:15:39 596080687 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_7" with seed 1327246027
+2026/07/25 17:22:57 596518953 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_8" with seed 2839177571
+2026/07/25 17:23:37 596558890 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_town" with seed 1
+2026/07/25 17:26:44 596745921 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_8" with seed 2839177571
+2026/07/25 17:26:48 596750093 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_9" with seed 1052327669
+2026/07/25 17:30:59 597000828 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_town" with seed 1
+2026/07/25 17:31:05 597007000 1186a8a3 [DEBUG Client 261784] Generating level 53 area "2_7_8" with seed 2839177571
+2026/07/25 17:31:42 597044328 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 56
+2026/07/25 17:32:20 597081671 1186a8a3 [DEBUG Client 261784] Generating level 54 area "2_7_10" with seed 1717814616
+2026/07/25 17:35:20 597262062 1186a8a3 [DEBUG Client 261784] Generating level 54 area "2_7_11" with seed 3725441171
+2026/07/25 17:39:14 597496000 1186a8a3 [DEBUG Client 261784] Generating level 54 area "2_7_12_1" with seed 3119759144
+2026/07/25 17:39:29 597511078 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 57
+2026/07/25 17:42:25 597687078 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_12_2" with seed 4118935330
+2026/07/25 17:42:29 597690937 1186a8a3 [DEBUG Client 261784] Generating level 54 area "2_7_12_1" with seed 3119759144
+2026/07/25 17:42:32 597694328 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_12_2" with seed 4118935330
+2026/07/25 17:53:39 598361234 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_town" with seed 1
+2026/07/25 17:55:54 598495609 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_7_12_2" with seed 4118935330
+2026/07/25 17:56:08 598509781 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_8_1" with seed 2950673145
+2026/07/25 17:57:49 598610640 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 58
+2026/07/25 17:58:20 598642125 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 17:58:52 598673875 1186a8a3 [DEBUG Client 261784] Generating level 33 area "Labyrinth_Airlock" with seed 4226739448
+2026/07/25 17:59:03 598684500 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_OH_branch" with seed 1506582703
+2026/07/25 18:01:07 598808515 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_boss_2" with seed 680600026
+2026/07/25 18:01:57 598858406 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_DG_branch_bottleneck_1_#" with seed 3600995527
+2026/07/25 18:04:54 599035546 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_C_straight" with seed 3320493794
+2026/07/25 18:05:31 599072937 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_P_branch_bottleneck_1" with seed 1113400546
+2026/07/25 18:05:42 599083531 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_boss_1" with seed 949351262
+2026/07/25 18:06:22 599124062 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_DG_branch_bottleneck_1_#" with seed 898037289
+2026/07/25 18:08:45 599266578 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_C_branch_bottleneck_2" with seed 732089987
+2026/07/25 18:09:08 599289765 1186a8a3 [DEBUG Client 261784] Generating level 55 area "2_Labyrinth_boss_2_end" with seed 3906490952
+2026/07/25 18:11:41 599442625 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:16:01 599703218 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_1" with seed 2574898810
+2026/07/25 18:17:52 599813453 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:19:36 599917812 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_1" with seed 2574898810
+2026/07/25 18:19:51 599933078 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:20:32 599974296 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_1" with seed 2574898810
+2026/07/25 18:21:07 600009328 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:22:40 600102109 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_1" with seed 2574898810
+2026/07/25 18:22:45 600106671 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:23:07 600128859 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_1" with seed 2574898810
+2026/07/25 18:23:47 600169343 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_2" with seed 3295825344
+2026/07/25 18:24:33 600215187 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 59
+2026/07/25 18:26:04 600306187 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_3" with seed 4268850820
+2026/07/25 18:29:51 600532828 1186a8a3 [DEBUG Client 261784] Generating level 57 area "2_8_5" with seed 446901430
+2026/07/25 18:31:14 600615515 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_4" with seed 4248174971
+2026/07/25 18:35:06 600847875 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 60
+2026/07/25 18:35:21 600862375 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:35:31 600872781 1186a8a3 [DEBUG Client 261784] Generating level 57 area "2_8_5" with seed 446901430
+2026/07/25 18:36:39 600940609 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_6" with seed 1702142613
+2026/07/25 18:37:54 601016281 1186a8a3 [DEBUG Client 261784] Generating level 59 area "2_8_7_1_" with seed 2459953796
+2026/07/25 18:42:39 601301000 1186a8a3 [DEBUG Client 261784] Generating level 59 area "2_8_7_2" with seed 3439557934
+2026/07/25 18:44:49 601430937 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 61
+2026/07/25 18:46:32 601533609 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:47:19 601581156 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutMountain" with seed 1
+2026/07/25 18:47:32 601593875 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 18:48:43 601664640 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:49:25 601706984 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutSlum" with seed 1
+2026/07/25 18:49:37 601719203 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:52:58 601919781 1186a8a3 [DEBUG Client 261784] Generating level 1 area "DeepwaterHub" with seed 3376803351
+2026/07/25 18:54:01 601983281 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:54:08 601989953 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_6" with seed 2426032954
+2026/07/25 18:54:21 602003015 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_13" with seed 2061809924
+2026/07/25 18:56:12 602114046 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 18:56:18 602120203 1186a8a3 [DEBUG Client 261784] Generating level 56 area "2_8_2_2" with seed 1048100727
+2026/07/25 18:56:37 602139359 1186a8a3 [DEBUG Client 261784] Generating level 57 area "2_8_8" with seed 2896250325
+2026/07/25 19:08:16 602837734 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 62
+2026/07/25 19:09:24 602905531 1186a8a3 [DEBUG Client 261784] Generating level 57 area "2_8_9" with seed 2389995461
+2026/07/25 19:34:47 604428781 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_10" with seed 2439622830
+2026/07/25 19:36:16 604517484 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 19:37:10 604571453 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_10" with seed 2439622830
+2026/07/25 19:38:09 604631343 1186a8a3 [DEBUG Client 261784] Generating level 59 area "2_8_12_1" with seed 2535269388
+2026/07/25 19:39:48 604730328 1186a8a3 [DEBUG Client 261784] Generating level 59 area "2_8_12_2" with seed 1424053741
+2026/07/25 19:40:52 604793734 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 63
+2026/07/25 19:41:53 604854421 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_town" with seed 1
+2026/07/25 19:47:55 605216453 1186a8a3 [DEBUG Client 261784] Generating level 58 area "2_8_6" with seed 29181401
+2026/07/25 19:48:07 605229328 1186a8a3 [DEBUG Client 261784] Generating level 60 area "2_8_13" with seed 3192594959
+2026/07/25 19:49:59 605340625 1186a8a3 [DEBUG Client 261784] Generating level 61 area "2_9_1" with seed 1447640179
+2026/07/25 19:52:01 605463250 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 19:54:25 605606703 1186a8a3 [DEBUG Client 261784] Generating level 61 area "2_9_2" with seed 280280044
+2026/07/25 19:57:13 605774734 1186a8a3 [DEBUG Client 261784] Generating level 61 area "2_9_3" with seed 3513658423
+2026/07/25 19:57:46 605807609 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 64
+2026/07/25 19:58:41 605863328 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_5" with seed 2717136579
+2026/07/25 19:59:03 605885031 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_6" with seed 670265349
+2026/07/25 20:00:14 605955359 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:03:14 606135734 1186a8a3 [DEBUG Client 261784] Generating level 61 area "2_9_3" with seed 3513658423
+2026/07/25 20:03:30 606151765 1186a8a3 [DEBUG Client 261784] Generating level 61 area "2_9_4" with seed 757748918
+2026/07/25 20:08:44 606465593 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:11:20 606622265 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutCourts" with seed 1
+2026/07/25 20:12:06 606668046 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 20:13:44 606766156 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:14:39 606821328 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_5" with seed 2609831247
+2026/07/25 20:15:37 606878421 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_7" with seed 27057401
+2026/07/25 20:15:43 606885312 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:15:59 606900546 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_7" with seed 27057401
+2026/07/25 20:18:29 607050578 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:18:33 607055062 1186a8a3 [DEBUG Client 261784] Generating level 62 area "2_9_7" with seed 27057401
+2026/07/25 20:19:12 607093359 1186a8a3 [DEBUG Client 261784] Generating level 63 area "2_9_8" with seed 1605226364
+2026/07/25 20:21:03 607205187 cffb0658 [INFO Client 261784] : TestExile (Assassin) is now level 65
+2026/07/25 20:21:27 607229125 1186a8a3 [DEBUG Client 261784] Generating level 63 area "2_9_9" with seed 1338669070
+2026/07/25 20:22:01 607263000 1186a8a3 [DEBUG Client 261784] Generating level 67 area "2_9_town" with seed 1
+2026/07/25 20:22:04 607266015 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutPrimevalRuins" with seed 1
+2026/07/25 20:22:17 607279187 1186a8a3 [DEBUG Client 261784] Generating level 60 area "HideoutFellshrine" with seed 1
+2026/07/25 20:22:26 607287609 1186a8a3 [DEBUG Client 261784] Generating level 63 area "2_9_8" with seed 1605226364

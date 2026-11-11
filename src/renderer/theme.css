@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Fontin SmallCaps';
+  src: url('../../assets/Fontin-SmallCaps.ttf') format('truetype');
+}
+:root {
+  --bg: 18, 15, 12;
+  --panel: rgba(18, 15, 12, 0.92);
+  --line: rgba(175, 140, 80, 0.28);
+  --line-strong: rgba(200, 160, 90, 0.55);
+  --text: #e8dfcf;
+  --muted: #9c917f;
+  --dim: #7a7062;
+  --gold: #e3b45a;
+  --gold-soft: #c9a063;
+  --area: #f0c56b;
+  --kill: #ff7b6b;
+  --arena: #f29b58;
+  --quest: #7fd67f;
+  --qitem: #b5e88a;
+  --generic: #9fc6ff;
+  --wp: #6fd3e8;
+  --logout: #c59cff;
+  --portal: #b78cff;
+  --trial: #5fe0c0;
+  --craft: #8fb7ff;
+  --take: #7fd67f;
+  --buy: #f0c56b;
+  --note: #9fc6ff;
+  --str: #e07a6a;
+  --dex: #7fcf7f;
+  --int: #7fa8ef;
+  --font-title: 'Fontin SmallCaps', Georgia, serif;
+  --font-body: 'Segoe UI', system-ui, sans-serif;
+}
+.t-area { color: var(--area); font-weight: 600; }
+.t-kill { color: var(--kill); font-weight: 600; }
+.t-arena { color: var(--arena); }
+.t-quest { color: var(--quest); font-weight: 600; }
+.t-qitem { color: var(--qitem); }
+.t-generic { color: var(--generic); }
+.t-wp { color: var(--wp); }
+.t-logout { color: var(--logout); }
+.t-portal { color: var(--portal); }
+.t-trial { color: var(--trial); font-weight: 600; }
+.t-craft { color: var(--craft); }
+.t-dir { color: var(--gold); font-weight: 700; font-size: 1.15em; }
+.t-dim { color: var(--dim); }
+.chip {
+  display: inline-block; font-family: Consolas, monospace; font-size: 0.86em;
+  padding: 0 5px; border-radius: 3px; background: rgba(240, 197, 107, 0.12);
+  border: 1px solid rgba(240, 197, 107, 0.35); color: #f4d898; white-space: nowrap;
+}
+.chip.copy { cursor: pointer; }
+.chip.copy:hover { background: rgba(240, 197, 107, 0.25); }
+.gem { color: var(--text); font-weight: 600; }
+.badge {
+  display: inline-block; min-width: 38px; text-align: center; font-size: 10px; font-weight: 700;
+  letter-spacing: .5px; border-radius: 3px; padding: 1px 4px; margin-right: 6px; flex: none; height: 15px; line-height: 13px;
+}
+.badge.take { background: rgba(127, 214, 127, 0.18); color: var(--take); border: 1px solid rgba(127, 214, 127, 0.5); }
+.badge.buy { background: rgba(240, 197, 107, 0.15); color: var(--buy); border: 1px solid rgba(240, 197, 107, 0.5); }
+.badge.note { background: rgba(159, 198, 255, 0.14); color: var(--note); border: 1px solid rgba(159, 198, 255, 0.45); }
+.gemrow { display: flex; align-items: flex-start; margin: 4px 0; line-height: 1.35; }
+.gemrow-body { flex: 1; min-width: 0; }
+.searches { margin-top: 2px; display: flex; flex-wrap: wrap; gap: 4px; }
