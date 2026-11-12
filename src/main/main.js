@@ -8,6 +8,7 @@ const { execFile, execFileSync } = require('child_process');
 const { buildGuide, viewAt, planSummary } = require('../engine/guide');
 const { Tracker } = require('../engine/tracker');
 const { LogWatcher } = require('../engine/logwatcher');
+const { planTree, treeView } = require('../engine/passives');
 const { RunTimer, splitDefs, parseTime } = require('../engine/timer');
 const { importPob } = require('../engine/pob');
 const { CLASSES, Gems, Quests, Areas } = require('../engine/data');
@@ -106,7 +107,7 @@ const DEFAULT_SETTINGS = {
       goal3h15: { label: 'Goal 3h15', splits: { brutus: '0:07:30', a1: '0:16', a2: '0:35', a3: '1:00', a4: '1:18', a5: '1:34', a6: '1:51', a7: '2:13', a8: '2:34', a9: '2:54', a10: '3:15' } },
     },
   },
-  overlay: { x: null, y: null, width: 400, opacity: 0.92, scale: 1, showUpcoming: 2, showLinks: true, showGear: true, compact: false },
+  overlay: { x: null, y: null, width: 400, opacity: 0.92, scale: 1, showUpcoming: 2, showLinks: true, showTree: true, showGear: true, compact: false },
   locked: false,
   visible: true,
 };
@@ -145,6 +146,7 @@ let progressAll = readJson(PROGRESS_FILE, {}); // per build file
 let guide = null;
 let build = null;
 let tracker = null;
+let treePlan = null; // passive tree plan of the build (engine/passives)
 let watcher = null;
 let logStatus = { ok: false };
 let lastLevelEvent = null;
@@ -155,7 +157,7 @@ let keySender = null;
 let runTimer = null;
 let flash = null; // transient message shown on the overlay
 
-let snapshotMode = false;
+let snapshotMode = !!process.env.EXILEGUIDE_SNAPSHOT; // snapshots never write user files
 const saveSettings = () => {
   if (snapshotMode) return;
   writeJson(SETTINGS_FILE, omit(settings, DEVICE_KEYS));
@@ -169,6 +171,8 @@ let progressMtime = 0;
 let timerMtime = 0;
 function saveProgress() {
   if (!tracker || snapshotMode) return;
+  // how far this PC's Client.txt has been read, so passives allocated while the overlay was closed are caught up
+  if (tracker.passives && watcher && watcher.ok) tracker.passives.pos[DEVICE] = watcher.pos;
   progressAll[settings.buildFile] = { ...tracker.save(), savedAt: Date.now(), device: DEVICE };
   writeJson(PROGRESS_FILE, progressAll);
   progressMtime = fileMtime(PROGRESS_FILE);
@@ -233,6 +237,7 @@ function activateBuild(file) {
   saveSettings();
   build = b;
   guide = buildGuide(b);
+  try { treePlan = planTree(b); } catch (e) { treePlan = null; console.error('passive tree plan:', e); }
   const saved = progressAll[file] || {};
   tracker = new Tracker(guide, saved, { autoReset: settings.autoReset });
   if (lastLevelEvent && !saved.level) tracker.onLevel(lastLevelEvent);
@@ -257,7 +262,18 @@ function overlayState() {
     missed: tracker.missed().map((m) => ({ area: Areas[m.areaId]?.name || m.areaId, steps: m.steps.map((st) => st.tokens) })),
     townNotes: tracker.townNotes.map((i) => guide.route.steps[i].tokens),
     detour: tracker.returnTo !== null,
+    tree: treeState(view),
   };
+}
+
+function treeState(view) {
+  if (!treePlan || !view.stage) return null;
+  // labs the route has passed (used until you allocate ascendancy points)
+  let labsPassed = 0;
+  for (let i = 0; i < tracker.stepIndex; i++) if (guide.route.steps[i].tokens.some((t) => t.k === 'ascend')) labsPassed++;
+  try {
+    return treeView(treePlan, view.stage.index, tracker.passives, { level: tracker.level, labsPassed, max: 4 });
+  } catch (e) { console.error('tree view:', e); return null; }
 }
 
 // ---------------- timer ----------------
@@ -520,6 +536,7 @@ function startWatcher() {
     if (tracker && (!tracker.charName || (tracker.charName === recent.level.name && recent.level.level >= tracker.level))) tracker.onLevel(recent.level);
   }
   if (recent.area && tracker) tracker.currentArea = recent.area.id;
+  catchUpPassives();
   watcher.on('status', (s) => { logStatus = s; pushOverlay(); });
   watcher.on('area', (e) => {
     if (!tracker) return;
@@ -530,6 +547,17 @@ function startWatcher() {
     if (moved && tracker.returnTo !== null && tracker.stepIndex < prevStepIndex) showFlash('Back to a part you skipped. The route returns to where you were afterwards');
     if (runTimer) { afterTimer(runTimer.onArea(e.id, Date.now(), { prevStepIndex, prevArea, char: tracker.charName })); saveTimer(); }
     pushAll();
+  });
+  watcher.on('passive', (e) => {
+    if (!tracker || !tracker.onPassive(e)) return;
+    saveProgress();
+    pushOverlay();
+  });
+  watcher.on('skillPoints', (e) => {
+    if (!tracker) return;
+    tracker.onSkillPoints(e);
+    saveProgress();
+    pushOverlay();
   });
   watcher.on('level', (e) => {
     lastLevelEvent = e;
@@ -542,6 +570,33 @@ function startWatcher() {
     else pushAll();
   });
   watcher.start();
+}
+
+// Passives allocated while the overlay was closed: read this PC's Client.txt from where it was last read.
+// The first time (no position saved for this run on this PC), read from the start of the current run (its
+// last Twilight Strand), if that run is this character's.
+function catchUpPassives() {
+  if (!tracker || !watcher || snapshotMode) return;
+  const p = tracker.passives;
+  const pos = p && Number.isInteger(p.pos?.[DEVICE]) ? p.pos[DEVICE] : null;
+  let res;
+  if (pos !== null) res = watcher.readEvents({ from: pos });
+  else if (!p) {
+    res = watcher.readEvents({ startMarker: 'area "1_1_1"' });
+    const lv = res.events.find((e) => e.type === 'level');
+    if (res.ok && tracker.charName && lv && lv.name !== tracker.charName) res = { ...res, events: [] };
+  }
+  if (res && !res.ok && pos !== null && res.size) { tracker.passives.pos[DEVICE] = res.size; return; } // log was cleared
+  if (!res || !res.ok) return;
+  let n = 0;
+  for (const e of res.events) {
+    if (e.type === 'passive' && tracker.onPassive(e)) n++;
+    if (e.type === 'skillPoints') tracker.onSkillPoints(e);
+  }
+  if (!tracker.passives) tracker.passives = { taken: {}, asc: {}, quest: 0, pos: {} };
+  tracker.passives.pos[DEVICE] = res.size;
+  saveProgress();
+  if (n) console.log(`passives: caught up ${n} allocations from Client.txt`);
 }
 
 // ---------------- windows ----------------
@@ -738,6 +793,16 @@ async function runSnapshot(dir) {
     if (process.env.EXILEGUIDE_AREAS) for (const id of process.env.EXILEGUIDE_AREAS.split(',')) tracker.onArea(id.trim());
     if (process.env.EXILEGUIDE_LEVEL) tracker.onLevel({ name: tracker.charName, level: +process.env.EXILEGUIDE_LEVEL });
     if (process.env.EXILEGUIDE_UNLOCKED) settings.locked = false;
+    // passives as if read from Client.txt: "Name,Name*2,asc:Name,quest:4"
+    if (process.env.EXILEGUIDE_PASSIVES) {
+      tracker.passives = { taken: {}, asc: {}, quest: 0, pos: {} };
+      for (const part of process.env.EXILEGUIDE_PASSIVES.split(',')) {
+        const [name, times] = part.trim().split('*');
+        if (name.startsWith('quest:')) { tracker.passives.quest = +name.slice(6); continue; }
+        const asc = name.startsWith('asc:');
+        for (let i = 0; i < (+times || 1); i++) (asc ? tracker.passives.asc : tracker.passives.taken)[asc ? name.slice(4) : name] = ((asc ? tracker.passives.asc : tracker.passives.taken)[asc ? name.slice(4) : name] || 0) + 1;
+      }
+    }
     if (process.env.EXILEGUIDE_TIMER) {
       // fake a run that started N minutes ago, with two splits done
       const now = Date.now();

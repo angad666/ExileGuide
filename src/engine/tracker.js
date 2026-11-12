@@ -7,6 +7,20 @@ const LOOKAHEAD_SEGMENTS = 8;
 const QUEST_TOKENS = new Set(['kill', 'quest', 'quest_text', 'trial']);
 const isQuestStep = (s) => s.gems.length > 0 || s.tokens.some((t) => QUEST_TOKENS.has(t.k));
 
+// passive tree node names, to tell the character tree's allocations apart from the Atlas / other trees
+let NAMES = null;
+function treeNames() {
+  if (NAMES) return NAMES;
+  const { tree } = require('./passives');
+  NAMES = new Set(Object.values(tree().nodes).filter((n) => !n.a).map((n) => n.n));
+  return NAMES;
+}
+const emptyPassives = (pos = {}) => ({ taken: {}, asc: {}, quest: 0, pos });
+function loadPassives(p) {
+  if (!p || typeof p !== 'object') return null;
+  return { taken: { ...(p.taken || {}) }, asc: { ...(p.asc || {}) }, quest: +p.quest || 0, pos: { ...(p.pos || {}) } };
+}
+
 class Tracker {
   constructor(guide, saved = {}, opts = {}) {
     this.opts = { autoReset: true, ...opts };
@@ -23,6 +37,10 @@ class Tracker {
     this.returnTo = Number.isInteger(saved.returnTo) ? saved.returnTo : null;
     this.visited = Array.isArray(saved.visited) ? saved.visited : []; // non-town zones entered this run
     this.townNotes = []; // step indexes of skipped hand-ins to do in the town you just entered
+    // passive tree, from Client.txt: allocated node names (count per name), ascendancy nodes, quest points,
+    // and per PC the log position read up to (to catch up on what happened while the overlay was closed).
+    // null = never read for this run yet.
+    this.passives = loadPassives(saved.passives);
     this.clamp();
   }
 
@@ -156,6 +174,21 @@ class Tracker {
     return false;
   }
 
+  /** "Successfully (un)allocated passive skill" from Client.txt. Returns true if it was a character tree node. */
+  onPassive(e) {
+    const asc = /^Ascendancy/i.test(e.id);
+    if (!asc && (/^atlas_/i.test(e.id) || !treeNames().has(e.name))) return false;
+    if (!this.passives) this.passives = emptyPassives();
+    const map = asc ? this.passives.asc : this.passives.taken;
+    map[e.name] = Math.max(0, (map[e.name] || 0) + (e.add ? 1 : -1));
+    if (!map[e.name]) delete map[e.name];
+    return true;
+  }
+  onSkillPoints(e) {
+    if (!this.passives) this.passives = emptyPassives();
+    this.passives.quest += e.n;
+  }
+
   onLevel(e) {
     const prevAuto = this.autoStage();
     if (e.name !== this.charName) this.charName = e.name;
@@ -205,6 +238,7 @@ class Tracker {
     this.returnTo = null;
     this.visited = [];
     this.townNotes = [];
+    this.passives = emptyPassives(this.passives ? this.passives.pos : {});
   }
 
   save() {
@@ -212,6 +246,7 @@ class Tracker {
       stepIndex: this.stepIndex, level: this.level, charName: this.charName,
       stageOverride: this.stageOverride, currentArea: this.currentArea,
       skipped: this.skipped, returnTo: this.returnTo, visited: this.visited,
+      passives: this.passives,
     };
   }
 }

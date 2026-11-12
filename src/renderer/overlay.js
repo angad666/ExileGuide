@@ -60,6 +60,52 @@ function gemHtml(g) {
   return `<span class="${cls}" title="${esc(title)}">${esc(g.name.replace(/ Support$/, ''))}${now}${where}</span>`;
 }
 
+// ---------------- passive tree ----------------
+const TYPE_TAG = { k: 'keystone', j: 'jewel', m: '' };
+// "Dexterity, Dexterity, Life" -> "2× Dexterity, Life"
+function countNames(names) {
+  const out = [];
+  for (const n of names) {
+    const last = out[out.length - 1];
+    if (last && last.n === n) last.c++; else out.push({ n, c: 1 });
+  }
+  return out.map((x) => (x.c > 1 ? `${x.c}× ${x.n}` : x.n)).join(', ');
+}
+function goalHtml(g, first) {
+  if (g.type === 'smalls') return `<div class="tr-goal${first ? ' first' : ''}"><span class="tr-name small">${esc(countNames(g.names))}</span></div>`;
+  const tag = TYPE_TAG[g.type] ? `<span class="tr-tag">${TYPE_TAG[g.type]}</span>` : '';
+  const via = g.travel && g.travel.length ? `<span class="tr-via">via ${esc(countNames(g.travel))}</span>` : '';
+  const detail = g.type === 'm' ? g.effect : first ? g.stats : '';
+  return `<div class="tr-goal${first ? ' first' : ''}"><span class="tr-name t-${g.type}">${esc(g.name)}</span>${tag}${via}${detail ? `<div class="tr-stats">${esc(detail)}</div>` : ''}</div>`;
+}
+function treeHtml(t, level) {
+  const p = t.points;
+  const pts = p.allocated !== null
+    ? `${p.allocated}/${p.target} points${p.spare > 0 ? ` · <b class="tr-spare">${p.spare} to spend</b>` : ''}`
+    : `${p.target} points at the end`;
+  let html = `<div class="sec tree"><div class="sec-title">Tree <span class="sub">${esc(t.title)}</span><span class="spacer"></span><span class="sub">${pts}</span></div>`;
+  if (t.refunds.length || t.swaps.length) {
+    const names = t.refunds.map((r) => r.name);
+    html += `<div class="tr-respec"><span class="mlabel">Respec first</span>`;
+    if (names.length) html += `<div>Refund ${esc(names.join(', '))}${t.refundSmalls ? ` and ${t.refundSmalls} small nodes` : ''}</div>`;
+    for (const sw of t.swaps) html += `<div>${esc(sw.name)}: switch to <span class="tr-eff">${esc(sw.effect)}</span></div>`;
+    html += `</div>`;
+  }
+  if (t.next.length) {
+    html += t.next.map((g, i) => goalHtml(g, i === 0)).join('');
+    if (t.remaining > t.next.length) html += `<div class="tr-more">+${t.remaining - t.next.length} more in this tree</div>`;
+  } else if (t.nextStage) {
+    const ns = t.nextStage;
+    html += `<div class="tr-done">Tree done for now. At Lv ${ns.from} (${esc(ns.title)}): ${ns.refunds ? `respec ${ns.refunds} points, then ` : ''}${esc(ns.goals.map((g) => g.type === 'smalls' ? countNames(g.names) : g.name).join(', '))}</div>`;
+  } else {
+    html += `<div class="tr-done">Tree complete.</div>`;
+  }
+  if (t.lab) {
+    html += `<div class="tr-lab"><span class="tr-labname">${esc(t.lab.lab)}</span> ${t.lab.nodes.map((n) => `<span class="${n.type === 'N' ? 'tr-asc' : 'tr-ascs'}">${esc(n.name)}</span>`).join(' → ')}</div>`;
+  }
+  return html + `</div>`;
+}
+
 function render(s) {
   if (!s || !s.view) { root.innerHTML = '<div id="loading">No build loaded. Right-click the tray icon → Build &amp; Settings.</div>'; return; }
   const { view: v, settings, char, flash, logStatus } = s;
@@ -129,6 +175,7 @@ function render(s) {
         }).join('')}
       </div>`;
     }
+    if (o.showTree !== false && s.tree) html += treeHtml(s.tree, level);
     if (o.showGear !== false && (st.gear.length || v.milestones.length || st.notes.length)) {
       const main = st.gear.filter((g) => !/^Flask/.test(g.slot));
       const flasks = st.gear.filter((g) => /^Flask/.test(g.slot));

@@ -5,6 +5,7 @@ A step-by-step overlay for the Path of Exile 1 campaign. It follows you through 
 - **The current step**: where to go next, quest items and bosses, plus the directional hints from the speedrun route.
 - **Gem actions at each quest hand-in**: which reward to **take** and which gems to **buy**, from which NPC, at what cost, with a vendor search string.
 - **Links for your level**: each socket group, with a mark for gems you have and where to get the ones you don't.
+- **Passive tree for your level**: the next notables, keystones and masteries to take (with the small nodes on the way), respecs at stage changes, and the ascendancy nodes for your next lab. It follows what you actually allocate, read from `Client.txt`.
 - **Gear for your level**: weapon and item progression from the build's PoB item sets, plus your own milestones (movement-speed boots, weapon recipe, resist checks).
 - **After Act 10, chapters to 4 voidstones**: early maps, white / yellow / red maps, then one chapter per voidstone, with the crafting steps, the order of upgrades and the search strings for each. The links and gear panels switch to the PoB set for that chapter.
 
@@ -81,6 +82,17 @@ It combines three parts:
 
 **When NeverSink's 3.30 filter comes out** (normally a few hours before launch): load Tytykiller's preset on FilterBlade (https://www.filterblade.xyz/?profile=Tytykiller&saveState=AAAAMelee&platform=pc), export it, save it over `filter/base.filter`, run `Build Loot Filter.cmd` and reload the filter in game.
 
+## Passive tree
+
+The **Tree** panel (under Links) comes from the build's PoB trees, one per stage, checked against the 3.30 tree (`data/passive-tree.json`, from GGG's [skilltree-export](https://github.com/grindinggear/skilltree-export)).
+
+- **Next to take**: PoB saves a tree as a set of nodes, not an order, so the overlay orders them: from the previous stage's tree, the nearest notable / keystone / jewel socket / mastery first, with the small nodes on the way ("via 3× Dexterity"). A mastery shows the effect to pick.
+- **Points**: `allocated/total` for the stage's tree, and **N to spend** when you have unspent points (your level − 1 + quest points received).
+- **Respec first**: when a new stage drops nodes (the level-61 crit swap drops the 2H nodes), the nodes to refund are listed until you've refunded them, plus mastery effects to switch.
+- **Ascendancy**: the nodes for your next lab, in the build's order (`ascendancyOrder` in the build JSON; Impact, Bane of Legends, Brutal Fervour, Headsman for the included build).
+- **How it knows**: Client.txt logs every "Successfully allocated passive skill" and every passive point a quest gives. The overlay counts these (Atlas and other trees are ignored) and catches up on what you did while it was closed. Without that data it follows your level.
+- Turn the panel off in Settings (Show passive tree panel).
+
 ## Builds
 
 Builds are JSON files in `builds/`. You can switch, edit, duplicate or import them from **Build & Settings**.
@@ -107,4 +119,5 @@ The included build, `static-strike-slayer.json`, is Alohaa's Static Strike Slaye
 - `npm test`: engine tests. They cover route parsing, the PoB import, the gem plan, and a replay of a real `Client.txt` run.
 - `npm start`: run from a terminal. In a VS Code terminal, clear `ELECTRON_RUN_AS_NODE` first (`$env:ELECTRON_RUN_AS_NODE=''`).
 - To capture the windows as PNGs: set `EXILEGUIDE_SNAPSHOT=<dir>` and optionally `EXILEGUIDE_STEP=<n>` and `EXILEGUIDE_LEVEL=<n>`.
+- To update the passive tree after a patch: download `data.json` of the new tag from https://github.com/grindinggear/skilltree-export and run `node scripts/make-tree-data.js <data.json> <version>`.
 - To update the route and gem data after a patch, download the newest `common/data/json/*.json` and `common/data/routes/*.txt` from exile-leveling into `data/exile-leveling/`.

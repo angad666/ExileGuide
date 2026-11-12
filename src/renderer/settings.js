@@ -419,6 +419,7 @@ function renderSettings() {
   $('sAutoReset').checked = s.autoReset;
   $('sLinks').checked = s.overlay.showLinks !== false;
   $('sGear').checked = s.overlay.showGear !== false;
+  $('sTree').checked = s.overlay.showTree !== false;
   $('sCompact').checked = !!s.overlay.compact;
   $('sLevel').value = state.level;
   renderTimer();
@@ -453,6 +454,7 @@ $('sScale').oninput = (e) => ov('scale', +e.target.value);
 $('sUpcoming').onchange = (e) => ov('showUpcoming', +e.target.value);
 $('sLinks').onchange = (e) => ov('showLinks', e.target.checked);
 $('sGear').onchange = (e) => ov('showGear', e.target.checked);
+$('sTree').onchange = (e) => ov('showTree', e.target.checked);
 $('sCompact').onchange = (e) => ov('compact', e.target.checked);
 $('sAutoReset').onchange = (e) => api.save({ autoReset: e.target.checked });
 $('btnSetLevel').onclick = async () => { await api.setLevel(+$('sLevel').value); await load(true); };

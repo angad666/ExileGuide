@@ -114,3 +114,25 @@ body { font-family: var(--font-body); color: var(--text); font-size: 13px; user-
 .missed { position: relative; }
 .missed .mx { position: absolute; top: 2px; right: 4px; background: none; border: none; color: #ffb37f; cursor: pointer; font-size: 12px; padding: 0 4px; display: none; }
 #root.unlocked .missed .mx { display: block; }
+
+/* passive tree panel */
+.tree .tr-goal { font-size: 12.5px; line-height: 1.4; padding-left: 10px; position: relative; opacity: .8; }
+.tree .tr-goal.first { opacity: 1; }
+.tree .tr-goal.first::before { content: '▸'; position: absolute; left: 0; color: var(--gold); }
+.tree .tr-name.t-n { color: #e8d36a; }
+.tree .tr-name.t-k { color: #ff9d5c; font-weight: 600; }
+.tree .tr-name.t-m { color: #c59cff; }
+.tree .tr-name.t-j { color: var(--wp); }
+.tree .tr-name.small { color: var(--text); }
+.tree .tr-tag { font-size: 9.5px; color: var(--muted); border: 1px solid var(--line); border-radius: 3px; padding: 0 3px; margin-left: 5px; vertical-align: 1px; }
+.tree .tr-via { color: var(--muted); font-size: 11.5px; margin-left: 6px; }
+.tree .tr-stats { color: #9fb0d8; font-size: 11.5px; }
+.tree .tr-more, .tree .tr-done { color: var(--muted); font-size: 11.5px; margin-top: 2px; }
+.tree .tr-spare { color: var(--gold); }
+.tree .tr-respec { margin: 2px 0 4px; padding: 3px 8px; border-left: 3px solid var(--kill); background: rgba(255,123,107,.10); font-size: 12px; }
+.tree .tr-respec .mlabel { display: block; color: var(--kill); font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.tree .tr-eff { color: #c59cff; }
+.tree .tr-lab { margin-top: 4px; font-size: 12px; }
+.tree .tr-labname { color: var(--trial); font-size: 11px; text-transform: uppercase; letter-spacing: .04em; margin-right: 4px; }
+.tree .tr-asc { color: #e8d36a; font-weight: 600; }
+.tree .tr-ascs { color: var(--muted); }

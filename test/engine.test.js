@@ -11,6 +11,7 @@ const { decodePobCode, pobXmlToBuild, parseLevels } = require('../src/engine/pob
 const { Tracker } = require('../src/engine/tracker');
 const { parseLine } = require('../src/engine/logwatcher');
 const { RunTimer, parseTime } = require('../src/engine/timer');
+const { planTree, treeView } = require('../src/engine/passives');
 
 const FIX = path.join(__dirname, 'fixtures');
 let passed = 0;
@@ -369,6 +370,77 @@ test('the endgame chapter picks the gear stage (#stage), the level can only move
   assert.strictEqual(at('Yellow maps', 76), 'Midgame');
   assert.strictEqual(at('Red maps', 70), '61-Early Maps'); // red-map gear is out of reach at 70: stage by level
   assert.strictEqual(at('After Kitava', 69), '61-Early Maps');
+});
+
+console.log('passive tree');
+test('PoB import keeps each stage\'s tree nodes and mastery choices', () => {
+  const st = imported.stages.find((s) => s.passives);
+  assert.ok(st, 'a stage with passives');
+  assert.ok(st.passives.nodes.length > 5);
+  const mid = defaultBuild.stages.find((s) => s.title === '28-60');
+  assert.strictEqual(mid.passives.masteries['28039'], 233); // Axe Mastery: Gain 2 Rage on Hit with Axes
+});
+
+const plan = planTree(defaultBuild);
+const treeNodes = require('../data/passive-tree.json').nodes;
+test('tree plan: every stage node is in the 3.30 tree (except cluster jewel nodes)', () => {
+  for (const p of plan.stages.filter(Boolean)) assert.ok(p.unknown <= 6, `${p.title}: ${p.unknown} unknown nodes`);
+  const first = plan.stages[0];
+  assert.deepStrictEqual(first.goals.filter((g) => g.type === 'n').map((g) => g.name), ['Master of the Arena', 'Bravery', 'Art of the Gladiator', 'Destroyer']);
+  assert.strictEqual(first.goals[first.goals.length - 1].cum, first.points);
+});
+
+test('tree plan: the crit swap is a respec, the labs follow the build\'s order', () => {
+  const swap = plan.stages.find((p) => p && p.title === '61 Crit Swap');
+  const refunds = swap.refunds.map((r) => r.name);
+  for (const n of ['Precise Technique', 'Wrecking Ball', 'Destroyer']) assert.ok(refunds.includes(n), n);
+  assert.ok(swap.goals.some((g) => g.name === 'Unwavering Stance'));
+  assert.deepStrictEqual(plan.ascendancy.map((l) => l.nodes[l.nodes.length - 1].name), ['Impact', 'Bane of Legends', 'Brutal Fervour', 'Headsman']);
+  assert.deepStrictEqual(plan.ascendancy.map((l) => l.lab), ['Normal Lab', 'Cruel Lab', 'Merciless Lab', 'Eternal Lab']);
+});
+
+test('tree view: next nodes come from what Client.txt says you allocated', () => {
+  const t = new Tracker(buildGuide(defaultBuild), {});
+  const lines = [
+    'Successfully allocated passive skill id: might819, name: Master of the Arena',
+    'Successfully allocated passive skill id: life_armour_evasion_notable1853, name: Bravery',
+    'Successfully allocated passive skill id: agility833, name: Art of the Gladiator',
+    'Successfully allocated passive skill id: executioner648, name: Destroyer',
+    'Successfully allocated passive skill id: atlas_breach_1, name: Bravery', // Atlas tree: ignored
+    'Successfully allocated passive skill id: AscendancySlayer1, name: Attack Damage, Area of Effect',
+    'Successfully allocated passive skill id: AscendancySlayer2, name: Impact',
+    ': You have received a Passive Skill Point.',
+    ': You have received 2 Passive Skill Points.',
+    ': You have received 2 Passive Respec Points.', // not skill points
+  ].map((l) => parseLine(`2026/11/12 15:06:31 544 cffb065b [INFO Client 48544] ${l}`));
+  for (const e of lines.filter(Boolean)) e.type === 'passive' ? t.onPassive(e) : t.onSkillPoints(e);
+  assert.strictEqual(t.passives.taken.Bravery, 1);
+  assert.strictEqual(t.passives.quest, 3);
+  const v = treeView(plan, 1, t.passives, { level: 14 }); // stage 12-17
+  assert.strictEqual(v.next[0].name, "Gladiator's Perseverance");
+  assert.strictEqual(v.points.allocated, 4);
+  assert.strictEqual(v.points.spare, 13 + 3 - 4);
+  assert.strictEqual(v.lab.lab, 'Cruel Lab'); // two ascendancy points allocated
+  // unallocating gives it back
+  t.onPassive({ add: false, id: 'might819', name: 'Master of the Arena' });
+  assert.strictEqual(treeView(plan, 1, t.passives, { level: 14 }).next[0].name, 'Master of the Arena');
+  // a new run starts the passives over
+  t.stepIndex = 10; t.onArea('1_1_1');
+  assert.deepStrictEqual(t.passives.taken, {});
+});
+
+test('tree view: at the crit swap, the old nodes are listed to refund', () => {
+  const at = plan.stages.find((p) => p && p.title === '28-60');
+  const taken = {};
+  for (const id of at.nodes) { const n = treeNodes[id]; if (n.t !== 'c') taken[n.n] = (taken[n.n] || 0) + 1; }
+  const si = defaultBuild.stages.findIndex((s) => s.title === '61 Crit Swap');
+  const v = treeView(plan, si, { taken, asc: {}, quest: 16 }, { level: 61 });
+  assert.ok(v.refunds.some((r) => r.name === 'Precise Technique'));
+  assert.ok(v.next.length > 0);
+  // without Client.txt data the plan follows your level
+  const v2 = treeView(plan, 2, null, { level: 20, labsPassed: 0 });
+  assert.strictEqual(v2.points.allocated, null);
+  assert.strictEqual(v2.lab.lab, 'Normal Lab');
 });
 
 console.log(`\n${passed} passed${process.exitCode ? ', some FAILED' : ''}`);

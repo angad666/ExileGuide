@@ -193,7 +193,13 @@ function pobXmlToBuild(xml, opts = {}) {
     for (const spec of kids(treeEl, 'Spec')) {
       const t = clean(spec.attrs.title) || 'Default';
       const st = stageMap.get(t);
-      if (st) st.tree = t;
+      if (!st) continue;
+      st.tree = t;
+      // allocated nodes and chosen mastery effects, for the overlay's Tree panel
+      const nodes = (spec.attrs.nodes || '').split(',').map(Number).filter(Number.isInteger);
+      const masteries = {};
+      for (const m of (spec.attrs.masteryEffects || '').matchAll(/\{(\d+),(\d+)\}/g)) masteries[m[1]] = +m[2];
+      if (nodes.length) st.passives = { version: spec.attrs.treeVersion || '', nodes, masteries };
     }
   }
 

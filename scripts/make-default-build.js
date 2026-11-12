@@ -127,6 +127,8 @@ Kill the {kill|Maven} in {arena|Absence of Mercy and Empathy} = {generic|Ceremon
   const mid = b.stages.find((s) => s.title === '28-60');
   const ss = mid && mid.links.find((l) => l.gems[0] === 'Static Strike');
   if (ss && !ss.gems.includes('Fortify Support')) ss.gems.push('Fortify Support');
+  // Alohaa's lab order (the PoB has two of them in the same tree)
+  b.ascendancyOrder = ['Impact', 'Bane of Legends', 'Brutal Fervour', 'Headsman'];
   b.gemOverrides = { Ambush: { pin: 'a6q4' }, 'Trinity Support': { pin: 'a6q4' }, 'Fortify Support': { pin: 'a6q4', neededAt: 45 } };
 
   b.milestones = [
