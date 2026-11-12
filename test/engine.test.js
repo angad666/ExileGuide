@@ -261,6 +261,27 @@ test('timer: dying in the Strand does not restart the run', () => {
   rt.onArea('1_1_1', 2 * MIN, { prevStepIndex: 1 });
   assert.strictEqual(rt.elapsed(3 * MIN), 3 * MIN);
 });
+test('timer: closing the game pauses as of the last sighting, the next zone resumes', () => {
+  const rt = new RunTimer(guide.route, {});
+  rt.onArea('1_1_1', 0, { prevStepIndex: 0 });
+  rt.onArea('1_1_2', 20 * MIN, { prevStepIndex: 1 });
+  // game last seen at 30 min, noticed at 31 min
+  assert.strictEqual(rt.gameClosed(30 * MIN, 31 * MIN), true);
+  assert.strictEqual(rt.run.pauseReason, 'closed');
+  assert.strictEqual(rt.elapsed(600 * MIN), 30 * MIN);
+  assert.strictEqual(rt.gameClosed(40 * MIN, 41 * MIN), false); // already paused
+  // next day: log in, first zone resumes
+  rt.onArea('1_1_3', 1000 * MIN, { prevStepIndex: 2 });
+  assert.strictEqual(rt.paused, false);
+  assert.strictEqual(rt.elapsed(1005 * MIN), 35 * MIN);
+  // a last-seen time before the last zone change is clamped to it
+  rt.gameClosed(10 * MIN, 1010 * MIN);
+  assert.strictEqual(rt.elapsed(2000 * MIN), 30 * MIN);
+  // a saved run without lastActive (older timer.json) falls back to the start time
+  const old = new RunTimer(guide.route, { run: { startedAt: 0, pausedAt: null, pausedMs: 0, finishedAt: null, splits: {} } });
+  old.gameClosed(5 * MIN, 6 * MIN);
+  assert.strictEqual(old.elapsed(99 * MIN), 5 * MIN);
+});
 test('timer: replay of a real Client.txt run splits every act in order', () => {
   const t = new Tracker(guide, {});
   const rt = new RunTimer(guide.route, {});

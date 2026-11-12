@@ -55,6 +55,7 @@ The timer sits under the overlay's header. It shows the run time, the current ac
 - **Splits** at Brutus (F2 on the Brutus step, or entering Prisoner's Gate), then at the end of each act when you enter the next act's first zone.
 - **Finishes** when you press F2 on the Kitava step in Act 10, or when you go from The Feeding Trough to Oriath Docks. If that fires by mistake (for example, you died and went to town), Shift+F8 undoes it.
 - **Pauses** on Shift+F8, and starts again by itself on your next zone change. It also pauses in the Labyrinth, because the goal times don't include labs. You can turn that off in Settings.
+- **Pauses when you close the game**, so a run can be spread over several sessions and PCs. The overlay checks every 10 seconds whether Path of Exile is running and backdates the pause to when the game was last seen. If the overlay wasn't running when the game closed, it uses the last Client.txt write instead (or, for a run from another PC, that PC's last zone change, once the run has been idle for 10 minutes). Your next zone change after logging in resumes it.
 - The timer uses real (wall-clock) time, so restarting the overlay doesn't lose it. Runs are saved in `user/timer.json`.
 - In **Settings → Run timer**, choose the comparison (Goal 7h, 5h, 4h, 3h15, your PB, or nothing), reset the timer, and see recent runs. To edit the goal times, change `timer.goals` in `user/settings.json`.
 

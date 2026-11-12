@@ -3,7 +3,7 @@ const { app, BrowserWindow, globalShortcut, ipcMain, Tray, Menu, nativeImage, sc
 const fs = require('fs');
 const os = require('os');
 const path = require('path');
-const { execFileSync } = require('child_process');
+const { execFile, execFileSync } = require('child_process');
 
 const { buildGuide, viewAt, planSummary } = require('../engine/guide');
 const { Tracker } = require('../engine/tracker');
@@ -759,6 +759,40 @@ async function runSnapshot(dir) {
   app.exit(0);
 }
 
+// ---------------- game process ----------------
+// The run timer pauses when the game closes (you stop for the day, or move to another PC) and resumes on
+// the next zone change. Checked every 10 s with tasklist (PathOfExile.exe, PathOfExileSteam.exe, _x64, ...).
+const GAME_EXE = /^"PathOfExile[^"]*\.exe"/im;
+const OTHER_PC_IDLE_MS = 10 * 60 * 1000;
+let gameSeenAt = 0; // last check that found the game running on this PC
+let firstGameCheck = true;
+function checkGame() {
+  execFile('tasklist', ['/FO', 'CSV', '/NH'], { windowsHide: true, maxBuffer: 4 * 1024 * 1024 }, (err, out) => {
+    if (err || !runTimer) return;
+    const now = Date.now();
+    if (GAME_EXE.test(out)) { gameSeenAt = now; firstGameCheck = false; return; }
+    let at = null;
+    if (gameSeenAt) {
+      at = gameSeenAt; // closed while the overlay was watching
+    } else if (firstGameCheck) {
+      // the overlay started with the game closed. A run last saved by this PC pauses as of the last
+      // Client.txt write. A run from another PC pauses only if it has been idle a while: that PC may be
+      // playing it right now.
+      const disk = readJson(TIMER_FILE, {});
+      const mine = !disk.device || disk.device === DEVICE;
+      const last = runTimer.run.lastActive ?? runTimer.run.startedAt ?? now;
+      if (mine) at = fileMtime(settings.clientLog) || last;
+      else if (now - last >= OTHER_PC_IDLE_MS) at = last;
+    }
+    firstGameCheck = false;
+    gameSeenAt = 0;
+    if (at !== null && runTimer.gameClosed(at, now)) {
+      saveTimer();
+      showFlash('Game closed: timer paused. It resumes on your next zone');
+    }
+  });
+}
+
 // ---------------- app ----------------
 // snapshot runs use their own profile and skip the single-instance lock, so they work while the overlay runs
 if (process.env.EXILEGUIDE_SNAPSHOT) app.setPath('userData', path.join(app.getPath('temp'), 'exile-guide-snapshot'));
@@ -776,7 +810,11 @@ if (!process.env.EXILEGUIDE_SNAPSHOT && !app.requestSingleInstanceLock()) {
     createTray();
     hotkeyFailures = registerHotkeys();
     startWatcher();
-    if (!process.env.EXILEGUIDE_SNAPSHOT) watchSharedFiles();
+    if (!process.env.EXILEGUIDE_SNAPSHOT) {
+      watchSharedFiles();
+      checkGame();
+      setInterval(checkGame, 10000);
+    }
     if (hotkeyFailures.length) showFlash(`Hotkeys in use elsewhere: ${hotkeyFailures.join(', ')}`);
     if (process.env.EXILEGUIDE_SNAPSHOT) runSnapshot(process.env.EXILEGUIDE_SNAPSHOT);
   });

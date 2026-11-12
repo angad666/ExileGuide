@@ -7,7 +7,8 @@
 //          enter the next act's first zone. Act 10 ends on F2 at the Kitava step, or when you go from
 //          The Feeding Trough to Oriath Docks (or reach Karui Shores).
 // Pauses:  the pause hotkey (resumes on the next zone change or the hotkey), and, if enabled,
-//          labyrinth time, because the goal times don't include labs.
+//          labyrinth time, because the goal times don't include labs, and closing the game (gameClosed:
+//          the pause is backdated to when the game was last seen; it resumes on the next zone change).
 const { Areas } = require('./data');
 
 const isLab = (id) => /Labyrinth/i.test(id || '');
@@ -53,7 +54,7 @@ class RunTimer {
 
   start(now, char = '') {
     this.archive();
-    this.run = { ...emptyRun(), startedAt: now, char };
+    this.run = { ...emptyRun(), startedAt: now, char, lastActive: now };
   }
 
   /** Move the current run into history (if it got anywhere) and clear it. */
@@ -80,6 +81,18 @@ class RunTimer {
     if (!this.paused) return;
     this.run.pausedMs += now - this.run.pausedAt;
     this.run.pausedAt = null; this.run.pauseReason = null;
+    this.run.lastActive = now;
+  }
+
+  /**
+   * The game was closed. Pause as of `at` (when the game was last seen running), but never before the
+   * last thing the timer saw (zone change, split, resume) and never in the future. Returns true if it paused.
+   */
+  gameClosed(at, now) {
+    if (!this.started || this.finished || this.paused) return false;
+    const floor = this.run.lastActive ?? this.run.startedAt;
+    this.pause(Math.round(Math.min(now, Math.max(floor, at ?? floor))), 'closed');
+    return true;
   }
 
   /** Pause hotkey: idle -> start, running -> pause, paused -> resume, finished -> undo the finish. */
@@ -128,6 +141,7 @@ class RunTimer {
       }
     }
     if (!this.started || this.finished) return out;
+    this.run.lastActive = now;
 
     // labyrinth pause
     if (isLab(id)) {

@@ -29,7 +29,7 @@ function timerHtml(t, hotkeys) {
   } else {
     mid = `<span class="tm-seg done">Finished</span>`;
   }
-  const status = t.pausedAt ? `<span class="tm-paused">${t.pauseReason === 'lab' ? 'lab · paused' : 'paused'}</span>` : '';
+  const status = t.pausedAt ? `<span class="tm-paused">${t.pauseReason === 'lab' ? 'lab · paused' : t.pauseReason === 'closed' ? 'game closed · paused' : 'paused'}</span>` : '';
   const lastHtml = last
     ? `<span class="tm-last ${last.delta === null ? '' : last.delta <= 0 ? 'ahead' : 'behind'}" title="${esc(last.name)} at ${fmt(last.t, true)}">${esc(last.name)} ${last.delta === null ? fmt(last.t, true) : fmtDelta(last.delta)}</span>`
     : '';
