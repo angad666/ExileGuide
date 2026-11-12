@@ -78,6 +78,8 @@ It combines three parts:
 2. `filter/sss-block.filter`: the build's key bases, put first so they win. Pink + sound + star = a crafting base to pick up (crit-swap Reaver Axe, tower shields, Royal/Astral Plate, Leviathan/Precursor gloves, Giantslayer/General's helmet, Leviathan Greaves/Brimstone Treads/Two-Toned Boots, Stygian Vise, endgame flask bases, Prismatic Tincture). Pink frame = the same bases as rares to identify. Gold = 5/6-links, and 4-links while levelling. Cyan = movement-speed boots while levelling, and 3.30 Threads.
 3. 3.30 fixes: item names that no longer exist (all Scarabs, Templar/Fruiting/Deceptive Astrolabes, Mortal fragments, the Djinn/Mirage coins, Fragmented/Skittering Delirium Orb) are taken out of `BaseType ==` lists, because a filter that names an unknown item fails to load. Custom sounds whose `.mp3` is missing play a built-in sound.
 
+**Playing 3.29 before the launch**: run `Build Loot Filter 3.29.cmd` and pick **SSS-Slayer-3.29** in game. It is the same filter without the 3.30 clean-up, and with the 3.30-only items (Threads) left out, because 3.29 refuses a filter that names an item it doesn't know. Switch to SSS-Slayer-3.30 when 3.30 is live.
+
 **Sounds**: the base filter's custom sounds (Tytykiller's pack) are not installed, so those rules play built-in alert sounds. To use a sound pack later, put the .mp3 files in `filter/sounds/` and run `Build Loot Filter.cmd` again.
 
 **When NeverSink's 3.30 filter comes out** (normally a few hours before launch): load Tytykiller's preset on FilterBlade (https://www.filterblade.xyz/?profile=Tytykiller&saveState=AAAAMelee&platform=pc), export it, save it over `filter/base.filter`, run `Build Loot Filter.cmd` and reload the filter in game.

@@ -5,7 +5,9 @@
 //   + 3.30 fixes: drops item names that no longer exist from "BaseType ==" lists (a filter naming an
 //     unknown item can fail to load), and swaps Custom sounds whose .mp3 is missing for a built-in sound.
 // Usage (the .cmd launchers run this with the overlay's own Electron in Node mode):
-//   node tools/build-filter.js [--base <file>] [--block <file>] [--out <file>] [--name <filter name>]
+//   node tools/build-filter.js [--league 3.29|3.30] [--base <file>] [--block <file>] [--out <file>] [--name <filter name>]
+// --league 3.29: for playing before the 3.30 launch. No 3.30 clean-up of the base, and item names in the build
+//   block that 3.29 doesn't have (the 3.30 Threads) are taken out, so the filter loads in 3.29.
 // Defaults: base = filter/base.filter, block = filter/sss-block.filter,
 //           out  = <Documents>\My Games\Path of Exile\<name>.filter
 const fs = require('fs');
@@ -40,7 +42,7 @@ const REMOVED = [
 ];
 const isRemoved = (name) => REMOVED.some((re) => re.test(name));
 
-function fixBaseTypes(lines, report) {
+function fixBaseTypes(lines, report, isBad = isRemoved) {
   // returns lines; rules whose exact-match list becomes empty are commented out
   const out = [];
   let i = 0;
@@ -49,9 +51,9 @@ function fixBaseTypes(lines, report) {
     const m = /^(\s*)BaseType\s*==\s*(.*)$/.exec(line);
     if (!m) { out.push(line); i++; continue; }
     const names = [...m[2].matchAll(/"([^"]+)"/g)].map((x) => x[1]);
-    const keep = names.filter((n) => !isRemoved(n));
+    const keep = names.filter((n) => !isBad(n));
     if (keep.length === names.length) { out.push(line); i++; continue; }
-    report.removed.push(...names.filter(isRemoved));
+    report.removed.push(...names.filter(isBad));
     if (keep.length) { out.push(`${m[1]}BaseType == ${keep.map((n) => `"${n}"`).join(' ')}`); i++; continue; }
     // empty list: comment out the whole rule (back to its Show/Hide line, forward to the blank line)
     let start = out.length - 1;
@@ -80,7 +82,9 @@ function fixSounds(lines, folder, report) {
 function main() {
   const base = opt('--base', path.join(ROOT, 'filter', 'base.filter'));
   const block = opt('--block', path.join(ROOT, 'filter', 'sss-block.filter'));
-  const name = opt('--name', 'SSS-Slayer-3.30');
+  const league = opt('--league', '3.30');
+  const old = league !== '3.30';
+  const name = opt('--name', `SSS-Slayer-${league}`);
   const folder = poeFolder();
   const out = opt('--out', path.join(folder, `${name}.filter`));
   const report = { removed: [], rulesDisabled: 0, missingSounds: new Set() };
@@ -103,14 +107,20 @@ function main() {
   // a previously built filter can be used as the base: strip the old block first
   const stripped = baseText.replace(/#=+ BUILD BLOCK START[\s\S]*?#=+ BUILD BLOCK END[^\n]*\n?/g, '');
   let lines = stripped.split(/\r?\n/);
-  lines = fixBaseTypes(lines, report);
+  if (!old) lines = fixBaseTypes(lines, report);
   lines = fixSounds(lines, path.dirname(out), report);
 
-  const blockText = fs.readFileSync(block, 'utf8').replace(/^﻿/, '').replace(/\r\n/g, '\n').trimEnd();
+  let blockText = fs.readFileSync(block, 'utf8').replace(/^﻿/, '').replace(/\r\n/g, '\n').trimEnd();
+  const blockReport = { removed: [], rulesDisabled: 0 };
+  if (old) {
+    // every real item of the old league is named somewhere in its NeverSink filter: drop block names it lacks
+    const known = new Set([...stripped.matchAll(/"([^"]+)"/g)].map((x) => x[1]));
+    blockText = fixBaseTypes(blockText.split('\n'), blockReport, (n) => !known.has(n)).join('\n');
+  }
   const stamp = new Date().toISOString().slice(0, 16).replace('T', ' ');
   const blockLines = [
     '#=============================================================================================================== BUILD BLOCK START',
-    `# Static Strike Slayer key bases + 3.30 fixes. Built ${stamp} from ${path.basename(base)} by ExileGuide\\tools\\build-filter.js`,
+    `# Static Strike Slayer key bases${old ? ` (${league} version: 3.30-only items left out)` : ' + 3.30 fixes'}. Built ${stamp} from ${path.basename(base)} by ExileGuide\\tools\\build-filter.js`,
     '# Edit filter\\sss-block.filter and run "Build Loot Filter.cmd" again; do not edit this part here.',
     ...blockText.split('\n'),
     '#=============================================================================================================== BUILD BLOCK END',
@@ -126,7 +136,8 @@ function main() {
   const uniq = [...new Set(report.removed)];
   console.log(`Wrote ${out}`);
   console.log(`  build block: ${blockText.split('\n').filter((l) => /^\s*(Show|Hide)\b/.test(l)).length} rules from ${path.basename(block)}`);
-  console.log(`  3.30: removed ${uniq.length} item names that no longer exist${uniq.length ? ` (${uniq.slice(0, 6).join(', ')}${uniq.length > 6 ? ', ...' : ''})` : ''}; ${report.rulesDisabled} rules left empty were disabled`);
+  if (old) console.log(`  ${league}: left out ${blockReport.removed.length} item names of the build block that ${league} doesn't have${blockReport.removed.length ? ` (${blockReport.removed.slice(0, 4).join(', ')}${blockReport.removed.length > 4 ? ', ...' : ''})` : ''}; ${blockReport.rulesDisabled} rules disabled`);
+  else console.log(`  3.30: removed ${uniq.length} item names that no longer exist${uniq.length ? ` (${uniq.slice(0, 6).join(', ')}${uniq.length > 6 ? ', ...' : ''})` : ''}; ${report.rulesDisabled} rules left empty were disabled`);
   if (report.missingSounds.size) console.log(`  ${report.missingSounds.size} custom sounds of the base filter use built-in alert sounds instead (no sound pack installed).`);
 }
 
