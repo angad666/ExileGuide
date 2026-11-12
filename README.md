@@ -62,6 +62,8 @@ The timer sits under the overlay's header. It shows the run time, the current ac
 ## How it follows you
 
 - **Entering a zone** jumps to the first step for that zone, but only when it's the next zone on the route. Up to 8 zones ahead is allowed for non-town areas, so skipping a zone still works. A town that isn't next on the route is ignored, so extra town trips and deaths don't move the guide.
+- **Going ahead of the route** (for example the bandits before the Weaver) doesn't mark the skipped quest work as done. Skipped bosses, quest items, trials, hand-ins and gem rewards in zones you haven't been to show in an orange **Not done yet** box for the rest of the act. Entering one of those zones takes the route back there, follows it through (Weaver, then the town hand-in), and returns to where you were when you rejoin the route. A skipped town hand-in shows in a green **Also hand in here** box on your next visit to that town. Skipped something on purpose? Unlock (F8) and click ✕ on the box.
+- **In town**, every gem reward and purchase of the visit is listed under the current step at once (with its search string for F4), so a buy that comes after a hand-in can't be missed.
 - **Level ups** set the stage (links and gear). A stage you picked with F6 stays until your level reaches the next stage.
 - **A new character** entering the Twilight Strand restarts the route.
 - Inside a zone, press F2 as you finish each step. Progress is saved per build in `user/progress.json`.

@@ -106,3 +106,11 @@ body { font-family: var(--font-body); color: var(--text); font-size: 13px; user-
 }
 .warn { padding: 4px 10px; background: rgba(255,90,70,.15); color: #ffb3a6; font-size: 11.5px; border-bottom: 1px solid var(--line); }
 .hint { color: var(--dim); font-size: 10.5px; padding: 3px 10px 5px; }
+/* skipped quest work (you went ahead of the route) and hand-ins due in this town */
+.missed { margin: 6px 0 2px; padding: 4px 8px; border-left: 3px solid #ff9d5c; background: rgba(255,157,92,.12); font-size: 12px; }
+.missed .mlabel { display: block; color: #ffb37f; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.missed.town { border-left-color: var(--take, #7fd67f); background: rgba(127,214,127,.12); }
+.missed.town .mlabel { color: var(--take, #7fd67f); }
+.missed { position: relative; }
+.missed .mx { position: absolute; top: 2px; right: 4px; background: none; border: none; color: #ffb37f; cursor: pointer; font-size: 12px; padding: 0 4px; display: none; }
+#root.unlocked .missed .mx { display: block; }

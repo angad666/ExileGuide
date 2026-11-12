@@ -86,7 +86,9 @@ function gemStatus(guide, gemName, stepIndex) {
   const src = p.sources[0];
   if (!src) return { ...base, status: p.campaign ? 'missing' : 'later' };
   if (src.stepIndex < stepIndex) return { ...base, status: 'owned' };
-  if (src.stepIndex === stepIndex) return { ...base, status: 'now', where: `${src.kind === 'take' ? 'Take from' : 'Buy from'} ${src.npc}` };
+  // a take/buy later in the same zone visit (usually the same town visit) is due now, not "soon"
+  const sameVisit = guide.route.steps[src.stepIndex]?.segment === guide.route.steps[stepIndex]?.segment;
+  if (src.stepIndex === stepIndex || sameVisit) return { ...base, status: 'now', where: `${src.kind === 'take' ? 'Take from' : 'Buy from'} ${src.npc}` };
   return { ...base, status: 'soon', where: `A${src.act} ${src.kind === 'take' ? 'reward' : 'buy'}: ${src.npc}` };
 }
 
@@ -148,6 +150,8 @@ function viewAt(guide, stepIndex, ctx = {}) {
     segment: { first: seg.firstStep, last: seg.lastStep },
     step,
     segmentSteps: steps.slice(seg.firstStep, seg.lastStep + 1),
+    // gem takes/buys of this whole zone visit from here on (a town visit's hand-ins and shopping in one list)
+    visitGems: steps.slice(i, seg.lastStep + 1).flatMap((s) => s.gems),
     upcoming: steps.slice(i + 1, i + 4),
     nextZone: nextZone(route, i),
     stage: stageView,

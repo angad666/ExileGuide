@@ -88,7 +88,14 @@ function render(s) {
   html += `<div class="sec">
     <div class="cur"><span class="arrow">▶</span>${renderTokens(step.tokens)}</div>
     ${step.subs.length ? `<div class="subs">${step.subs.map((t) => `<div>${renderTokens(t)}</div>`).join('')}</div>` : ''}
-    ${step.gems.length || step.notes.length ? `<div class="actions">${renderGemBlocks(step.gems, { copyable: true })}${renderNotes(step.notes, { copyable: true })}</div>` : ''}`;
+    ${v.visitGems.length || step.notes.length ? `<div class="actions">${renderGemBlocks(v.visitGems, { copyable: true })}${renderNotes(step.notes, { copyable: true })}</div>` : ''}`;
+  // skipped hand-ins to do in this town, and quest work you skipped earlier in this act
+  if (s.townNotes && s.townNotes.length) {
+    html += `<div class="missed town"><span class="mlabel">Also hand in here</span>${s.townNotes.map((t) => `<div>${renderTokens(t)}</div>`).join('')}</div>`;
+  }
+  if (s.missed && s.missed.length) {
+    html += `<div class="missed"><button class="mx" data-act="dismissMissed" title="Skipped on purpose: forget these">✕</button><span class="mlabel">${s.detour ? 'Catching up · then back on the route' : 'Not done yet (you went ahead)'}</span>${s.missed.map((m) => `<div><span class="t-dim">${esc(m.area)}:</span> ${m.steps.map(renderTokens).join(' · ')}</div>`).join('')}</div>`;
+  }
 
   const n = Math.max(0, o.showUpcoming ?? 2);
   const ups = v.upcoming.slice(0, n);

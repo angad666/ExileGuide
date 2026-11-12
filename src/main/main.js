@@ -254,6 +254,9 @@ function overlayState() {
     logStatus,
     flash,
     timer: timerState(),
+    missed: tracker.missed().map((m) => ({ area: Areas[m.areaId]?.name || m.areaId, steps: m.steps.map((st) => st.tokens) })),
+    townNotes: tracker.townNotes.map((i) => guide.route.steps[i].tokens),
+    detour: tracker.returnTo !== null,
   };
 }
 
@@ -372,6 +375,13 @@ const actions = {
     const what = runTimer.toggle(Date.now());
     saveTimer();
     showFlash({ started: 'Timer started', paused: 'Timer paused: it resumes on the next zone change', resumed: 'Timer running' }[what] || '');
+  },
+  // you skipped those on purpose: forget this act's open quest work and any detour
+  dismissMissed: () => {
+    const segs = guide.route.segments;
+    const sec = guide.route.steps[tracker.stepIndex].sectionIndex;
+    tracker.skipped = tracker.skipped.filter((k) => guide.route.steps[segs[k].firstStep].sectionIndex !== sec);
+    tracker.townNotes = [];
   },
   timerReset: () => { runTimer.reset(); saveTimer(); showFlash('Timer reset: it starts in The Twilight Strand'); },
   toggleDetails: () => { settings.overlay.compact = !settings.overlay.compact; saveSettings(); },
@@ -516,7 +526,8 @@ function startWatcher() {
     const prevStepIndex = tracker.stepIndex;
     const prevArea = tracker.currentArea;
     const moved = tracker.onArea(e.id);
-    if (moved) saveProgress();
+    saveProgress(); // also keeps the skipped/visited lists current
+    if (moved && tracker.returnTo !== null && tracker.stepIndex < prevStepIndex) showFlash('Back to a part you skipped. The route returns to where you were afterwards');
     if (runTimer) { afterTimer(runTimer.onArea(e.id, Date.now(), { prevStepIndex, prevArea, char: tracker.charName })); saveTimer(); }
     pushAll();
   });
@@ -723,6 +734,8 @@ async function runSnapshot(dir) {
   try {
     hook(overlayWin, 'overlay');
     if (process.env.EXILEGUIDE_STEP) tracker.jump(+process.env.EXILEGUIDE_STEP - 1);
+    // zone ids to replay from there, comma separated (as if read from Client.txt)
+    if (process.env.EXILEGUIDE_AREAS) for (const id of process.env.EXILEGUIDE_AREAS.split(',')) tracker.onArea(id.trim());
     if (process.env.EXILEGUIDE_LEVEL) tracker.onLevel({ name: tracker.charName, level: +process.env.EXILEGUIDE_LEVEL });
     if (process.env.EXILEGUIDE_UNLOCKED) settings.locked = false;
     if (process.env.EXILEGUIDE_TIMER) {

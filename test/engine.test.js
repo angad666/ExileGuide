@@ -4,7 +4,7 @@ const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
 
-const { loadRouteSources, gemSearchTerm, findGem, Quests } = require('../src/engine/data');
+const { loadRouteSources, gemSearchTerm, findGem, Quests, Areas } = require('../src/engine/data');
 const { parseRoute } = require('../src/engine/route');
 const { buildGuide, viewAt, stageIndexForLevel } = require('../src/engine/guide');
 const { decodePobCode, pobXmlToBuild, parseLevels } = require('../src/engine/pob');
@@ -154,9 +154,14 @@ test('stage chosen by level', () => {
 });
 test('view marks gems owned / coming', () => {
   const merveilQuest = stepOf('a1q3').index;
-  const before = viewAt(guide, merveilQuest - 1, { level: 12 });
+  const prevVisit = guide.route.segments[guide.route.steps[merveilQuest].segment - 1].lastStep;
+  const before = viewAt(guide, prevVisit, { level: 12 });
   const ss = before.stage.links.flatMap((l) => l.gems).find((g) => g.name === 'Static Strike');
   assert.strictEqual(ss.status, 'soon');
+  // earlier in the same town visit: due now, and listed with the visit's gem actions
+  const sameVisit = viewAt(guide, guide.route.segments[guide.route.steps[merveilQuest].segment].firstStep, { level: 12 });
+  assert.strictEqual(sameVisit.stage.links.flatMap((l) => l.gems).find((g) => g.name === 'Static Strike').status, 'now');
+  assert.ok(sameVisit.visitGems.some((b) => b.gems.some((g) => g.name === 'Static Strike')));
   const after = viewAt(guide, merveilQuest + 1, { level: 12 });
   assert.strictEqual(after.stage.links.flatMap((l) => l.gems).find((g) => g.name === 'Static Strike').status, 'owned');
 });
@@ -178,12 +183,13 @@ test('replaying a real run follows the route into Act 2+', () => {
     if (!e) continue;
     if (e.type === 'area') t.onArea(e.id);
     if (e.type === 'level') t.onLevel(e);
-    if (t.stepIndex < last) backwards++;
+    // the only way back is a detour into quest work skipped earlier in the act
+    if (t.stepIndex < last && t.returnTo === null) backwards++;
     last = t.stepIndex;
   }
   const step = guide.route.steps[t.stepIndex];
   assert.ok(step.act >= 2, `ended in act ${step.act} at ${step.areaName}`);
-  assert.strictEqual(backwards, 0, 'zone changes never move the guide backwards');
+  assert.strictEqual(backwards, 0, 'zone changes only move the guide backwards for a detour');
   console.log(`       (replay ended at step ${t.stepIndex + 1}: ${step.section}, ${step.areaName}, level ${t.level})`);
 });
 test('unplanned town visits do not skip ahead', () => {
@@ -197,6 +203,40 @@ test('unplanned town visits do not skip ahead', () => {
   assert.strictEqual(t.stepIndex, coast);
   t.onArea('1_1_3'); // Mud Flats: next zone
   assert.strictEqual(guide.route.steps[t.stepIndex].areaId, '1_1_3');
+});
+test('going ahead of the route keeps skipped quest work open, and its zone takes you back (real Act 2 run)', () => {
+  // after Through Sacred Ground the route goes Riverways > Western Forest > Weaver; this run did the bandits first
+  const t = new Tracker(guide, { stepIndex: stepOf('a2q5').index });
+  const kills = () => t.missed().flatMap((m) => m.steps).flatMap((s) => s.tokens).filter((k) => k.k === 'kill').map((k) => k.v);
+  t.onArea('1_2_3'); // Crossroads, on to Kraityn
+  assert.ok(kills().includes('The Weaver'), 'the Weaver is not done');
+  for (const id of ['1_2_4', '1_2_town', '1_2_7', '1_2_12', '1_2_7', '1_2_9', '1_2_town', '1_1_town', '1_2_12', '1_2_town']) t.onArea(id);
+  assert.ok(kills().includes('The Weaver'), 'still not done after the bandits');
+  const resume = t.stepIndex;
+  t.onArea('1_2_9');
+  t.onArea('1_2_10'); // Weaver's Chambers
+  assert.strictEqual(guide.route.steps[t.stepIndex].areaId, '1_2_10');
+  assert.strictEqual(t.returnTo, resume);
+  t.onArea('1_2_town');
+  assert.ok(guide.route.steps[t.stepIndex].quests.some((q) => q.questId === 'a2q4'), 'Sharp and Cruel hand-in');
+  t.onArea('1_2_12'); // back on the route where it was
+  assert.strictEqual(t.stepIndex, resume);
+  assert.strictEqual(t.returnTo, null);
+  assert.deepStrictEqual(kills(), []);
+  t.onArea('1_2_11');
+  assert.strictEqual(guide.route.steps[t.stepIndex].areaId, '1_2_11');
+});
+test('a skipped town hand-in shows on the next visit to that town, then counts as done', () => {
+  const t = new Tracker(guide, {});
+  for (const id of ['1_1_1', '1_1_town', '1_1_2', '1_1_3', '1_1_4_1', '1_1_2', '1_1_2a', '1_1_town', '1_1_4_1', '1_1_4_0', '1_1_town', '1_1_4_1', '1_1_5', '1_1_6', '1_1_7_1', '1_1_7_2']) t.onArea(id);
+  assert.ok(t.missed().length > 0, 'the town hand-ins the route had before Prisoner\'s Gate are open');
+  assert.ok(t.missed().every((m) => Areas[m.areaId].is_town_area), 'the Lower Prison trial (zone already visited) is not flagged');
+  t.onArea('1_1_8');
+  t.onArea('1_1_town');
+  assert.ok(t.townNotes.length > 0);
+  assert.deepStrictEqual(t.missed(), []);
+  t.onArea('1_1_8');
+  assert.deepStrictEqual(t.townNotes, []);
 });
 test('Twilight Strand restarts the route', () => {
   const t = new Tracker(guide, { stepIndex: 100, level: 20 });
