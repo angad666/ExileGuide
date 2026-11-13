@@ -137,18 +137,17 @@ Show # KEY BASE (3.30): Spiked Gloves (now 24-30% increased melee damage) and Tw
 	PlayEffect Pink
 	MinimapIcon 0 Pink Star
 
-# OPTIONAL (3.30 Item Tiers), switched off: GGG's filter docs list "UnidentifiedItemTier", but nothing confirms it matches the new 2-5 tiers yet.
-# Once you see in game that it works, remove the "#" in front of the next 10 lines and run "Build Loot Filter.cmd" again.
-# Show # KEY RARE: tier 4-5 unidentified rares of the build's bases (better mods, links and quality)
-#	UnidentifiedItemTier >= 4
-#	Rarity Rare
-#	Identified False
-#	BaseType == "Reaver Axe" "Royal Plate" "Astral Plate" "Leviathan Gauntlets" "Spiked Gloves" "Giantslayer Helmet" "Two-Toned Boots" "Leviathan Greaves" "Pinnacle Tower Shield" "Stygian Vise" "Amethyst Ring" "Vermillion Ring"
-#	SetFontSize 45
-#	SetTextColor 255 230 245 255
-#	SetBorderColor 255 0 200 255
-#	SetBackgroundColor 100 0 75 255
-#	MinimapIcon 0 Pink Diamond
+# 3.30 Item Tiers: tier 4-5 unidentified rares of the build's bases (same UnidentifiedItemTier syntax as NeverSink 8.21.0a).
+Show # KEY RARE: tier 4-5 unidentified rares of the build's bases (better mods, links and quality)
+	UnidentifiedItemTier >= 4
+	Rarity Rare
+	Identified False
+	BaseType == "Reaver Axe" "Royal Plate" "Astral Plate" "Leviathan Gauntlets" "Spiked Gloves" "Giantslayer Helmet" "Two-Toned Boots" "Leviathan Greaves" "Pinnacle Tower Shield" "Stygian Vise" "Amethyst Ring" "Vermillion Ring"
+	SetFontSize 45
+	SetTextColor 255 230 245 255
+	SetBorderColor 255 0 200 255
+	SetBackgroundColor 100 0 75 255
+	MinimapIcon 0 Pink Diamond
 
 Show # KEY BASE: weapon. Deafening Essence of Contempt / alt-regal base. ilvl 83+ can roll the top % phys tier
 	BaseType == "Reaver Axe"
