@@ -74,7 +74,7 @@ The timer sits under the overlay's header. It shows the run time, the current ac
 `Build Loot Filter.cmd` writes **`SSS-Slayer-3.30.filter`** to `Documents\My Games\Path of Exile` (OneDrive Documents, so every PC has it). In game: Options → Game → Item Filter → SSS-Slayer-3.30.
 
 It combines three parts:
-1. `filter/base.filter`: Tytykiller's melee preset of NeverSink's filter, exported from FilterBlade (8.20.0b, 3.29).
+1. `filter/base.filter`: NeverSink's filter (SOFT, now 8.21.0a for 3.30) with Tytykiller's FilterBlade changes: two-hand axe and claw leveling upgrades, socket-colour sounds, per-orb currency sounds, caster gear hidden. `filter/base-8.20.0b.filter` is the original FilterBlade export (3.29).
 2. `filter/sss-block.filter`: the build's key bases, put first so they win. Pink + sound + star = a crafting base to pick up (crit-swap Reaver Axe, tower shields, Royal/Astral Plate, Leviathan/Precursor gloves, Giantslayer/General's helmet, Leviathan Greaves/Brimstone Treads/Two-Toned Boots, Stygian Vise, endgame flask bases, Prismatic Tincture). Pink frame = the same bases as rares to identify. Gold = 5/6-links, and 4-links while levelling. Cyan = movement-speed boots while levelling, and 3.30 Threads.
 3. 3.30 fixes: item names that no longer exist (all Scarabs, Templar/Fruiting/Deceptive Astrolabes, Mortal fragments, the Djinn/Mirage coins, Fragmented/Skittering Delirium Orb) are taken out of `BaseType ==` lists, because a filter that names an unknown item fails to load. Custom sounds whose `.mp3` is missing play a built-in sound.
 
@@ -82,7 +82,7 @@ It combines three parts:
 
 **Sounds**: the base filter's custom sounds (Tytykiller's pack) are not installed, so those rules play built-in alert sounds. To use a sound pack later, put the .mp3 files in `filter/sounds/` and run `Build Loot Filter.cmd` again.
 
-**When NeverSink's 3.30 filter comes out** (normally a few hours before launch): load Tytykiller's preset on FilterBlade (https://www.filterblade.xyz/?profile=Tytykiller&saveState=AAAAMelee&platform=pc), export it, save it over `filter/base.filter`, run `Build Loot Filter.cmd` and reload the filter in game.
+**When NeverSink releases an update** (he patches often early in a league): run `Update Loot Filter.cmd`, then reload the filter in game. It runs `tools/update-base-filter.js`, which downloads the plain NeverSink filter the base was made from and the newest release, works out Tytykiller's changes (16 rules switched off, 56 edited, 95 extra FilterBlade rules) and applies them to the new version, then rebuilds. Where both changed the same line it says so: unique tier lists follow NeverSink, everything else keeps Tytykiller's change. The previous base is kept as `filter/base-<version>.filter`. The 3.29 build uses `filter/base-8.20.0b.filter`.
 
 ## Passive tree
 

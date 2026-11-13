@@ -80,10 +80,12 @@ function fixSounds(lines, folder, report) {
 }
 
 function main() {
-  const base = opt('--base', path.join(ROOT, 'filter', 'base.filter'));
-  const block = opt('--block', path.join(ROOT, 'filter', 'sss-block.filter'));
   const league = opt('--league', '3.30');
   const old = league !== '3.30';
+  // 3.29 needs a pre-3.30 NeverSink base: the copy update-base-filter.js kept of the 8.20 export
+  const oldBase = path.join(ROOT, 'filter', 'base-8.20.0b.filter');
+  const base = opt('--base', old && fs.existsSync(oldBase) ? oldBase : path.join(ROOT, 'filter', 'base.filter'));
+  const block = opt('--block', path.join(ROOT, 'filter', 'sss-block.filter'));
   const name = opt('--name', `SSS-Slayer-${league}`);
   const folder = poeFolder();
   const out = opt('--out', path.join(folder, `${name}.filter`));
