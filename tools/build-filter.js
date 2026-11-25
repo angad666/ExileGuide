@@ -18,8 +18,21 @@ const ROOT = path.join(__dirname, '..');
 const args = process.argv.slice(2);
 const opt = (k, d) => { const i = args.indexOf(k); return i >= 0 && args[i + 1] ? args[i + 1] : d; };
 
+// Windows' own Documents folder (the one the game uses): redirected to OneDrive on some PCs, not on others
+function documentsFolder() {
+  if (process.platform !== 'win32') return null;
+  try {
+    const out = require('child_process').execSync('reg query "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders" /v Personal', { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    const m = /Personal\s+REG_(?:EXPAND_)?SZ\s+(.+)/.exec(out);
+    return m ? m[1].trim().replace(/%([^%]+)%/g, (s, v) => process.env[v] ?? s) : null;
+  } catch { return null; }
+}
+
 function poeFolder() {
   const home = os.homedir();
+  const docs = documentsFolder();
+  const game = docs && path.join(docs, 'My Games', 'Path of Exile');
+  if (game && fs.existsSync(game)) return game;
   const cands = [
     path.join(home, 'OneDrive', 'Documents', 'My Games', 'Path of Exile'),
     path.join(home, 'Documents', 'My Games', 'Path of Exile'),
@@ -112,6 +125,15 @@ function main() {
   if (!old) lines = fixBaseTypes(lines, report);
   lines = fixSounds(lines, path.dirname(out), report);
 
+  if (block === 'none') {
+    // just the base (e.g. a plain NeverSink download) with the 3.30 / sound fixes, no build block
+    fs.mkdirSync(path.dirname(out), { recursive: true });
+    fs.writeFileSync(out, lines.join('\r\n'));
+    console.log(`Wrote ${out}\n  no build block (--block none); base ${path.basename(base)}`);
+    if (report.removed.length) console.log(`  3.30: removed ${new Set(report.removed).size} item names that no longer exist`);
+    if (report.missingSounds.size) console.log(`  ${report.missingSounds.size} custom sounds use built-in alert sounds instead.`);
+    return;
+  }
   let blockText = fs.readFileSync(block, 'utf8').replace(/^﻿/, '').replace(/\r\n/g, '\n').trimEnd();
   const blockReport = { removed: [], rulesDisabled: 0 };
   if (old) {
