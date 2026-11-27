@@ -1,0 +1,3084 @@
+{
+ "generated": "2026-11-26 17:41",
+ "league": "Covens",
+ "divine_chaos": 131.7,
+ "config": {
+  "max_price_div": 50,
+  "min_roi": 0.2,
+  "min_profit_div": 5
+ },
+ "broad_url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzwqDMAzGX2XkLKP_q77DrrsMkbJ2EHC1aDcU6buvbox5mDl9-fJLSLLAGE18jFAv0IeIvYcajJ8hFRDn4HJ2Np3tDycToHjDmb0s36LvY7Zv2EU3fApos-2m0OEV43FtaAWtSkpKIfLUvwATkihWSk32CEF4RZlQmu0RXHCtKFeE7hGUVFIrSYmC1KRms3Y-ZzDWtRtjI8OAV7eKu5mglqT4fcriE72DtMYLeno1TUsBAAA",
+ "searches": [
+  {
+   "reward": "Original Sin",
+   "ninja": 1235.6492027334853,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQ0YrCMBBFf0XmuUjSpmnTfxAfBF8WKaGJMhCTELNrS8m_b7qyqMv2ceaeOQx3hluU8fMG3QzOR3QWOpB2glRAnLzO01Ea5TY76aH4gTP7Mf-G1sW8PqOJOjwCVHmtR29wwLhdDnpGRUtJy1i2_guUrCa8bOuGrBGMVIKWjDflGlGxquG04oSuEZSIuuE1JRzSKZ1e3p7hKn3_Mv5JBnf1Ri_t9EHfZVBvde0DXtBKszmghZSW5oJUesXnAw76IR6hY2IrRPF0KfxCqxdLSt-eUh5GnAEAAA"
+  },
+  {
+   "reward": "Emperor's Mastery",
+   "ninja": 901.3743356112377,
+   "max_price": 49.99,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0Vm46ZI0qZp071Lt25ESmhGCLRNSKNWSv7dVBEf2OXMPXMZzgSDl_48QDWBsV6bHiqQ_Q1CAv5mMU572Sqz2kkLyQOO7GF6hb3xcX3SrUf3DLSKaxxtqxvtN_NBzagoKSkZi61_gZTlhKdlXpAlgpFM0JTxIl0iMpYVnGac0CWCEpEXPKeEQziG48fbE3TS1h_jT9KYzrY426kdXqVTX7q2nUVn3HqIkoZ4FuWFWZ-TChdKrdMNPttHqJjYCJG8C5W-6B7nlhDuySOaiaEBAAA",
+   "trade_value": 625.0,
+   "trade_listings": 6
+  },
+  {
+   "reward": "Heroic Tragedy",
+   "ninja": 409.58238420653004,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQwYqDMBCGX6XMWUqiMRqfoJfeSi-lSDCzy4A1IU1bRfLujVuW7S7rceb_5mP4Z7gGHW5XaGawLpAdoAE9TBAzCJPDNB11b-xmrx1kX3BiT_N3ONiQ1h_UB_SvgExa4-h66ihsl4NWcFVzVguRrP8CuSiZzOuyYmuEYIXiuZBVvkYUoqgkLyTjawRnqqxkyZmEeI7nt7dnuGjXvo1_ks5eXI9LO63Hh_bmV1079Ja6zcHrTzSpubh057XBFaPz1OFLPUIj1Fap7Mdm6E4DLpYYn4fEqqueAQAA"
+  },
+  {
+   "reward": "Nimis",
+   "ninja": 278.34472285497344,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywqDMBBFf6XMWkqiMRr_oV12U0SCSWFATYjpQyT_3thS-qAuZ-6Zw3BnGL305xGqGYz1aAaoQA4ThAT8ZHWcDrJTZrOTFpIHHNnj_AoH4-P6hJ3X7hmgimt9sx226LfLQcOoKCkpGYvWv0DKcsLTMi_IGsFIJmjKeJGuERnLCk4zTugaQYnIC55TwiHUof54e4Ze2uZj_Ela09tOL-00Tl-lU1917bHHEUJYKnNS6RWRddjqp_EGFRNbIZK3ROEFB71YQrgDGej-fJUBAAA"
+  },
+  {
+   "reward": "Headhunter",
+   "ninja": 260.1366742596811,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXSRp07TpF7hx60akhGbEQE1CGl-U_LupIj6wy5l75jDcEYYgw2mAZgTrgrYGGpDmBjGDcHOYpo3slV2spYPsASd2O75CY0Na73Uf0D8DrdIar67XnQ7L6aBlVNSU1Iwl618gZyXheV1WZI5gpBA0Z7zK54iCFRWnBSd0jqBElBUvKeEQd3H38fYIR-naj_En6ezR9Ti103q8SK--6lqhVIeTSQcQ49SblwpnbM7rDp_aKzRMLIXI3ialz9rgZInxDpkNhFKaAQAA"
+  },
+  {
+   "reward": "Stranglegasp",
+   "ninja": 228.9217919514047,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQQWrDMBBFr1JmbYJky7LlO3RVyKYEM1jTIFAkISttgtHdKyeEpqVezvw3j-EvMCdM5xmGBXxIxjsYAN0VcgXpGqhMe7Tav7xigOoGF_Z9eYTOp7L-MDZRvAdGlzVdgjWTSbv1YBRc9Zz1QhTrv0AtWibrvu3YFiFYo3gtZFdvEY1oOskbyfgWwZlqO9lyJiEf8uHp7QVOGMan8U8y-VOwtLYzRvrCqH_V9ZYiuqOlI84Bcl6bi6hpwxeimeguvsAg1E6p6selzadxtFpy_gZDLmObnAEAAA"
+  },
+  {
+   "reward": "Reclaimed Malevolence",
+   "ninja": 221.11617312072894,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzWrEMAyEX6XoHBY7cZw477CXHvZSlmBiFQSObbzu_hD87nVSSrelOWrm00jMApek08cFhgV8SOQdDKDdA3IF6RGwTCdtjX856gDVBhf2bfk2nU9FfiebMH4ZZIqM92BponRYF0bBVc9ZL0RJ_ReoRctk3bcd2yMEaxSvhezqPaIRTSd5IxnfIzhTbSdbziTkcz4_vb3ArMP4NP5xJj8Hi2s7Y8SbjuZXXa84WU0zmlKSxau36CaEnNcKoza4ExwiFWy7cIdBqINS1U-ooSu5LSXnT8mYGaulAQAA"
+  },
+  {
+   "reward": "Progenesis",
+   "ninja": 182.09567198177677,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQ0YrCMBBFf0XmuUjSpmnTfxD2yZdFSmhmZaAmIc26Ssm_myrLqmwfZ-6Zw3BnmKKO3xN0MzgfyVnoQNsrpALi1WOe9no0brPTHoo7nNnP-Te0Lub1F40RwyMgk9d48SMNFLfLQS-4ajlrhcjWf4FS1EyWbd2wNUKwSvFSyKZcIypRNZJXkvE1gjNVN7LmTEI6pMPT2zOctO-fxrdkcCc_4tJOH_BHB_NS10dwR7Q40QQpLb0FbXDF5gMN-NBeoBNqq1TxZzJ0JouLJaUbK2LNNJoBAAA"
+  },
+  {
+   "reward": "Replica Alberon's Warpath",
+   "ninja": 167.79043280182233,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQwU7DMBBEfyXaC5eoshPHiXPjA7j0AAdURUtshCXXthwXWkX-d2wqREHkODtvZ1ezwhIxnhYYV3A-amdhBLQXSDXEi1dZPaKRrnpAD_UXnNnn9du0LubxqzZRhauhZR6rszd61nFXFiZGxUDJwFhO_RdoWEd4M3Q92SIYaQVtGO-bLaJlbc9pywndIigRXc87SjikQzrcvL3CEf10I_84szt6o0o7U1AfGOSvuvaqXMHq3ryo4OzdUj1h8BjfIKVSY0CpNsJ90LO6XjnDyMROiPonWOp3bVVJSekTwQpkBakBAAA"
+  },
+  {
+   "reward": "Festering Vengeance",
+   "ninja": 159.07365223993926,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQQWrDMBBFrxJmbYJky7LlA3TXbTYlGGFNwoAjCVlJE4zuXtmlNC3xcua_eQx_hinqeJ2gm8H5SM5CB9o-IBUQHx7zdNCjcbt37aFY4cx-zD-hdTGvTzRGDN8BmbzGux9poLhfDnrBVctZK0S2vgRKUTNZtnXDtgjBKsVLIZtyi6hE1UheSca3CM5U3ciaMwnpmI5Pb89w0b5_Gv8lg7v4EZd2-oCfOpg_db3hlGGy590B7Rm1HRBSWgoM2uCG1gfK2Oq_QyfUXqniV2noRna1pPQFQoYlXKMBAAA"
+  },
+  {
+   "reward": "Wine of the Prophet",
+   "ninja": 117.0615034168565,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQ0YqDMBBFf0XmWUqiMRr_obBPuw-lSDBTGrAmxGm3RfLvjVuWtsv6OHPPHIY7w0SazhO0MzhP1o3Qgh5vEHOgm8c0ferBuGyrPeQ_cGJ38284Okrrgx0IwyOwJq3x6gfbW9osB53gquGsESJZ_wUKUTFZNFXN1gjBSsULIetijShFWUteSsbXCM5UVcuKMwlxH_cvb89w0r57Gf8kvTv5AZd2uoDfOpi3ur7siJk7ZHTE7CM4f0SCGJcCgza4ovXB9vjwX6EVaqNU_lQae0nSxRLjHbXdseSjAQAA"
+  },
+  {
+   "reward": "The Golden Charlatan",
+   "ninja": 117.0615034168565,
+   "max_price": 49.99,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQwWrDMBBEf8Xs2QTJlmXL1xx66q30UoJZrC0RKJJQ1DbB6N8rN5SmpT7uzNvZZRY4J0xvZxgX8CEZ72AEdFfINaRroDI9o9W-esQA9Rdc2Jfl23Q-FfnV2ETxZhhdZLoEa2aTduvCJLgaOBuEKKn_Ao3omGyGrmdbhGCt4o2QfbNFtKLtJW8l41sEZ6rrZceZhHzIh7u3FzhhmO7GP87sT8HS2s4U6QOj_lXX05GqB281uWp_xGgxoYOc1wYjatrIDdHMdDtwgVGonVL1T6Y278bRmpLzJ9i6NSSkAQAA",
+   "trade_value": 90.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Mageblood",
+   "ninja": 117.0615034168565,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXSRp07TpP3TrRqTEZpRAbEKML0r-3VQRH9jlzD1zGO4IxyDD6QjNCNYFbQdoQA43iBmEm8M0raRRdtFKB9kDTux6fIWDDWm90yagfwZapTVendG9DsvpoGNU1JTUjCXrXyBnJeF5XVZkjmCkEDRnvMrniIIVFacFJ3SOoESUFS8p4RA3cfPx9ggH6bqP8Sfp7cEZnNrpPF6kV191tXKPW2Otghin2rxUOCNzXvf4tF6hYWIpRPYWKX3WA06WGO-hShvgmQEAAA"
+  },
+  {
+   "reward": "Uzaza's Valley",
+   "ninja": 65.03416856492028,
+   "max_price": 49.99,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQQWrDMBBFrxJm040Jki3Llu_QZbsJwQzWFASKJWS1TWJ098gJoWmIlzP_zWd4M0wR4_cE3QzOR-NG6ADHE6QC4slTnj7Rard5Rw_FFc7sbr6Ho4t5_WVspHALjM5rOnprBhO3y0EvuGo5a4XIrS-BUtRMlm3dsDVCsErxUsimXCMqUTWSV5LxNYIzVTey5kxC2qf9w9szHND3D-NTMriDt7TY6QP9YtD_dH2c8Yxv0yaLspTNpcVdQE0rjT6YgW7VR-iE2ipV_LVp82NGWlpSugCQjCctngEAAA"
+  },
+  {
+   "reward": "Emperor's Might",
+   "ninja": 61.13135914958239,
+   "max_price": 49.99,
+   "total": 3,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXMphsTJFuWLe-zzDabEoywpu2AbQlZeWH075UTQtNSL2fumcNwZ5iCDqcJmhmsC2RHaECPN4gZhJvDNB10b-xmrx1kdzix7_MzHG1I6w_qA_pHQCat8ep66ihsl4NWcFVzVguRrP8CuSiZzOuyYmuEYIXiuZBVvkYUoqgkLyTjawRnqqxkyZmEeIzHl7dnGLRrX8Y_SWcH1-PSTuvxor35VdducOitf5s2e_r8ChDjUp7XBleUzlOHD_cVGqG2SmU_OkNnGnGxxPgNBWKipZ8BAAA",
+   "trade_value": 55.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Crown of the Tyrant",
+   "ninja": 54.63173880030372,
+   "max_price": 45.5264490002531,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFf8XM2gTJevixzTq70E0JRlgKFTiSUCYPY_TvlRtKk1AvZ-6Zw3BnOKPCyxm6GXxA6x10oNwEqQScgsnThxq1L3YqQPkDZ_Zz_g2dx7w-2hFNfARW57W5h9EOFjfLQc9p21DScJ6t_wIVF0RWjajJGsEJa2nFZV2tEYyzWlImCV0jKGlFLQUlEtIhHZ7enuGkQv80viWDP4XRLO300dxU1C91baO_ucIfC_wyxX6KyiGktBQYlTYr2hDtYB7-O3RcbAQr_5TaXq0ziyWlb_XEL92jAQAA",
+   "trade_value": 43.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Unholy Accomplice",
+   "ninja": 39.02050113895217,
+   "max_price": 32.51708428246015,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gS9_djlA7psNyEYYSlEoEhCUdIYo3-P7FKSlHo5c88chjvBJcl0vUA3gQ_JeAcdSDdCriCNQZfpS1rlNx8yQLXAhd1Pv6HzqayPxiYdfwKjylrfgzWDSdv5oGe4bTBqGCvWfwHCOBKk4TVaIxiiLSZM1GSNoIzWAlOB8BqBUctrwTESkA_58PL2BGcZ-pfxTzL4c7B6bqeP-ltG9VbXpzt5O252w4KZQUPOc31RKr0iDXHGFvsdOkq2nFRPoTI34xZLzg-eT35_oQEAAA"
+  },
+  {
+   "reward": "Lost Unity",
+   "ninja": 39.02050113895217,
+   "max_price": 32.51708428246015,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gS9_fiGdtluSjDCUmHAkYQ8bROM_r1yQ2la6uXMPXMY7goLWXpbYFghJsIYYAAbrlAaoGvydXq2s4uHR5ug-YIr-7J-hyFSXb_iTD7fAnR17S9pxgnpuB2MivcdZ51S1fovIJRmRnS6ZXuEYrLnQplW7BFSydZwaRjfIzjrdWs0ZwbKqZzu3l7hbNN4N_5JpnhOs9_aGbP_sNn9qushLnR4Cki1tbL1lq3zO7aUcfI37QUGKY5aND8mh-8Y_GYp5RPVDXsDmgEAAA"
+  },
+  {
+   "reward": "The Sundered Will",
+   "ninja": 37.72209567198178,
+   "max_price": 31.435079726651487,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFf8XM2gTJkuXHP2TV0i5KMMKa0gFFEorSJhj9e-WG0rTUy5l75jDcBU5Jp_MJxgV8SOQdjKDdFXIN6RqwTE_aGl_tdYD6Cy7sy_IdOp_K-pVswngLyJQ1XoKlmdJuPZgkH3rOeimL9V-gkS1TTd92bIuQTAy8kaprtgghRae4UIxvEZwNbadazhTkQz7cvb3AUYfpbvyTzP4YLK7tTBE_dDS_6np8w-rh7AxGNNUzWQs5r_VFbXBDGiLNeLNfYBR8J2X9IzT0Tg5XS86fWQHOYaEBAAA"
+  },
+  {
+   "reward": "Kingmaker",
+   "ninja": 31.214882308276387,
+   "max_price": 26.012401923563658,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gRJluXHL5RusynBCGtShtiSUJQ2wejfKyeEpqFeztwzh-HOcIo6nk_QzeB8JGehA22vkAqIV4952unRuM279lDc4Mx-zI_QupjXBxojhntAJq_x4kcaKG6Xg17ytuGskTJb_wWErJgSTVWzNUKysuVCqlqsEaUsa8VLxfgawVlb1ariTEHap_3T2zNM2vdP40syuMmPuLTTB_zWwfyp643s56SPGCClpbagDa7IfKAB79YLdEJtGS9-RYa-yOJiSekHoaL4zJkBAAA"
+  },
+  {
+   "reward": "Soul Taker",
+   "ninja": 29.916476841306,
+   "max_price": 24.916476841306,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXSRJ0_TxD64UNyIlNCMEYxNifFHy76aK-MAuZ-6Zw3AHOAYZTkdoBrAuaNtDA7K_Qcwg3BymaS2NsrOFdJA94MRuhlfY25DWO20C-megVVrj1Rnd6TAfD1pO64qSivNk_QswXhDBqqIkUwQneU0ZFyWbInKel4LmgtApgpK6KEVBiYC4jduPtwc4SNd-jD9JZw_O4NhO6_Eivfqqa2lPZraSe_QQ49iblwonbM7rDp_aKzSMz2uWvU1Kn3WPoyXGO4olIRKaAQAA",
+   "trade_value": 22.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Ynda's Stand",
+   "ninja": 26.013667425968112,
+   "max_price": 21.013667425968112,
+   "total": 5,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXMphsTNLIsP_4hq0CghGAGSwWBIwlZSROM_j1yQ2la6uXMPXMY7gxTpHiZoJvB-WichQ7I3iEVEO9e5-lAo3KbHXkovuDMHufv0LqY1x9mjDo8A6PyWt_8aAYTt8tBL7BtkDVCZOu_ABcVk7yparZGCFa2yIWs-RpRirKWWEqGawSytqplhUxCOqXTy9sznMn3L-OfZHBnP-qlnT7oTwrqV13vVtHbtNlHsgpSWpoLpPSKzwcz6Kf4Bh3HLcPix6XM1Vi9WFJ6AFLmm--cAQAA",
+   "trade_value": 19.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "The Covetous Dark",
+   "ninja": 26.013667425968112,
+   "max_price": 21.013667425968112,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFf8XM2gSNLMuPbbLNrnRTghHWlIo6lpCVNMHo3yMnlKalXs7cM4fhzjAFFU4TtDNYF4wdoQU1XiHmEK6O0vSqBm2zvXKQ3-HEvs3f4WhDWr-bIZB_BEanNV3cYHoTNstBJ7CpkdVCJOu_ABclk7wuK7ZGCFY0yIWs-BpRiKKSWEiGawSypqxkiUxCPMTD09szHJXrnsY_SW-PbqClnc7Tl_L6V10vH5Rt7ZmCPU3ZTvlPiHGpzytNK1LnTU8P-wVajhuG-Y9Qm7MZabHEeAOrhfaioQEAAA"
+  },
+  {
+   "reward": "Voidforge",
+   "ninja": 24.715261958997726,
+   "max_price": 19.715261958997726,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXSRJ06TtP7h1I1JCk8pAbUKML0r-3VQRq9jlzD1zGO4Ip6DC-QT1CNYFtAPUoIY7xAzC3Zk0bVWv7WqjHGRPOLG78R0ONqR1h30w_hWgTmtzcz22GNbTQcNpVVJScp6sfwHGCyJYWUiyRHCSV5RxIdkSkfNcCpoLQpcISqpCioISAXEf97O3Rzgq18zGn6S1R9ebqZ3Gm6vy-quurUXdWX8wEONUm1faLMicx9a8rDeoabWWLPuINF5weFpifAAwPOtnmQEAAA"
+  },
+  {
+   "reward": "Fortress Covenant",
+   "ninja": 24.715261958997726,
+   "max_price": 19.715261958997726,
+   "total": 10,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gRJliXb20B32XZTghHWFASOJORpHhj9e-WG0rTUy5l75jDcBWYy9DFDv0CI5IKHHoy_Q66A7hHL9GomG3ZHE6H6ggv7tnyHPlBZv7uJMD0CZ8sab3Fyo6P9ejBI3rWctVIW67-AkA1Tom002yIkqzsupNJii6hlrRWvFeNbBGddo1XDmYJ8yqentxc4mzg8jX-SMZzjhGs7Q8KrSfZXXS8hUcJ53h3CBb3xBDmv9SVjcUMakxvxYb9Bz7u9FtWP0LqL87hacv4EpmAvB6EBAAA",
+   "trade_value": 19.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Bottled Faith",
+   "ninja": 23.40926347760061,
+   "max_price": 18.40926347760061,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQTWvDMAyG_0rRORQ7cZyPYw-99drLKMHEGhO4sXG1tSX4v89ZGevGcpTeRw_ineHCht8v0M_gA5OfoAcz3SEVwPeAeToaZ_3mYAIUX3BmX-bvcPKc16_kGOMjIJvXeAuORuLtcjAo2bVStEpl679AqWqhy7ZuxBqhRNXJUummXCMqVTVaVlrINUKKrm50LYWGdEqnp7dnOJswPI1_ktGfg8OlnSHi1UT7q66dZ3ZoN3tD_AYpLdVFY3FFGCKN-DDfoJftVsniR2bpgyZcLCl9AkTRFEGdAQAA",
+   "trade_value": 16.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Uul-Netol's Vow",
+   "ninja": 22.11085801063022,
+   "max_price": 17.11085801063022,
+   "total": 4,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQQWrDMBBFrxJm040bNLYs2b5Duks2IRhhTUGgWEJWmgSju1duKE1LvZz5bx7Dn2GKKl4m6GZwPho3QgdqvEMqIN495emgrHabnfJQfMGZPc7f4ehiXr8bGyk8AqPzmm7emsHE7XLQc2wbZA3n2fovUPKaibKpJVsjOKtaLLmQ5RpR8UoKrATDNQJZW0tRIxOQTun09PYMZ-X7p_FPMrizt7S00we6qqB_1bW_2Nc3is6-TJuDu0JKS3lBaVpR-mAGerhv0KHcIhY_Om0-zEiLJaVP6Nc-pp8BAAA",
+   "trade_value": 15.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Rational Doctrine",
+   "ninja": 22.11085801063022,
+   "max_price": 17.11085801063022,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQwYrCMBCGX0XmXCTTpknbs9e9eNiLSBmaCIHYhJh1lZJ3N11XdBd7y8z_5WP4JzhFil8n6CZwPho3Qgc0XiEVEK9e5-mTrHKrD_JQ_MCZ3U2PcHQxrw_GRh3ugVF5rS_emsHE9fyh59g2yBrOs_UtUPKaibKpJVsiOKtaLLmQ5RJR8UoKrATDJQJZW0tRIxOQ9mn_cvYER_L9y_gvGdzRWz230wf9TUH9qWtL84PsauOGGMyoIaW5vkBKL0h9MIO-2y_QoVwjFk-hMudfS0o3UfexK6EBAAA",
+   "trade_value": 16.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Kalandra's Touch",
+   "ninja": 19.514047076689447,
+   "max_price": 14.514047076689447,
+   "total": 7,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXMphsTNLYkP34hdFe6KcEMlkoFiiRkpU0w-vfKDaVpqZcz98xhuAvMidJ5hmEBH5LxDgYgd4VcQboGXaZnssrvHilA9QUX9mX5Dp1PZf1qbNLxFhhV1voSrJlM2q8HI8e-Q9ZxXqz_AjUXTNadaNkWwVnTY81lW28RDW9aiY1kuEUg60UrBTIJ-ZiPd28vcKIw3o1_ksmfgtVrO2PUHxTVr7oOZMmpSA_z7smfpzfIeW0vktIbzhDNpG_yCwzI9wKrH58y78bp1ZLzJ4c7w_6gAQAA",
+   "trade_value": 15.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Svalinn",
+   "ninja": 18.208048595292333,
+   "max_price": 13.208048595292333,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFf6XM2gSNJMuPf8iqkE0JRlgqDCiSUNQ8MPr3yg2laamXM_fMYbgLnLPOH2cYFwgxU_AwgvZ3KA3ke7R1OmhnwsteR2i-4Mq-Ld-hD7mu38llmx4Bmbq2t-hoprxbDyaJQ4-sl7Ja_wW4bJnifduxLUIyMSCXquNbhJCiUygUwy0C2dB2qkWmoBzL8entBU46Tk_jn2QOp-js2s6U7FUn86uu14t25D2UspaWtLEbqphotg_nDUYUO47Nj8bQhbxdLaV8Au7vLeuXAQAA",
+   "trade_value": 14.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Starlight Chalice",
+   "ninja": 18.208048595292333,
+   "max_price": 13.208048595292333,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gS9LD-2WXdVyKYEM0RqI1AsoUzaBKN_r-xSmpZ6OXOPjoY7wYWQrhfoJwiRXBihBxzvkCuge7Rl2qM3YfOEEaoFLuzL9B2Ogcr61Xmy6StwpqztLXp3dLSdHwyKdy1nrVLF-i8gVM20aOuGrRGKyY4LpRuxRkglG82lZnyN4KyrG11zpiEf8uHh7AnOGIeH8U9yDOfo7dzOkOwHJvOrrmfC5N3biTa7E5b_LOQ815fQ2BVpTDO22G_Qc7kVvPoRGvfuxsWS8yfASeosoQEAAA"
+  },
+  {
+   "reward": "Extinguishing Grasp",
+   "ninja": 18.208048595292333,
+   "max_price": 13.208048595292333,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gS9LD_2IatssynBCEttBxxJyErqYPTvlRtKk1CvxMw9Ogx3hjGqeBmhncH5iM5CC8reIBUQb97k6agG7TYH5aH4gTP7Nv-G1sW8fschmnAPUOe1mfyAPcbt8qETtKkpqYXI1n8BJkoiWV1WZI0QhDeUCVmxNYILXknKJaFrBCVNWcmSEgnplE4PZ89wVr57GF-S3p39YJZ2umC-VNBPde2miPbjguNnfjb7oEYPKS0FBqXNitYH7M3dP0FL-ZbR4k-p8YrWLJaUvgHIinCYowEAAA"
+  },
+  {
+   "reward": "Transcendent Spirit",
+   "ninja": 16.909643128321946,
+   "max_price": 11.909643128321946,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQ3WrDMAxGX6XoOhQrcZyfd9jVym5GCSbWQJDaxnG3luB3r9My1o3lUvqODuJbYI46nmfoF3A-srPQg7ZXSAXEq6c8venJuN2L9lDc4cy-L9-hdTGvP3iKFB4Bm7ymi5945LhfDwaJXYuilTJb_wVKWQtVtnUjtggpqg5LqZpyi6hk1SislMAtAkVXN6pGoSAd0_Hp7QVO2g9P459kdCc_0drOEOhLB_OrrkPQdh7JGrJx9-o5cISU1gKDNrSh9YFHevgv0CPuOyx-lIY_2dJqSekGILzbCqMBAAA"
+  },
+  {
+   "reward": "Oriath's End",
+   "ninja": 16.909643128321946,
+   "max_price": 11.909643128321946,
+   "total": 5,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQTYvCMBCG_4rMxUuRTJumH3eP4m0vi5TQRByoSUjjrlLy3zddEd3FHmfeZx6Gd4IxyHAZoZ3AukDWQAvS3CBmEG5Op-lDDsqudtJB9gsn9nN6hMaGtD7SELS_B6TSWl_dQD2FzXzQcWxqZDXnyfoWyHnJRF6XFVsiOCsazLmo8iWi4EUlsBAMlwhkTVmJEpmAeIiHl7cnOEvXvYz_kt6e3aDndjqvv6VXf-rae5LhtB5XW6Mgxrk5L5Ve8DlPvb6Lr9AibhrMni5FX2T0bInxB1Bal8CcAQAA",
+   "trade_value": 12.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Destructive Aspiration",
+   "ninja": 16.909643128321946,
+   "max_price": 11.909643128321946,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzWrDMBCEXyXs2QStLcs_t0CvvfZSghHWBhYcS8hKmmD07pUTSpMQH3fm29llZpiCDqcJ2hmsC2xHaEGPV4gZhKujNH3pwdjNp3aQ3eDEfs9_5mhDkg88BPJ3g02S6eIG7jlsl4VOYlOjqKVMqW-BXJZC5XVZiTVCiqLBXKoqXyMKWVQKCyVwjUDRlJUqUSiI-7h_eHuGo3bdw_ji9PboBlra6Tz9aG-e6vqgKfhTH_hMm93k2OubEePSodeGVpKd557uJy7QIm4bzP5TDZ95pCUlxl8DsoqqpgEAAA"
+  },
+  {
+   "reward": "Baleful Dominion",
+   "ninja": 15.611237661351558,
+   "max_price": 10.611237661351558,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gSNLcuPZem222xKMMJSYECWhKI0CUb_XqmhNC31cu49Ooi7wjnKeDnDuILzkZyFEaS9Q6og3r3O10Ea5XZv0kP1BWf2ff0urYs5PpGJOjwKUjnWN29oprgvDyaOQ4-s5zxb_wVq3jJR923HtgjOmgFrLrp6i2h40wlsBMMtAtnQdqJFJiAd0_Hp2yss0k9P559mdos3uqwzBX2VQf2a60UafbqY3atbyJYopbJekEpvOH2gWT_kNxiR7QVWPz5FH2R1saT0CTb9zK6gAQAA"
+  },
+  {
+   "reward": "Festering Resentment",
+   "ninja": 14.305239179954443,
+   "max_price": 9.305239179954443,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQz2rDMAzGX6XoHIodO86fB-htlx12GSWYWBuCxDaOt7UEv_uclrKuNAcdpO-nT-JbYI46fs3QLeB8JGehA23PkAqIZ4-5e9OjcbsX7aG4wJl9X26idTGPP2iMGK4CmTzGkx9poLhfF3rJ24azRsrs-hQoZcVU2VQ12yIkEy0vparLLUJIUSsuFONbBGdtVauKMwXpmI53by8wad_ftQ_K4CY_4ppOH_BHB_MvrgPOGSb7uXvFGW2cckFKa4JBG9zw9YEGvB44QdfuBS_-LA19k8XVJKVfykk4CaMBAAA"
+  },
+  {
+   "reward": "Uzaza's Meadow",
+   "ninja": 13.006833712984056,
+   "max_price": 8.006833712984056,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy4rDMAxFf6VoM5tQ7MRxHv-QZbspJYhYA4Y0No77DP73Oi1lOqVZSvfoIO4Eo0d_HKGewFivzQA14HCFkIC_WorTFntlVg1aSB5wZHfTKxyMj-tf3Xtyz0CruKaL7XWn_Xo-aAWvSs5KIaL1K5CKnMm0zAu2RAiWVTwVskiXiExkheSZZHyJ4KzKC5lzJiHsw_7t7QkOaNu38SPpzMH2NLfTOjqjU__q2tzwhj_jqiFU5gwhzN05VLRgtE539FRfoC7XjCd_MqVPeqBZEsId13BOHZ0BAAA"
+  },
+  {
+   "reward": "The Tides of Time",
+   "ninja": 13.006833712984056,
+   "max_price": 8.006833712984056,
+   "total": 6,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQ3YqDMBBGX0XmWkqiMf68Q-_K3pQiwUzZATUhZltF8u6NLct2l_UuM9_JYfhWmLzyXxM0KxjryYzQgBoXCCn4xWKcPlSvTXJUFtInHNnz-h2Oxsf1lXqP7hWQjmucbU8d-cP2oRW8rjirhIjWf4FMFExmVVGyPUKwvOaZkGW2R-QiLyXPJeN7BGd1UcqCMwnhEi5vZ68wKNu-jX-Szgy2x62d1uFdOf2rrtMnJifSOCXmGh8DQghbfU5p3JFaRx2-7DM01YHx9Men6UbjUxLCA_gRxDmgAQAA",
+   "trade_value": 10.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Nightgrip",
+   "ninja": 13.006833712984056,
+   "max_price": 8.006833712984056,
+   "total": 178,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXUrSpunjH3TpRkoJTdSB2oQ0aqXk300V8YFdztwzh-FOMDjhzgNUE2jjUPdQgehv4CNwN6PCtBWd1Ku1MBA94MDuplfYaxfWe-ycss8AZVir0XTYoovng4bRsqCkYCxY_wIJywhPiiwnSwQjaUkTxvNkiUhZmnOackKXCErKLOcZJRx87euPtyc4CdN8jD9Jq0-mU3M7jVVXYeVXXRs8HN3BogHv59qskGpBZiy26mkdoSpiQqO3R-IFezVLvL8DsvZNPJgBAAA",
+   "trade_value": 0.09111617312072894,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Emperor's Cunning",
+   "ninja": 10.79726651480638,
+   "max_price": 5.797266514806379,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rEMAxFf2XQppsw2IntPLZDl912U4ZgYrUIEts4nhfB_16nQ-m0NEvpHh3EXWCOOp5m6BZwPpKz0IG2N0gFxJvHPL3q0bjdi_ZQfMGZfVu-Q-tiXr_TGDHcAzJ5jVc_0kBxvx70grcNZ40Q2fovUArJVNnImm0RglUtL4Wqyy2iElWteKUY3yI4a2WtJGcK0jEdH95eYNK-fxj_JIOb_IhrO33Aiw7mV13Pk8fgwtO8O5ysJfsBKa31BW1wQ-oDDXi3X6GT-6b40Rk6k8XVkdInmyvutp8BAAA"
+  },
+  {
+   "reward": "Soul Catcher",
+   "ninja": 10.668185269552014,
+   "max_price": 5.668185269552014,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gTJ1sP2tuuuAtkEY4Q1pQLFEoryMEb_HjkhNC31cuaeOQx3hlNU8XyCdgbno3EjtKDGCVIBcfKYp72y2m0-lYfiAWf2ML_C0cW8_jI2YngGRuc13rw1g4nb5aBntKkpqRnL1n-BknEiyppLskYwUjW0ZEKWa0TFKiloJQhdIyhpuBScEgGpS93b2zMcle_fxj_J4I7e4tJOH_Cqgv5V186d7eZDxeEbA6S0NBeUxhWfD2bAp_gGLd8KWfyotLmYERdJSncmUBTomwEAAA"
+  },
+  {
+   "reward": "The Stampede",
+   "ninja": 10.402429764616553,
+   "max_price": 5.402429764616553,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXSRpk_TxD64UNyIlNCMG2iak8UXJv5sq4gO7nLlnDsMdYfDSnwaoRjDWa9NDBbK_QUjA3yzGaStbZRYraSF5wJHdja-wNz6uD7r16J6BVnGNV9vqRvvldFAzWhaUFIxF618gZZyItOA5mSMYyUqaMpGnc0TGslzQTBA6R1BS8lxwSgSEfdh_vD1CJ239Mf4kjelsi1M7tcOLdOqrrs0RF2svO4sKIYSpOScVzvis0w0-xVeo-JIlb5PSZ90_HCHcAS0c3JSaAQAA"
+  },
+  {
+   "reward": "Replica Headhunter",
+   "ninja": 10.402429764616553,
+   "max_price": 5.402429764616553,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy27DIBBFfyWatRWBDfjxBd10k0U3VWSNzFRFcgARkiay-PdCoqhpVS9n7pkDugscI8bTEYYFnI_GWRgA7RVSBfHqKU9vOGu3eUUP1Q3O7PvyCK2Lef1h5kjhHhid13Txs5lM3JaDUfC-46wTIlv_BWohmao72bI1QrCm57VQbb1GNKJpFW8U42sEZ71sleRMQdqn_dO3FzigH5_GP8nkDn6m0s4Y6AuD_lXXjsoruHkh1J8nmw8hpdJfQE0rVh_MRHf9BQa5FdWPT5uzsVQcKX0DqEArx6ABAAA"
+  },
+  {
+   "reward": "Unnatural Instinct",
+   "ninja": 9.104024297646166,
+   "max_price": 4.104024297646166,
+   "total": 5,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXM2gTJluXHH2SRZbMJwQhLhQFFEvI0D4z-vXJDaRLq5cw9cxjuDBMp-pqgn8EHQu-gB-XukAqgezB5Oiir_WavAhQ_cGaP82_oPOX1J1oy8RGgzmtzCxZHpO1yMAjetZy1QmTrv0ApaibLtm7YGiFY1fFSyKZcIypRNZJXkvE1grOubmTNmYR0Sqent2c4qzA8jW_J6M_BmqWdIZqrivqlrg_ncoVR2c3OTYRuJEhp6S8qbVasIeJoHvob9GLLiz-fxgs6szhS-gbcHyb5oAEAAA",
+   "trade_value": 7.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Replica Farrul's Fur",
+   "ninja": 9.104024297646166,
+   "max_price": 4.104024297646166,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzWrDMBCEX8XspRcTJFuWfx4gt1x66KUEs1hbECiWkOU2wejdKzWUpqU-zs63s8tssAQM6wLDBtYFbWcYAOcbxBLCzVFSL2iULU7ooPyCE_u6fZuzDWn8pk0gfze0SmO6OqMnHQ55YRS87zjrhEip_wKVaJisuqZle4Rgdc8rIdtqj6hF3UpeS8b3CM76ppUNZxLiOZ4f3t7ggm58kH-cyV6codzO6OkDvfpV1zPlK1gc0fvVPC3FcfUQY27Qo6KdXOf1RPcDVxjEgZc_iUq_65lyRoyfDbl62qIBAAA",
+   "trade_value": 7.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Emperor's Wit",
+   "ninja": 8.06378132118451,
+   "max_price": 3.0637813211845106,
+   "total": 15,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXMJhsTJEuWH_ssu00WJRhhTWDAtoSs5oHRv1duKElKvZy5Zw7DnWEKOnxN0MxgXSA7QgN6vEPMINwdpumge2M3H9pB9gMn9nP-DUcb0vpMfUD_CMikNd5cTx2F3XLQSl5XnFVSJuu_QC4LpvKqKNkaIZmoeS5Vma8RQopScaEYXyM4q4tSFZwpiKd4enl7hkG79mX8k3R2cD0u7bQer9qbt7r2g0Nv_XbaHClAjEt1XhtcETpPHT7MN2jEjqns6TJ0oREXSYzfrHTuUZwBAAA",
+   "trade_value": 6.5,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Stormshroud",
+   "ninja": 7.805618830675779,
+   "max_price": 2.8056188306757788,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQywrCMBBFf0VmXUpeTR__4EpwI1JCEzHQNiFNtVLy76aK-MAuZ-6Zw3BnGLzw4wDVDMZ6bXqoQPQ3CAn4m1Vx2otWms1WWEgecGQP8yvsjY_rk269cs9Ay7hWk211o326HNQMlwVGBWPR-hcgLEOcFFmO1giGaIkJ4zlZIyijOceUI7xGYFRmOc8w4hCO4fjx9gydsPXH-JM0prOtWtqpnboKJ7_q2nnjuuHszCghhKU4J6Ra0VmnG_X0TlCRtMDJ2yT1RfdqkYRwB2gWix-aAQAA",
+   "trade_value": 0.3378891419893698,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Defiance of Destiny",
+   "ninja": 7.805618830675779,
+   "max_price": 2.8056188306757788,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFf8XM2gRJluXHOttssynBCGsMA44lZLVJMPr3Sg2laamXM_fMYbgbrEGH9xX6DawLZBfoQS8PiCWEh8M0nfVsbHHSDsovOLFv23e42JDWE80B_TMgk9Z4dzONFA75YJC8azlrpUzWfwEha6ZEWzdsj5Cs6riQqhF7RCWrRvFKMb5HcNbVjao5UxAv8fLy9gZX7YaX8U8y2qubMbczeLxpb37VdcSJ9DJiYafiiGugXF_MBXptcEfrPI349N-hF4eWlz9GQx-0YJbE-Am1UdMhogEAAA",
+   "trade_value": 5.5,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Cooperation",
+   "ninja": 7.805618830675779,
+   "max_price": 2.8056188306757788,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQyQrDIBRFf6W8dQhqjBm2XXfbTQlB4isIaRRrhxD895qU0oFmed89HuROcPbSX85QT2Cs12aAGuQwQkjAjxZj2stemc1OWkgWOLKH6VUOxsfzUfce3bPQKp7xbnvdaZ_OD1pOq5KSkvNo_QswnhPByrwgawQnWUUZFwVbIzKeFYJmgtA1gpIqL0ROiYDQhObj2xOcpG0_4k_TmZPtcV6ndXiTTn3NtTXGopNLCmEezkmFKzrrdIdP7x1qlpY0eZuUvuoBZ0kID3pQ_L-aAQAA"
+  },
+  {
+   "reward": "Stasis Prison",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 8,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQWwrCMBBFtyLzXSRpk_SxB0EQ_BEpoYkwUJuQxBclezdVxAf28849OYQ7gg8ynDw0Ixgb0AzQgBxuEDMIN6tT2spemcVKWsgecGJ346scTEjnA_ZBu2eBKp311fbYYVhOD1pG64qSirFk_QvkjBORV7wkcwQjRU1zJsp8jihYUQpaCELnCEpqXgpOiYC4j_uPb49wlLb9iD9NZ46219M6rdMX6dTXXJsgPfrF2qFPOcZpOieVnhFah51-mq_Q0CXP3iqFZxz05IjxDll-mcSbAQAA",
+   "trade_value": 2.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Putembo's Mountain",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQy2rDMBBFfyXMphsTJFuSH_8QyKqbEoxqqTBgS0IetwlG_165oTQt9XLmnjkMd4WZNC0zdCv4QOgddKDdDVIBdAs2T896NP5w0gGKLzizL-t36Dzl9RuOZOM9QJPX9hpGHJCO20EveNtw1giRrf8CpZBMlY2s2R4hWNXyUqi63CMqUdWKV4rxPYKzVtZKcqYgXdLl4e0VJh36h_FPMvgpjHZrp4_2Q0fzq67zQnZ69U_z4eQXRxodpLT1F7WxO9YQcbB3_RU6fpTFj8_gOzq7OVL6BFiNFPWgAQAA"
+  },
+  {
+   "reward": "Mask of the Stitched Demon",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 2,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzWrDMBCEX0Xs2QTJluSfc645FXIpwQhrQ0RtS9jbNMHo3Ss3lKalPu7Mt7PLLDCTofcZmgV8IOdHaMCMd4gZ0D1gmo6mt54dTIDsC07s6_Jtjp6SfHY94fQwnE0y3kLvOke7daGVoq4Er6RMqf8CuVRc55Uq-RYheVGLXOoy3yIKWZRaFJqLLULwWpVaCa4hnuLp6e0FBhPap_GP0_kh9Li20074YSb7q66Dmd-YPzO6IHshR90FLdvjkMwY1x4nY3EjPUyuw8eZGzRip7KfXOuubsQ1I8ZPkISa1KgBAAA",
+   "trade_value": 5.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Ephemeral Edge",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQTYvCMBCG_4rMuUjSJunH3aNXL1JKaGZ3A2kTYtRKyX83VUR32R5n3mcehneGU5DhfIJmBuuCtiM0IMcbxAzCzWGaDtIou9lLB9kDTuxxfoWjDWn9pU1A_wy0SmucnNG9DtvloGO0riipGEvWf4GccSLyipdkjWCkqGnORJmvEQUrSkELQegaQUnNS8EpERDb2H68PcMgXfcx_kl6OziDSzudx6v06lddO_eDA3ppNjv1jRDj0p2XCleMzusen-oJGrrl2dul9EWPD0eMd3lE096cAQAA",
+   "trade_value": 5.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Dying Sun",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 1,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQTYvDIBCG_0qZcyiaqPk473VPC70sIUi0ZSBVsXabEPzva1pKP2iOM-8zD8M7wynIcD5BM4N1Aa2BBqSZIGYQJqfTtJODsptv6SC7won9ne-hsSGt9zgE7W8BqrTWoxuwx7BdDjpG64qSirFk_QjkjBORV7wkawQjRU1zJsp8jShYUQpaCELXCEpqXgpOiYDYxvbp7RmO0nVP41vS26Mb9NJO5_VFevVS19eE5rD5ORuIcanNS6VXZM5jr2_WERq65dlDo_APjV4cMf4DkvqFQ5cBAAA",
+   "trade_value": 4.0,
+   "trade_listings": 10
+  },
+  {
+   "reward": "Cowl of the Cryophile",
+   "ninja": 6.503416856492028,
+   "max_price": 1.503416856492028,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQzWrDMBCEX8Xs2QTJluSfa8659lKCEdaGLCiWUNQmxujdKyeUpqU-7sy3s8sscI06flyhX8D5SG6CHvQ0Qyohzh7z9KatccVBeygfcGbfl29zcjHLJ7IRw9Mgk2W8e0sjxd26MAjetZy1QuTUf4FKSKaqVjZsixCs7nglVFNtEbWoG8VrxfgWwVknGyU5U5CO6fjy9gIX7YeX8Y8zuou3uLYzBLzpYH7VtXc3W7hTEc9Y7MPs_JksQkprhUEb3Aj2gUZ8XrhDz3ey_Ik09EnTIyOlLxcT_6WjAQAA"
+  },
+  {
+   "reward": "The Winds of Fate",
+   "ninja": 5.72285497342445,
+   "max_price": 0.7228549734244503,
+   "total": 0,
+   "url": "https://www.pathofexile.com/trade/search/Covens/H4sIAAAAAAAAA3WQQWrDMBBFr2JmbYIky5LtA3TXXUkXIRhhTajAkYSspglGd4-cEJKWejnz3zyGP8MUVfyeoJvB-WichQ6UvUAqIV485mmrRu2Kd-WhvMGZ3c2P0LqY1wczRgz3wOi8xrMfzWDiZjnoOW0bShrOs_VfgPGaCNbUkqwRnFQtZVxItkZUvJKCVoLQNYKStpaipkRA2qf9y9szHJXvX8Y_yeCOfsSlnT7gjwr6V10fX1h8Gqunwh2KNxURUlrqC0rjitQHM-DdfoaObCQrnz5tTsbeJCldAeclCd2gAQAA"
+  }
+ ],
+ "maps": [
+  {
+   "reward": "Emperor's Mastery",
+   "value": 625.0,
+   "price": 1.0,
+   "profit": 624.0,
+   "roi": 624.0,
+   "map": "Deserted Cradle",
+   "area": "Bog",
+   "atlas": "+134%",
+   "pack": "+14%",
+   "iir": "+58%",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "12%",
+    "Unique Map": "5%",
+    "Threads": "46%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Monsters Kill things with 20% or lower Life on Hit",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)"
+   ],
+   "how": "offline",
+   "seller": "Lubitel_wiwi#3984",
+   "whisper": "",
+   "indexed": "2026-11-21 11:38",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Golden Charlatan",
+   "value": 90.0,
+   "price": 1.0,
+   "profit": 89.0,
+   "roi": 89.0,
+   "map": "Spectre Direction",
+   "area": "Vaal Pyramid",
+   "atlas": "+90%",
+   "pack": "+26%",
+   "iir": "+36%",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "11%",
+    "Threads": "25%"
+   },
+   "mods": [
+    {
+     "text": "Areas contain an Ultimatum Encounter",
+     "risky": false
+    },
+    {
+     "text": "Players cannot choose which Ultimatum Modifier is applied each Round",
+     "risky": false
+    },
+    {
+     "text": "Must complete ten Ultimatum Encounter waves to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Non-Unique Equipment found in Area drops as Currency instead",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by apparitions of Sirus, Awakener of Worlds",
+     "risky": false
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Ivan123rus123#6953",
+   "whisper": "",
+   "indexed": "2026-11-24 12:47",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Crown of the Tyrant",
+   "value": 43.0,
+   "price": 5.0,
+   "profit": 38.0,
+   "roi": 7.6,
+   "map": "Forbidden Swathe",
+   "area": "Tropical Island",
+   "atlas": "+172%",
+   "pack": "+20%",
+   "iir": "",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "5%",
+    "Threads": "29%"
+   },
+   "mods": [
+    {
+     "text": "Area contains an additional [ContainsAbyss|Abyss]",
+     "risky": false
+    },
+    {
+     "text": "Abysses in Area spawn 200% increased Monsters",
+     "risky": false
+    },
+    {
+     "text": "All Abysses in Area must be completed to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Monsters from Beyond create Desecrated Ground  Beyond Bosses cannot spawn",
+     "risky": false
+    },
+    {
+     "text": "Slaying Enemies close together can attract monsters from Beyond this realm",
+     "risky": false
+    },
+    {
+     "text": "Monsters Kill things with 20% or lower Life on Hit",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Area contains a Bismuth Ore Deposit",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Kolorsk22#0888",
+   "whisper": "",
+   "indexed": "2026-11-24 14:51",
+   "price_raw": {
+    "type": "~price",
+    "amount": 5,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Ynda's Stand",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Mystic Backwater",
+   "area": "City Square",
+   "atlas": "+94%",
+   "pack": "+18%",
+   "iir": "+38%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "2%",
+    "Threads": "53%"
+   },
+   "mods": [
+    {
+     "text": "All Strongboxes in Area must be opened to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Only opens 3 Portals to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "Area contains 10 additional guarded Exquisite Vaal Vessels",
+     "risky": false
+    },
+    {
+     "text": "Area contains enemies of all influence types",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Aerosmite#4350",
+   "whisper": "",
+   "indexed": "2026-11-23 18:30",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "MotherOfTheGod#6449",
+   "whisper": "",
+   "indexed": "2026-11-25 09:57",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "x3zo#4422",
+   "whisper": "",
+   "indexed": "2026-11-24 21:25",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "roflffff#3869",
+   "whisper": "",
+   "indexed": "2026-11-23 18:26",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "roflffff#3869",
+   "whisper": "",
+   "indexed": "2026-11-23 18:22",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 1.0,
+   "profit": 18.0,
+   "roi": 18.0,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "mental#7934",
+   "whisper": "",
+   "indexed": "2026-11-24 05:37",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Soul Taker",
+   "value": 22.0,
+   "price": 5.0,
+   "profit": 17.0,
+   "roi": 3.4000000000000004,
+   "map": "Hidden Refuge",
+   "area": "Strand",
+   "atlas": "+104%",
+   "pack": "+8%",
+   "iir": "+16%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "8%",
+    "Conqueror Map": "5%",
+    "Unique Map": "3%",
+    "Threads": "6%"
+   },
+   "mods": [
+    {
+     "text": "Areas contain an Ultimatum Encounter",
+     "risky": false
+    },
+    {
+     "text": "Players cannot choose which Ultimatum Modifier is applied each Round",
+     "risky": false
+    },
+    {
+     "text": "Must complete ten Ultimatum Encounter waves to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "All Strongboxes in Area must be opened to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Formed",
+     "risky": false
+    },
+    {
+     "text": "Area contains Sirus' Deatomisation Storms",
+     "risky": false
+    },
+    {
+     "text": "Area has 3 additional random Modifiers",
+     "risky": true
+    },
+    {
+     "text": "Only opens 3 Portals to Area",
+     "risky": false
+    },
+    {
+     "text": "Area contains 10 additional guarded Exquisite Vaal Vessels",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Hidden additional random modifiers"
+   ],
+   "how": "offline",
+   "seller": "Alleviken#2084",
+   "whisper": "",
+   "indexed": "2026-11-26 07:23",
+   "price_raw": {
+    "type": "~price",
+    "amount": 5,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Ynda's Stand",
+   "value": 19.0,
+   "price": 2.0,
+   "profit": 17.0,
+   "roi": 8.5,
+   "map": "Mystic Backwater",
+   "area": "City Square",
+   "atlas": "+94%",
+   "pack": "+18%",
+   "iir": "+38%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "2%",
+    "Threads": "53%"
+   },
+   "mods": [
+    {
+     "text": "All Strongboxes in Area must be opened to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Only opens 3 Portals to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "Area contains 10 additional guarded Exquisite Vaal Vessels",
+     "risky": false
+    },
+    {
+     "text": "Area contains enemies of all influence types",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "vibrokesa#1480",
+   "whisper": "",
+   "indexed": "2026-11-20 16:54",
+   "price_raw": {
+    "type": "~price",
+    "amount": 2,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 2.0,
+   "profit": 17.0,
+   "roi": 8.5,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Ivan123rus123#6953",
+   "whisper": "",
+   "indexed": "2026-11-24 12:20",
+   "price_raw": {
+    "type": "~price",
+    "amount": 2,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 2.0,
+   "profit": 17.0,
+   "roi": 8.5,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "9I6lLoKo#6597",
+   "whisper": "",
+   "indexed": "2026-11-26 10:44",
+   "price_raw": {
+    "type": "~price",
+    "amount": 2,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 3.0,
+   "profit": 16.0,
+   "roi": 5.333333333333333,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Deoroon#3601",
+   "whisper": "",
+   "indexed": "2026-11-17 15:22",
+   "price_raw": {
+    "type": "~price",
+    "amount": 3,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Bottled Faith",
+   "value": 16.0,
+   "price": 1.0,
+   "profit": 15.0,
+   "roi": 15.0,
+   "map": "Pain Cavern",
+   "area": "Mesa",
+   "atlas": "+80%",
+   "pack": "+38%",
+   "iir": "+30%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Elder Map": "7%",
+    "Conqueror Map": "18%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players gain Instability on Kill Unstable Players eventually detonate",
+     "risky": false
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)",
+    "10% less damage per equipped item"
+   ],
+   "how": "online",
+   "seller": "dlrkqqn#6733",
+   "whisper": "@Con_Jops \uc548\ub155\ud558\uc138\uc694, 1 divine(\uc73c)\ub85c \uc62c\ub824\ub193\uc740 Covens \ub9ac\uadf8\uc758 \uace0\ud1b5\uc758 \uc554\uad74 \ubc1c\ub3c4 \uc9c0\ub3c4(T17)(\uc744)\ub97c \uad6c\ub9e4\ud558\uace0 \uc2f6\uc2b5\ub2c8\ub2e4 (\ubcf4\uad00\ud568 \ud0ed \"~price 1 divine\", \uc704\uce58: \uc67c\ucabd 19, \uc0c1\ub2e8 3)",
+   "indexed": "2026-11-24 14:07",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Ynda's Stand",
+   "value": 19.0,
+   "price": 5.0,
+   "profit": 14.0,
+   "roi": 2.8,
+   "map": "Mystic Backwater",
+   "area": "City Square",
+   "atlas": "+94%",
+   "pack": "+18%",
+   "iir": "+38%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "2%",
+    "Threads": "53%"
+   },
+   "mods": [
+    {
+     "text": "All Strongboxes in Area must be opened to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Only opens 3 Portals to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "Area contains 10 additional guarded Exquisite Vaal Vessels",
+     "risky": false
+    },
+    {
+     "text": "Area contains enemies of all influence types",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "Mamon228#5094",
+   "whisper": "",
+   "indexed": "2026-11-22 08:50",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 5,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Uul-Netol's Vow",
+   "value": 15.0,
+   "price": 1.0,
+   "profit": 14.0,
+   "roi": 14.0,
+   "map": "Agony Sludge",
+   "area": "Racecourse",
+   "atlas": "+74%",
+   "pack": "+19%",
+   "iir": "+16%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "3%",
+    "Threads": "25%"
+   },
+   "mods": [
+    {
+     "text": "Areas contain an Ultimatum Encounter",
+     "risky": false
+    },
+    {
+     "text": "Players cannot choose which Ultimatum Modifier is applied each Round",
+     "risky": false
+    },
+    {
+     "text": "Must complete ten Ultimatum Encounter waves to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Areas contain Ritual Altars",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Recover Life or Energy Shield above 50% during Rituals in Area",
+     "risky": false
+    },
+    {
+     "text": "Must fully complete all Ritual Encounters in Area to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Monsters have +6 to Maximum Frenzy Charges",
+     "risky": false
+    },
+    {
+     "text": "Monsters gain a Frenzy Charge on Hit",
+     "risky": false
+    },
+    {
+     "text": "All Strongboxes in Area must be opened to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "Area contains 10 additional guarded Exquisite Vaal Vessels",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "x3zo#4422",
+   "whisper": "",
+   "indexed": "2026-11-23 23:13",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Uul-Netol's Vow",
+   "value": 15.0,
+   "price": 2.0,
+   "profit": 13.0,
+   "roi": 6.5,
+   "map": "Plunging Hideaway",
+   "area": "Beach",
+   "atlas": "+68%",
+   "pack": "+23%",
+   "iir": "+54%",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "4%",
+    "Threads": "12%"
+   },
+   "mods": [
+    {
+     "text": "All Unstable Breaches must be Stabilised and Closed to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Unstable Breaches in Area contain a Boss",
+     "risky": false
+    },
+    {
+     "text": "Monsters from Beyond create Desecrated Ground  Beyond Bosses cannot spawn",
+     "risky": false
+    },
+    {
+     "text": "Slaying Enemies close together can attract monsters from Beyond this realm",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Character Size",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by apparitions of Sirus, Awakener of Worlds",
+     "risky": false
+    },
+    {
+     "text": "Area contains 3 additional unstable Breaches",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Remembered",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Suppress Spell Damage",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "online",
+   "seller": "POEGuy007#2677",
+   "whisper": "@POEGUY_Ultimatum Hi, I would like to buy your Plunging Hideaway Valdo Map (T17) listed for 2 divine in Covens (stash tab \"~price 2 divine\"; position: left 12, top 5)",
+   "indexed": "2026-11-26 01:33",
+   "price_raw": {
+    "type": "~price",
+    "amount": 2,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Oriath's End",
+   "value": 12.0,
+   "price": 1.0,
+   "profit": 11.0,
+   "roi": 11.0,
+   "map": "Cruel Corridors",
+   "area": "Burial Chambers",
+   "atlas": "+126%",
+   "pack": "+25%",
+   "iir": "+26%",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "17%",
+    "Threads": "28%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of Sirus, Awakener of Worlds",
+     "risky": false
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Elderslayers",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Suppress Spell Damage",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "online",
+   "seller": "WhiteMaskVarre#4287",
+   "whisper": "@Stenya Hi, I would like to buy your Cruel Corridors Valdo Map (T17) listed for 1 divine in Covens (stash tab \"~price 1 divine\"; position: left 5, top 4)",
+   "indexed": "2026-11-24 15:35",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Oriath's End",
+   "value": 12.0,
+   "price": 1.0,
+   "profit": 11.0,
+   "roi": 11.0,
+   "map": "Destitute Rubble",
+   "area": "City Square",
+   "atlas": "+122%",
+   "pack": "",
+   "iir": "+78%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "3%",
+    "Conqueror Map": "15%",
+    "Unique Map": "5%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by apparitions of Sirus, Awakener of Worlds",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Elderslayers",
+     "risky": false
+    },
+    {
+     "text": "Area contains Sirus' Deatomisation Storms",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "Unique Monsters have 2 random Shrine Buffs",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "online",
+   "seller": "Antohaloh111#6259",
+   "whisper": "@hayzik Hi, I would like to buy your Destitute Rubble Valdo Map (T17) listed for 1 divine in Covens (stash tab \"~price 1 divine\"; position: left 8, top 10)",
+   "indexed": "2026-11-25 12:41",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Oriath's End",
+   "value": 12.0,
+   "price": 1.0,
+   "profit": 11.0,
+   "roi": 11.0,
+   "map": "Shabby Crate",
+   "area": "Academy",
+   "atlas": "+106%",
+   "pack": "+30%",
+   "iir": "+28%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "2%",
+    "Conqueror Map": "7%",
+    "Unique Map": "5%",
+    "Threads": "25%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 3 additional packs of four Map Bosses",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Kitava's Heralds",
+     "risky": false
+    },
+    {
+     "text": "Area contains many Detonation Totems",
+     "risky": false
+    },
+    {
+     "text": "Players gain Instability on Kill Unstable Players eventually detonate",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "kirashiro1#3788",
+   "whisper": "",
+   "indexed": "2026-11-25 13:03",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Might",
+   "value": 55.0,
+   "price": 45.0,
+   "profit": 10.0,
+   "roi": 0.22222222222222232,
+   "map": "Whispering Climb",
+   "area": "Canyon",
+   "atlas": "+134%",
+   "pack": "+35%",
+   "iir": "",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Threads": "56%"
+   },
+   "mods": [
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "The Maven interferes with Players",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "sadR4V3N#5935",
+   "whisper": "@NozhVOchke Hi, I would like to buy your Whispering Climb Valdo Map (T17) listed for 45 divine in Covens (stash tab \"15\"; position: left 3, top 4)",
+   "indexed": "2026-11-26 11:54",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 45,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Might",
+   "value": 55.0,
+   "price": 45.0,
+   "profit": 10.0,
+   "roi": 0.22222222222222232,
+   "map": "Whispering Climb",
+   "area": "Canyon",
+   "atlas": "+134%",
+   "pack": "+35%",
+   "iir": "",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Threads": "56%"
+   },
+   "mods": [
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "The Maven interferes with Players",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "Healmywounds#7112",
+   "whisper": "@HMW_Umbrella Hi, I would like to buy your Whispering Climb Valdo Map (T17) listed for 45 divine in Covens (stash tab \"14\"; position: left 1, top 10)",
+   "indexed": "2026-11-26 12:02",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 45,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 1.0,
+   "profit": 9.0,
+   "roi": 9.0,
+   "map": "Brutal Refuge",
+   "area": "Laboratory",
+   "atlas": "+112%",
+   "pack": "+6%",
+   "iir": "+20%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "9%",
+    "Elder Map": "5%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of The Shaper",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Formed",
+     "risky": false
+    },
+    {
+     "text": "Monsters Enrage on Low Life",
+     "risky": false
+    },
+    {
+     "text": "Players in Area are driven mad",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "AL0O0LY#0409",
+   "whisper": "",
+   "indexed": "2026-11-24 15:28",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 1.0,
+   "profit": 9.0,
+   "roi": 9.0,
+   "map": "Dire Gulf",
+   "area": "Beach",
+   "atlas": "+124%",
+   "pack": "+23%",
+   "iir": "+18%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "3%",
+    "Unique Map": "3%",
+    "Threads": "27%"
+   },
+   "mods": [
+    {
+     "text": "Monsters from Beyond create Desecrated Ground  Beyond Bosses cannot spawn",
+     "risky": false
+    },
+    {
+     "text": "Slaying Enemies close together can attract monsters from Beyond this realm",
+     "risky": false
+    },
+    {
+     "text": "Area contains 1 additional pack of four Map Bosses",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Monsters inflict Malediction on hit",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    },
+    {
+     "text": "The Maven interferes with Players",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "petroc9n#7534",
+   "whisper": "",
+   "indexed": "2026-11-24 16:38",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 1.0,
+   "profit": 9.0,
+   "roi": 9.0,
+   "map": "Eroding Panorama",
+   "area": "Strand",
+   "atlas": "+88%",
+   "pack": "+22%",
+   "iir": "+12%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "4%",
+    "Threads": "22%"
+   },
+   "mods": [
+    {
+     "text": "Area contains an additional [ContainsAbyss|Abyss]",
+     "risky": false
+    },
+    {
+     "text": "Abysses in Area spawn 200% increased Monsters",
+     "risky": false
+    },
+    {
+     "text": "All Abysses in Area must be completed to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Players have 100% increased Character Size",
+     "risky": false
+    },
+    {
+     "text": "Monsters inflict 1 Grasping Vine on Hit",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "When Hit, Players gain a random Movement Speed modifier from 50% less to 50% more, until Hit again",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "SenpaisBaby#7559",
+   "whisper": "",
+   "indexed": "2026-11-20 18:04",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 1.0,
+   "profit": 9.0,
+   "roi": 9.0,
+   "map": "Remote Territory",
+   "area": "Shipyard",
+   "atlas": "+84%",
+   "pack": "+34%",
+   "iir": "+20%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "9%",
+    "Threads": "28%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of The Shaper",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Remembered",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Porcupines",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "BaTiskafbl4#4065",
+   "whisper": "",
+   "indexed": "2026-11-26 07:34",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 1.0,
+   "profit": 9.0,
+   "roi": 9.0,
+   "map": "Remote Territory",
+   "area": "Shipyard",
+   "atlas": "+84%",
+   "pack": "+34%",
+   "iir": "+20%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "9%",
+    "Threads": "28%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of The Shaper",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Remembered",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Porcupines",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "online",
+   "seller": "lllNewlll#2843",
+   "whisper": "@WhereIsMiMirrors \u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435, \u0445\u043e\u0447\u0443 \u043a\u0443\u043f\u0438\u0442\u044c \u0443 \u0432\u0430\u0441 \u041e\u0442\u0448\u0435\u043b\u044c\u043d\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u044f \u041a\u0430\u0440\u0442\u0430 \u0412\u0430\u043b\u0434\u043e (T17) \u0437\u0430 1 divine \u0432 \u043b\u0438\u0433\u0435 Covens (\u0441\u0435\u043a\u0446\u0438\u044f \"~price 1 divine\"; \u043f\u043e\u0437\u0438\u0446\u0438\u044f: 2 \u0441\u0442\u043e\u043b\u0431\u0435\u0446, 24 \u0440\u044f\u0434)",
+   "indexed": "2026-11-21 00:51",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Fortress Covenant",
+   "value": 19.0,
+   "price": 11.0,
+   "profit": 8.0,
+   "roi": 0.7272727272727273,
+   "map": "Unstable Pit",
+   "area": "Graveyard",
+   "atlas": "+30%",
+   "pack": "+35%",
+   "iir": "+68%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Unique Map": "8%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Area contains additional packs of Restless Dead",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "to_five#6774",
+   "whisper": "",
+   "indexed": "2026-11-19 16:15",
+   "price_raw": {
+    "type": "~price",
+    "amount": 11,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Bottled Faith",
+   "value": 16.0,
+   "price": 8.0,
+   "profit": 8.0,
+   "roi": 1.0,
+   "map": "Pain Cavern",
+   "area": "Mesa",
+   "atlas": "+80%",
+   "pack": "+38%",
+   "iir": "+30%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Elder Map": "7%",
+    "Conqueror Map": "18%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players gain Instability on Kill Unstable Players eventually detonate",
+     "risky": false
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)",
+    "10% less damage per equipped item"
+   ],
+   "how": "offline",
+   "seller": "Equire#7704",
+   "whisper": "",
+   "indexed": "2026-11-26 07:01",
+   "price_raw": {
+    "type": "~price",
+    "amount": 8,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "The Tides of Time",
+   "value": 10.0,
+   "price": 2.0,
+   "profit": 8.0,
+   "roi": 4.0,
+   "map": "Remote Territory",
+   "area": "Shipyard",
+   "atlas": "+84%",
+   "pack": "+34%",
+   "iir": "+20%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "9%",
+    "Threads": "28%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of The Shaper",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Remembered",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Porcupines",
+     "risky": false
+    },
+    {
+     "text": "Players cannot gain Flask Charges",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "AL0O0LY#0409",
+   "whisper": "",
+   "indexed": "2026-11-24 15:37",
+   "price_raw": {
+    "type": "~price",
+    "amount": 2,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Kalandra's Touch",
+   "value": 15.0,
+   "price": 8.0,
+   "profit": 7.0,
+   "roi": 0.875,
+   "map": "Whispering Abode",
+   "area": "Basilica",
+   "atlas": "+108%",
+   "pack": "+48%",
+   "iir": "",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Conqueror Map": "7%",
+    "Threads": "35%"
+   },
+   "mods": [
+    {
+     "text": "Area contains a Blight Encounter",
+     "risky": false
+    },
+    {
+     "text": "Durability of Ichor Pumps in Area is 1",
+     "risky": false
+    },
+    {
+     "text": "Must successfully defend all Ichor Pumps in Area to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players gain Instability on Kill Unstable Players eventually detonate",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    },
+    {
+     "text": "Players in Area are 100% Delirious",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "Rezzeri#5811",
+   "whisper": "",
+   "indexed": "2026-11-26 10:28",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 8,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Unnatural Instinct",
+   "value": 7.0,
+   "price": 1.0,
+   "profit": 6.0,
+   "roi": 6.0,
+   "map": "Sacred Choice",
+   "area": "Mesa",
+   "atlas": "+72%",
+   "pack": "+44%",
+   "iir": "+20%",
+   "iiq": "",
+   "conv": {
+    "Elder Map": "3%",
+    "Conqueror Map": "3%",
+    "Unique Map": "4%",
+    "Threads": "22%"
+   },
+   "mods": [
+    {
+     "text": "Monsters have +6 to Maximum Endurance Charges",
+     "risky": false
+    },
+    {
+     "text": "Monsters gain an Endurance Charge on Hit",
+     "risky": false
+    },
+    {
+     "text": "Monsters have +6 to Maximum Power Charges",
+     "risky": false
+    },
+    {
+     "text": "Monsters gain a Power Charge on Hit",
+     "risky": false
+    },
+    {
+     "text": "Monsters from Beyond create Desecrated Ground  Beyond Bosses cannot spawn",
+     "risky": false
+    },
+    {
+     "text": "Slaying Enemies close together can attract monsters from Beyond this realm",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Evade",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "arabozuk#5756",
+   "whisper": "",
+   "indexed": "2026-11-24 19:46",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Unnatural Instinct",
+   "value": 7.0,
+   "price": 1.0,
+   "profit": 6.0,
+   "roi": 6.0,
+   "map": "Hate View",
+   "area": "Dunes",
+   "atlas": "+84%",
+   "pack": "+20%",
+   "iir": "+14%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "10%",
+    "Elder Map": "4%",
+    "Conqueror Map": "4%",
+    "Unique Map": "4%",
+    "Threads": "11%"
+   },
+   "mods": [
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Area contains 3 additional packs of four Map Bosses",
+     "risky": false
+    },
+    {
+     "text": "Area has 4 additional random Modifiers",
+     "risky": true
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Players in Area are 100% Delirious",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Hidden additional random modifiers",
+    "10% less damage per equipped item"
+   ],
+   "how": "online",
+   "seller": "Dread#6418",
+   "whisper": "@zleyfer_SynShlyhiZeroIq Hi, I would like to buy your Hate View Valdo Map (T17) listed for 1 divine in Covens (stash tab \"~b/o 1 divine\"; position: left 16, top 20)",
+   "indexed": "2026-11-21 08:44",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Unnatural Instinct",
+   "value": 7.0,
+   "price": 1.0,
+   "profit": 6.0,
+   "roi": 6.0,
+   "map": "Profane Spires",
+   "area": "Cold River",
+   "atlas": "+62%",
+   "pack": "+8%",
+   "iir": "+64%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Conqueror Map": "3%",
+    "Unique Map": "4%",
+    "Threads": "16%"
+   },
+   "mods": [
+    {
+     "text": "Players are assaulted by apparitions of Veritania, the Redeemer",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Evade",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Portals to Area close over time",
+     "risky": false
+    },
+    {
+     "text": "Only opens 3 Portals to Area",
+     "risky": false
+    },
+    {
+     "text": "Area becomes increasingly lethal",
+     "risky": true
+    }
+   ],
+   "risky": [
+    "Area becomes increasingly lethal"
+   ],
+   "how": "online",
+   "seller": "Dread#6418",
+   "whisper": "@zleyfer_SynShlyhiZeroIq Hi, I would like to buy your Profane Spires Valdo Map (T17) listed for 1 divine in Covens (stash tab \"~b/o 1 divine\"; position: left 20, top 17)",
+   "indexed": "2026-11-21 16:42",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Replica Farrul's Fur",
+   "value": 7.0,
+   "price": 1.0,
+   "profit": 6.0,
+   "roi": 6.0,
+   "map": "Terror Alcove",
+   "area": "Silo",
+   "atlas": "+68%",
+   "pack": "+44%",
+   "iir": "+42%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Unique Map": "5%",
+    "Threads": "26%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Kitava's Heralds",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "BohdanBogdan123#7491",
+   "whisper": "",
+   "indexed": "2026-11-25 04:16",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Replica Farrul's Fur",
+   "value": 7.0,
+   "price": 1.0,
+   "profit": 6.0,
+   "roi": 6.0,
+   "map": "Terror Alcove",
+   "area": "Silo",
+   "atlas": "+68%",
+   "pack": "+44%",
+   "iir": "+42%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Unique Map": "5%",
+    "Threads": "26%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Area is inhabited by Kitava's Heralds",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have 20% chance to spawn a Duplicate of Map Boss on Death",
+     "risky": false
+    },
+    {
+     "text": "Maximum number of Players in Area is one",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "AL0O0LY#0409",
+   "whisper": "",
+   "indexed": "2026-11-26 08:35",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Wit",
+   "value": 6.5,
+   "price": 1.0,
+   "profit": 5.5,
+   "roi": 5.5,
+   "map": "Forlorn Quarters",
+   "area": "City Square",
+   "atlas": "+50%",
+   "pack": "+28%",
+   "iir": "+58%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Elder Map": "7%",
+    "Conqueror Map": "11%",
+    "Unique Map": "5%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)",
+    "10% less damage per equipped item"
+   ],
+   "how": "merchant",
+   "seller": "chanto#3140",
+   "whisper": "",
+   "indexed": "2026-11-26 07:01",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Wit",
+   "value": 6.5,
+   "price": 1.0,
+   "profit": 5.5,
+   "roi": 5.5,
+   "map": "Forlorn Quarters",
+   "area": "City Square",
+   "atlas": "+50%",
+   "pack": "+28%",
+   "iir": "+58%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Elder Map": "7%",
+    "Conqueror Map": "11%",
+    "Unique Map": "5%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)",
+    "10% less damage per equipped item"
+   ],
+   "how": "merchant",
+   "seller": "Drex99#7259",
+   "whisper": "",
+   "indexed": "2026-11-26 02:48",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Wit",
+   "value": 6.5,
+   "price": 1.0,
+   "profit": 5.5,
+   "roi": 5.5,
+   "map": "Morbid Mass",
+   "area": "Plaza",
+   "atlas": "+114%",
+   "pack": "+33%",
+   "iir": "+36%",
+   "iiq": "",
+   "conv": {
+    "Conqueror Map": "7%",
+    "Threads": "42%"
+   },
+   "mods": [
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Suppress Spell Damage",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters each have 3 additional Modifiers",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "offline",
+   "seller": "AL0O0LY#0409",
+   "whisper": "",
+   "indexed": "2026-11-25 23:55",
+   "price_raw": {
+    "type": "~price",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Emperor's Wit",
+   "value": 6.5,
+   "price": 1.0,
+   "profit": 5.5,
+   "roi": 5.5,
+   "map": "Forlorn Quarters",
+   "area": "City Square",
+   "atlas": "+50%",
+   "pack": "+28%",
+   "iir": "+58%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "4%",
+    "Elder Map": "7%",
+    "Conqueror Map": "11%",
+    "Unique Map": "5%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Players are assaulted by many dangerous Apparitions",
+     "risky": true
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Players deal 10% less Damage per Equipped Item",
+     "risky": true
+    },
+    {
+     "text": "Players' Minions deal 10% less Damage per Item Equipped by their Master",
+     "risky": false
+    },
+    {
+     "text": "All Magic and Normal Monsters in Area are in a Union of Souls",
+     "risky": false
+    }
+   ],
+   "risky": [
+    "Many dangerous Apparitions (22k phys max hit)",
+    "10% less damage per equipped item"
+   ],
+   "how": "merchant",
+   "seller": "tiavn4946#1306",
+   "whisper": "",
+   "indexed": "2026-11-25 23:27",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 1,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Uul-Netol's Vow",
+   "value": 15.0,
+   "price": 10.0,
+   "profit": 5.0,
+   "roi": 0.5,
+   "map": "Death Haven",
+   "area": "Plaza",
+   "atlas": "+92%",
+   "pack": "+45%",
+   "iir": "+14%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Elder Map": "6%",
+    "Conqueror Map": "7%",
+    "Threads": "7%"
+   },
+   "mods": [
+    {
+     "text": "Areas contain an Ultimatum Encounter",
+     "risky": false
+    },
+    {
+     "text": "Players cannot choose which Ultimatum Modifier is applied each Round",
+     "risky": false
+    },
+    {
+     "text": "Must complete ten Ultimatum Encounter waves to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Twisted",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Suppress Spell Damage",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "John_Rambo_XD#1251",
+   "whisper": "",
+   "indexed": "2026-11-24 19:01",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 10,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Uul-Netol's Vow",
+   "value": 15.0,
+   "price": 10.0,
+   "profit": 5.0,
+   "roi": 0.5,
+   "map": "Death Haven",
+   "area": "Plaza",
+   "atlas": "+92%",
+   "pack": "+45%",
+   "iir": "+14%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Elder Map": "6%",
+    "Conqueror Map": "7%",
+    "Threads": "7%"
+   },
+   "mods": [
+    {
+     "text": "Areas contain an Ultimatum Encounter",
+     "risky": false
+    },
+    {
+     "text": "Players cannot choose which Ultimatum Modifier is applied each Round",
+     "risky": false
+    },
+    {
+     "text": "Must complete ten Ultimatum Encounter waves to claim Reward",
+     "risky": false
+    },
+    {
+     "text": "Monsters fire 6 additional Projectiles",
+     "risky": false
+    },
+    {
+     "text": "Monsters can only be Damaged while within 2 metres of a Player Players' modifiers to Light Radius also apply to this range",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Twisted",
+     "risky": false
+    },
+    {
+     "text": "Players cannot Suppress Spell Damage",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "kingor86#0033",
+   "whisper": "",
+   "indexed": "2026-11-25 15:11",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 10,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  },
+  {
+   "reward": "Kalandra's Touch",
+   "value": 15.0,
+   "price": 10.0,
+   "profit": 5.0,
+   "roi": 0.5,
+   "map": "Graven Morass",
+   "area": "Cells",
+   "atlas": "+112%",
+   "pack": "+12%",
+   "iir": "+46%",
+   "iiq": "",
+   "conv": {
+    "Shaper Map": "6%",
+    "Unique Map": "8%",
+    "Threads": "30%"
+   },
+   "mods": [
+    {
+     "text": "Rare and Unique Monsters in Area are Possessed by 3 to 4 Tormented Spirits and their Minions are Touched",
+     "risky": false
+    },
+    {
+     "text": "Area contains The Feared",
+     "risky": false
+    },
+    {
+     "text": "Area contains 5 additional Rare Monsters that create Frost Walls and Flee",
+     "risky": false
+    },
+    {
+     "text": "Players have 50% reduced Movement Speed",
+     "risky": false
+    },
+    {
+     "text": "Players' Travel Skills are Disabled",
+     "risky": false
+    },
+    {
+     "text": "Only opens 1 Portal to Area",
+     "risky": false
+    },
+    {
+     "text": "Rare Monsters have Essence effects",
+     "risky": false
+    }
+   ],
+   "risky": [],
+   "how": "merchant",
+   "seller": "John_Rambo_XD#1251",
+   "whisper": "",
+   "indexed": "2026-11-26 08:58",
+   "price_raw": {
+    "type": "~b/o",
+    "amount": 10,
+    "currency": "divine"
+   },
+   "low_confidence": false
+  }
+ ]
+}

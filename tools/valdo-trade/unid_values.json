@@ -1,0 +1,267 @@
+{
+ "Watcher's Eye": {
+  "value": 2.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Forbidden Flame": {
+  "value": 19.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Forbidden Flesh": {
+  "value": 13.710273466371026,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Megalomaniac": {
+  "value": 0.036954915003695486,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Voices": {
+  "value": 12.564671101256467,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Grand Spectrum": {
+  "value": 0.055432372505543226,
+  "listings": 10,
+  "mode": "id"
+ },
+ "Split Personality": {
+  "value": 0.007390983000739097,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Impossible Escape": {
+  "value": 2.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Thread of Hope": {
+  "value": 0.07390983000739097,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Lethal Pride": {
+  "value": 2.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Glorious Vanity": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Brutal Restraint": {
+  "value": 1.5,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Militant Faith": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Elegant Hubris": {
+  "value": 2.956393200295639,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Sublime Vision": {
+  "value": 122.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Unnatural Instinct": {
+  "value": 7.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Inspired Learning": {
+  "value": 0.2956393200295639,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "That Which Was Taken": {
+  "value": null,
+  "listings": 0,
+  "mode": "unid"
+ },
+ "Bound Fate": {
+  "value": 0.03325942350332594,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Combat Focus": {
+  "value": 0.21433850702143384,
+  "listings": 7,
+  "mode": "id"
+ },
+ "Intuitive Leap": {
+  "value": 0.08499630450849963,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Apex Mode": {
+  "value": 3.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Nadir Mode": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Superior Mode": {
+  "value": null,
+  "listings": 0,
+  "mode": "unid"
+ },
+ "The Light of Meaning": {
+  "value": 3.584626755358462,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Sudden Ignition": {
+  "value": null,
+  "listings": 0,
+  "mode": "unid"
+ },
+ "Calamitous Visions": {
+  "value": 0.07760532150776053,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Natural Affinity": {
+  "value": 1.2021433850702143,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Dissolution of the Flesh": {
+  "value": 1.3488543976348852,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Melding of the Flesh": {
+  "value": 3.5,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Transcendent Flesh": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "id"
+ },
+ "Transcendent Mind": {
+  "value": 0.5543237250554324,
+  "listings": 10,
+  "mode": "id"
+ },
+ "Transcendent Spirit": {
+  "value": 10.0,
+  "listings": 10,
+  "mode": "id"
+ },
+ "Amanamu's Gaze": {
+  "value": 1.293422025129342,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Tecrod's Gaze": {
+  "value": 0.2956393200295639,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Ulaman's Gaze": {
+  "value": 0.036954915003695486,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Kurgal's Gaze": {
+  "value": 0.11825572801182557,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "One With Nothing": {
+  "value": 0.7390983000739098,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Cooperation": {
+  "value": 8.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Ambition": {
+  "value": 0.9804138950480413,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Curiosity": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "Heroic Tragedy": {
+  "value": 299.0,
+  "listings": 3,
+  "mode": "unid"
+ },
+ "Kitava's Teachings": {
+  "value": 0.07760532150776053,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Front Line": {
+  "value": 0.05543237250554323,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Interrogation": {
+  "value": 0.38433111603843306,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Siege": {
+  "value": 0.044345898004434586,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Tempest Rising": {
+  "value": 0.036954915003695486,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Red Nightmare": {
+  "value": 2.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Green Nightmare": {
+  "value": 0.3695491500369549,
+  "listings": 7,
+  "mode": "unid"
+ },
+ "The Blue Nightmare": {
+  "value": 3.0,
+  "listings": 7,
+  "mode": "unid"
+ },
+ "The Red Dream": {
+  "value": 1.0,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Green Dream": {
+  "value": 0.1293422025129342,
+  "listings": 10,
+  "mode": "unid"
+ },
+ "The Blue Dream": {
+  "value": 0.2956393200295639,
+  "listings": 10,
+  "mode": "unid"
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "league": "Covens",
+  "max_price_div": null,
+  "min_roi": 0.20,
+  "min_profit_div": 5,
+  "min_reward_value_div": 5.5,
+  "listing_status": "any",
+  "maps_per_reward": 20,
+
+  "exclude_mods": {
+    "stat.explicit.stat_1095765106": "Players who Die in area are sent to the Void",
+    "stat.explicit.stat_419810844":  "Players cannot Block",
+    "stat.explicit.stat_2450628570": "Players have 100% reduced effect of Non-Curse Auras from Skills",
+    "stat.explicit.stat_4039124672": "Players have 10% increased Cost of Skills for each Skill they've used Recently",
+    "stat.explicit.stat_3437613601": "Monsters inflict Petrification on hit",
+    "stat.explicit.stat_802316710":  "Players deal 10% less Damage per Equipped Item",
+    "stat.explicit.stat_1158433054": "Durability of Ichor Pumps in Area is 1"
+  },
+
+  "risky_mods": {
+    "stat.explicit.stat_2283806768": "Many dangerous Apparitions (22k phys max hit)",
+    "stat.explicit.stat_2573185638": "Einhar, Exilehunter (big phys projectiles)",
+    "stat.explicit.stat_588512487":  "Hidden additional random modifiers",
+    "stat.explicit.stat_660313500":  "Area becomes fatal after 5 min",
+    "stat.explicit.stat_2265281226": "Area becomes increasingly lethal"
+  },
+
+  "better_trading": {
+    "folder_title": "Valdo deals",
+    "status": "securable",
+    "min_max_price_div": 1,
+    "verify_rewards_min_ninja_div": 8
+  },
+
+  "reward_value_overrides_div": {}
+}
