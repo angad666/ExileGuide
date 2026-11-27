@@ -114,6 +114,28 @@ def main():
         entries.append((title, build_query(name, mx)))
         rows.append((title, mx, v, cnt))
 
+    # drop rewards where no Valdo map without the excluded mods is listed at all (any price, any status)
+    cnt_f = os.path.join(HERE, "map_counts.json")
+    try:
+        fresh = time.time() - os.path.getmtime(cnt_f) < 24 * 3600 and "--refresh" not in sys.argv
+        counts = json.load(open(cnt_f, encoding="utf-8")) if fresh else {}
+    except FileNotFoundError:
+        counts = {}
+    kept, kept_rows = entries[:1], []
+    for (title, q), row in zip(entries[1:], rows):
+        name = q["filters"]["map_filters"]["filters"]["map_completion_reward"]["option"]
+        if name not in counts:
+            eq = {k: v for k, v in q.items() if k != "filters"}
+            eq["status"] = {"option": "any"}
+            eq["filters"] = {"map_filters": q["filters"]["map_filters"]}
+            counts[name] = vs.trade_search({"query": eq, "sort": {"price": "asc"}}).get("total", 0)
+            json.dump(counts, open(cnt_f, "w", encoding="utf-8"), indent=1)
+        if counts[name]:
+            kept.append((title, q)); kept_rows.append(row + (counts[name],))
+        else:
+            print(f"  dropped {name}: no safe-mod Valdo map listed")
+    entries, rows = kept, kept_rows
+
     s = bt_string(BT["folder_title"], entries)
     out = os.path.join(HERE, "better_trading_valdo.txt")
     open(out, "w", encoding="utf-8").write(s)
@@ -121,9 +143,9 @@ def main():
         fh.write(f"# Better Trading folder: {BT['folder_title']} ({CFG['league']})\n\n")
         fh.write(f"Rules: price cap {CFG.get('max_price_div') or 'none'}, ROI >= {roi*100:.0f}%, profit >= {minp} div, status {BT['status']}.\n")
         fh.write("Excluded mods: " + "; ".join(CFG["exclude_mods"].values()) + "\n\n")
-        fh.write("| Bookmark | Max price | Reward value | Value listings |\n|---|---|---|---|\n")
-        for t, mx, v, cnt in rows:
-            fh.write(f"| {t} | {mx:g} | {v:.1f} | {cnt} |\n")
+        fh.write("| Bookmark | Max price | Reward value | Value listings | Safe maps listed |\n|---|---|---|---|---|\n")
+        for t, mx, v, cnt, maps in rows:
+            fh.write(f"| {t} | {mx:g} | {v:.1f} | {cnt} | {maps} |\n")
     print(f"{len(entries)} bookmarks -> {out}")
 
 

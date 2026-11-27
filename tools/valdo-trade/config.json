@@ -1,7 +1,7 @@
 {
   "league": "Covens",
   "max_price_div": null,
-  "min_roi": 0.20,
+  "min_roi": 0.10,
   "min_profit_div": 5,
   "min_reward_value_div": 5.5,
   "listing_status": "any",
