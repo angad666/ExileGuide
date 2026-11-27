@@ -7,32 +7,32 @@
   205.0,
   10
  ],
- "Heroic Tragedy": [
-  230.0,
-  10
- ],
  "Stranglegasp": [
   204.5,
-  10
- ],
- "Progenesis": [
-  151.5,
-  10
- ],
- "Replica Alberon's Warpath": [
-  147.0,
   10
  ],
  "Reclaimed Malevolence": [
   129.0,
   10
  ],
+ "Replica Alberon's Warpath": [
+  147.0,
+  10
+ ],
+ "Progenesis": [
+  151.5,
+  10
+ ],
+ "Heroic Tragedy": [
+  230.0,
+  10
+ ],
  "Emperor's Mastery": [
   111.0,
   10
  ],
- "Festering Vengeance": [
-  90.5,
+ "The Golden Charlatan": [
+  80.0,
   10
  ],
  "Wine of the Prophet": [
@@ -43,60 +43,48 @@
   254.5,
   10
  ],
- "The Golden Charlatan": [
-  80.0,
-  10
- ],
- "Emperor's Might": [
-  70.0,
+ "Festering Vengeance": [
+  90.5,
   10
  ],
  "Uzaza's Valley": [
   70.5,
   10
  ],
- "Replica Covenant": [
-  4.5,
+ "Emperor's Might": [
+  70.0,
   10
  ],
  "Crown of the Tyrant": [
   45.0,
   10
  ],
- "Unholy Accomplice": [
-  25.0,
-  10
- ],
  "Lost Unity": [
   28.0,
+  10
+ ],
+ "Unholy Accomplice": [
+  25.0,
   10
  ],
  "The Sundered Will": [
   27.0,
   10
  ],
- "Transcendent Spirit": [
-  32.5,
-  6
- ],
  "Kingmaker": [
   25.0,
-  10
- ],
- "Starlight Chalice": [
-  26.0,
   10
  ],
  "Soul Taker": [
   24.0,
   10
  ],
- "Fortress Covenant": [
-  20.0,
+ "Starlight Chalice": [
+  26.0,
   10
  ],
- "Voidforge": [
-  18.0,
+ "Fortress Covenant": [
+  20.0,
   10
  ],
  "The Covetous Dark": [
@@ -105,6 +93,10 @@
  ],
  "Rational Doctrine": [
   17.0,
+  10
+ ],
+ "Voidforge": [
+  18.0,
   10
  ],
  "Bottled Faith": [
@@ -119,10 +111,6 @@
   14.0,
   10
  ],
- "Kalandra's Touch": [
-  15.527714502657556,
-  10
- ],
  "Svalinn": [
   13.0,
   10
@@ -135,12 +123,16 @@
   13.0,
   10
  ],
- "Emperor's Cunning": [
-  14.0,
-  10
+ "Transcendent Spirit": [
+  32.5,
+  6
  ],
  "Oriath's End": [
   12.0,
+  10
+ ],
+ "Kalandra's Touch": [
+  15.5,
   10
  ],
  "Baleful Dominion": [
@@ -151,60 +143,56 @@
   10.0,
   10
  ],
- "Nightgrip": [
-  0.09111617312072894,
+ "Emperor's Cunning": [
+  14.0,
   10
  ],
  "The Tides of Time": [
   8.0,
   10
  ],
- "The Stampede": [
-  4.088078967350038,
-  10
- ],
- "Emperor's Wit": [
-  8.0,
+ "Nightgrip": [
+  0.1,
   10
  ],
  "Uzaza's Meadow": [
-  5.25,
+  5.2,
   10
  ],
- "Death's Door": [
-  7.0,
-  10
- ],
- "Replica Farrul's Fur": [
-  7.0,
+ "The Stampede": [
+  4.1,
   10
  ],
  "Replica Headhunter": [
   6.5,
   10
  ],
- "Unnatural Instinct": [
-  6.529992406985574,
+ "Replica Farrul's Fur": [
+  7.0,
+  10
+ ],
+ "Emperor's Wit": [
+  8.0,
   10
  ],
  "Cooperation": [
-  0.37965072133637057,
+  0.4,
+  10
+ ],
+ "Death's Door": [
+  7.0,
   10
  ],
  "Stormshroud": [
-  0.5694760820045559,
+  0.6,
   10
  ],
  "Mask of the Stitched Demon": [
-  5.998481397114655,
+  6.0,
   10
  ],
  "The Winds of Fate": [
   4.0,
-  10
- ],
- "Soul Catcher": [
-  5.0,
   10
  ],
  "Ephemeral Edge": [
@@ -215,28 +203,8 @@
   4.0,
   10
  ],
- "The Squire": [
-  3.0,
-  10
- ],
- "Stasis Prison": [
-  2.0,
-  10
- ],
- "Faithguard": [
-  4.0,
-  10
- ],
- "Cowl of the Cryophile": [
-  0.05694760820045558,
-  10
- ],
- "Dying Sun": [
-  4.0,
-  10
- ],
- "Cinderswallow Urn": [
-  1.0,
+ "Unnatural Instinct": [
+  6.5,
   10
  ]
 }

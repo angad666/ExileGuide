@@ -9,7 +9,7 @@ One bookmark per valuable reward unique. Each search already has:
 Reward value = median of the 10 cheapest uncorrupted trade listings (corrupted as fallback).
 Uses results.json from valdo_scan.py for values it already knows, and checks the rest on trade.
 
-Usage:  python bt_export.py
+Usage:  python bt_export.py [--refresh | --offline]
 Output: better_trading_valdo.txt -> Better Trading > Import, paste the whole line.
 """
 import base64, gzip, json, os, sys
@@ -19,6 +19,7 @@ import valdo_scan as vs
 HERE = vs.HERE
 CFG = vs.CFG
 BT = CFG["better_trading"]
+OFFLINE = "--offline" in sys.argv  # no trade API calls: unchecked rewards are kept
 
 
 def query_id(q):
@@ -68,7 +69,7 @@ def main():
     if not cache:
         known = {}  # also ignore the older scan results when refreshing
     for name, (v, c) in cache.items():
-        known.setdefault(name, {"trade_value": v, "trade_listings": c})
+        known[name] = {"trade_value": v, "trade_listings": c}  # fresher than results.json
 
     values = {}
     cands = sorted([(v, n) for n, v in ninja.items() if v >= BT["verify_rewards_min_ninja_div"]], reverse=True)
@@ -79,6 +80,8 @@ def main():
         s = known.get(name, {})
         if s.get("trade_value"):
             values[name] = (s["trade_value"], s.get("trade_listings") or 10); continue
+        if OFFLINE:
+            continue
         tv, cnt = vs.trade_unique_value(name, div_rate)
         print(f"  {name}: ninja {nv:.1f} -> trade {tv if tv is None else round(tv, 1)} ({cnt} listings)", flush=True)
         if tv:
@@ -124,6 +127,8 @@ def main():
     kept, kept_rows = entries[:1], []
     for (title, q), row in zip(entries[1:], rows):
         name = q["filters"]["map_filters"]["filters"]["map_completion_reward"]["option"]
+        if name not in counts and OFFLINE:
+            kept.append((title, q)); kept_rows.append(row + ("not checked",)); continue
         if name not in counts:
             eq = {k: v for k, v in q.items() if k != "filters"}
             eq["status"] = {"option": "any"}
