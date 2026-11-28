@@ -11,10 +11,6 @@
   204.5,
   10
  ],
- "Reclaimed Malevolence": [
-  129.0,
-  10
- ],
  "Replica Alberon's Warpath": [
   147.0,
   10
@@ -29,6 +25,10 @@
  ],
  "Emperor's Mastery": [
   111.0,
+  10
+ ],
+ "Reclaimed Malevolence": [
+  129.0,
   10
  ],
  "The Golden Charlatan": [
@@ -59,18 +59,6 @@
   45.0,
   10
  ],
- "Lost Unity": [
-  28.0,
-  10
- ],
- "Unholy Accomplice": [
-  25.0,
-  10
- ],
- "The Sundered Will": [
-  27.0,
-  10
- ],
  "Kingmaker": [
   25.0,
   10
@@ -79,35 +67,59 @@
   24.0,
   10
  ],
- "Starlight Chalice": [
-  26.0,
+ "Unholy Accomplice": [
+  25.0,
+  10
+ ],
+ "Lost Unity": [
+  28.0,
+  10
+ ],
+ "The Sundered Will": [
+  27.0,
   10
  ],
  "Fortress Covenant": [
   20.0,
   10
  ],
+ "Starlight Chalice": [
+  26.0,
+  10
+ ],
  "The Covetous Dark": [
   19.0,
   10
  ],
- "Rational Doctrine": [
-  17.0,
+ "Transcendent Spirit": [
+  32.5,
+  6
+ ],
+ "Destructive Aspiration": [
+  13.0,
   10
  ],
  "Voidforge": [
   18.0,
   10
  ],
+ "Rational Doctrine": [
+  17.0,
+  10
+ ],
  "Bottled Faith": [
   15.0,
   10
  ],
- "Ynda's Stand": [
-  16.0,
+ "Kalandra's Touch": [
+  15.5,
   10
  ],
  "Uul-Netol's Vow": [
+  14.0,
+  10
+ ],
+ "Extinguishing Grasp": [
   14.0,
   10
  ],
@@ -115,24 +127,12 @@
   13.0,
   10
  ],
- "Extinguishing Grasp": [
-  14.0,
+ "Ynda's Stand": [
+  16.0,
   10
- ],
- "Destructive Aspiration": [
-  13.0,
-  10
- ],
- "Transcendent Spirit": [
-  32.5,
-  6
  ],
  "Oriath's End": [
   12.0,
-  10
- ],
- "Kalandra's Touch": [
-  15.5,
   10
  ],
  "Baleful Dominion": [
@@ -147,28 +147,28 @@
   14.0,
   10
  ],
- "The Tides of Time": [
-  8.0,
-  10
- ],
  "Nightgrip": [
   0.1,
   10
  ],
- "Uzaza's Meadow": [
-  5.2,
+ "The Tides of Time": [
+  8.0,
   10
  ],
  "The Stampede": [
   4.1,
   10
  ],
- "Replica Headhunter": [
-  6.5,
-  10
- ],
  "Replica Farrul's Fur": [
   7.0,
+  10
+ ],
+ "Uzaza's Meadow": [
+  5.2,
+  10
+ ],
+ "Replica Headhunter": [
+  6.5,
   10
  ],
  "Emperor's Wit": [
@@ -179,32 +179,28 @@
   0.4,
   10
  ],
+ "Ephemeral Edge": [
+  3.5,
+  10
+ ],
  "Death's Door": [
   7.0,
+  10
+ ],
+ "Unnatural Instinct": [
+  6.5,
   10
  ],
  "Stormshroud": [
   0.6,
   10
  ],
- "Mask of the Stitched Demon": [
-  6.0,
-  10
- ],
  "The Winds of Fate": [
   4.0,
   10
  ],
- "Ephemeral Edge": [
-  3.5,
-  10
- ],
- "Defiance of Destiny": [
-  4.0,
-  10
- ],
- "Unnatural Instinct": [
-  6.5,
+ "Mask of the Stitched Demon": [
+  6.0,
   10
  ]
 }

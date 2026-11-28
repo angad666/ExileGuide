@@ -62,7 +62,7 @@ def main():
     cache_f = os.path.join(HERE, "reward_values.json")
     import time
     try:
-        fresh = time.time() - os.path.getmtime(cache_f) < 24 * 3600 and "--refresh" not in sys.argv
+        fresh = (OFFLINE or time.time() - os.path.getmtime(cache_f) < 24 * 3600) and "--refresh" not in sys.argv
         cache = json.load(open(cache_f, encoding="utf-8")) if fresh else {}
     except FileNotFoundError:
         cache = {}
@@ -120,7 +120,7 @@ def main():
     # drop rewards where no Valdo map without the excluded mods is listed at all (any price, any status)
     cnt_f = os.path.join(HERE, "map_counts.json")
     try:
-        fresh = time.time() - os.path.getmtime(cnt_f) < 24 * 3600 and "--refresh" not in sys.argv
+        fresh = (OFFLINE or time.time() - os.path.getmtime(cnt_f) < 24 * 3600) and "--refresh" not in sys.argv
         counts = json.load(open(cnt_f, encoding="utf-8")) if fresh else {}
     except FileNotFoundError:
         counts = {}

@@ -8,7 +8,6 @@
   "maps_per_reward": 20,
 
   "exclude_mods": {
-    "stat.explicit.stat_1095765106": "Players who Die in area are sent to the Void",
     "stat.explicit.stat_419810844":  "Players cannot Block",
     "stat.explicit.stat_2450628570": "Players have 100% reduced effect of Non-Curse Auras from Skills",
     "stat.explicit.stat_4039124672": "Players have 10% increased Cost of Skills for each Skill they've used Recently",

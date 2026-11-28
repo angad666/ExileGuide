@@ -1,11 +1,12 @@
 # Better Trading folder: Valdo deals (Covens)
 
 Rules: price cap none, ROI >= 10%, profit >= 5 div, status securable.
-Excluded mods: Players who Die in area are sent to the Void; Players cannot Block; Players have 100% reduced effect of Non-Curse Auras from Skills; Players have 10% increased Cost of Skills for each Skill they've used Recently; Players deal 10% less Damage per Equipped Item; Durability of Ichor Pumps in Area is 1
+Excluded mods: Players cannot Block; Players have 100% reduced effect of Non-Curse Auras from Skills; Players have 10% increased Cost of Skills for each Skill they've used Recently; Players deal 10% less Damage per Equipped Item; Durability of Ichor Pumps in Area is 1
 
 | Bookmark | Max price | Reward value | Value listings | Safe maps listed |
 |---|---|---|---|---|
 | Mageblood <=231.4d (~254) | 231.4 | 254.5 | 10 | 3 |
+| Heroic Tragedy unid <=226.4d (~249) | 226.4 | 249.0 | 5 | not checked |
 | Nimis <=198.6d (~218) | 198.6 | 218.5 | 10 | 1 |
 | Headhunter <=186.4d (~205) | 186.4 | 205.0 | 10 | 2 |
 | Stranglegasp <=185.9d (~204) | 185.9 | 204.5 | 10 | 1 |
@@ -24,8 +25,8 @@ Excluded mods: Players who Die in area are sent to the Void; Players cannot Bloc
 | Lost Unity <=23d (~28) | 23 | 28.0 | 10 | not checked |
 | The Sundered Will <=22d (~27) | 22 | 27.0 | 10 | not checked |
 | Starlight Chalice <=21d (~26) | 21 | 26.0 | 10 | not checked |
-| Unholy Accomplice <=20d (~25) | 20 | 25.0 | 10 | not checked |
 | Kingmaker <=20d (~25) | 20 | 25.0 | 10 | not checked |
+| Unholy Accomplice <=20d (~25) | 20 | 25.0 | 10 | not checked |
 | Soul Taker <=19d (~24) | 19 | 24.0 | 10 | 2 |
 | Voices unid <=17.6d (~23) | 17.6 | 22.6 | 10 | 23 |
 | Fortress Covenant <=15d (~20) | 15 | 20.0 | 10 | 12 |
@@ -40,8 +41,8 @@ Excluded mods: Players who Die in area are sent to the Void; Players cannot Bloc
 | Uul-Netol's Vow <=9d (~14) | 9 | 14.0 | 10 | 6 |
 | Extinguishing Grasp <=9d (~14) | 9 | 14.0 | 10 | not checked |
 | Emperor's Cunning <=9d (~14) | 9 | 14.0 | 10 | not checked |
-| Svalinn <=8d (~13) | 8 | 13.0 | 10 | 7 |
 | Destructive Aspiration <=8d (~13) | 8 | 13.0 | 10 | not checked |
+| Svalinn <=8d (~13) | 8 | 13.0 | 10 | 7 |
 | Oriath's End <=7d (~12) | 7 | 12.0 | 10 | 13 |
 | Baleful Dominion <=7d (~12) | 7 | 12.0 | 10 | not checked |
 | Festering Resentment <=5d (~10) | 5 | 10.0 | 10 | not checked |
