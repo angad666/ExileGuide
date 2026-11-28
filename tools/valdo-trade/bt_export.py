@@ -30,8 +30,14 @@ def query_id(q):
 
 
 def build_query(reward, max_price):
+    stats = [{"type": "not", "filters": [{"id": k[5:], "disabled": False} for k in CFG["exclude_mods"]]}]
+    one = {k: v for k, v in CFG.get("max_one_of", {}).items() if k.startswith("stat.")}
+    if one:  # "count" group with max 1 = the map has at most one of these mods
+        stats.append({"type": "count", "value": {"max": 1}, "filters": [
+            {"id": k[5:], "disabled": False, **({"value": {"min": v["min"]}} if v.get("min") else {})}
+            for k, v in one.items()]})
     q = {"status": {"option": BT["status"]},
-         "stats": [{"type": "not", "filters": [{"id": k[5:], "disabled": False} for k in CFG["exclude_mods"]]}],
+         "stats": stats,
          "filters": {"trade_filters": {"filters": {"price": {"option": "divine", **({"max": max_price} if max_price else {})}},
                                        "disabled": False}}}
     if reward:
@@ -133,6 +139,7 @@ def main():
             eq = {k: v for k, v in q.items() if k != "filters"}
             eq["status"] = {"option": "any"}
             eq["filters"] = {"map_filters": q["filters"]["map_filters"]}
+            time.sleep(BT.get("check_delay_s", 15))  # go slow: the trade site rate-limits per IP
             counts[name] = vs.trade_search({"query": eq, "sort": {"price": "asc"}}).get("total", 0)
             json.dump(counts, open(cnt_f, "w", encoding="utf-8"), indent=1)
         if counts[name]:
@@ -147,7 +154,9 @@ def main():
     with open(os.path.join(HERE, "better_trading_valdo.md"), "w", encoding="utf-8") as fh:
         fh.write(f"# Better Trading folder: {BT['folder_title']} ({CFG['league']})\n\n")
         fh.write(f"Rules: price cap {CFG.get('max_price_div') or 'none'}, ROI >= {roi*100:.0f}%, profit >= {minp} div, status {BT['status']}.\n")
-        fh.write("Excluded mods: " + "; ".join(CFG["exclude_mods"].values()) + "\n\n")
+        fh.write("Excluded mods: " + "; ".join(CFG["exclude_mods"].values()) + "\n")
+        fh.write("At most one of: " + "; ".join(v["text"] for k, v in CFG.get("max_one_of", {}).items()
+                                                if k.startswith("stat.")) + "\n\n")
         fh.write("| Bookmark | Max price | Reward value | Value listings | Safe maps listed |\n|---|---|---|---|---|\n")
         for t, mx, v, cnt, maps in rows:
             fh.write(f"| {t} | {mx:g} | {v:.1f} | {cnt} | {maps} |\n")

@@ -31,12 +31,12 @@
   129.0,
   10
  ],
- "The Golden Charlatan": [
-  80.0,
-  10
- ],
  "Wine of the Prophet": [
   88.0,
+  10
+ ],
+ "The Golden Charlatan": [
+  80.0,
   10
  ],
  "Mageblood": [
@@ -53,6 +53,10 @@
  ],
  "Emperor's Might": [
   70.0,
+  10
+ ],
+ "Hateforge": [
+  42.5,
   10
  ],
  "Crown of the Tyrant": [
@@ -87,13 +91,13 @@
   26.0,
   10
  ],
- "The Covetous Dark": [
-  19.0,
-  10
- ],
  "Transcendent Spirit": [
   32.5,
   6
+ ],
+ "The Covetous Dark": [
+  19.0,
+  10
  ],
  "Destructive Aspiration": [
   13.0,
@@ -147,28 +151,28 @@
   14.0,
   10
  ],
- "Nightgrip": [
-  0.1,
-  10
- ],
  "The Tides of Time": [
   8.0,
   10
  ],
- "The Stampede": [
-  4.1,
-  10
- ],
- "Replica Farrul's Fur": [
-  7.0,
+ "Nightgrip": [
+  0.1,
   10
  ],
  "Uzaza's Meadow": [
   5.2,
   10
  ],
+ "The Stampede": [
+  4.1,
+  10
+ ],
  "Replica Headhunter": [
   6.5,
+  10
+ ],
+ "Replica Farrul's Fur": [
+  7.0,
   10
  ],
  "Emperor's Wit": [
@@ -177,6 +181,10 @@
  ],
  "Cooperation": [
   0.4,
+  10
+ ],
+ "Replica Maata's Teaching": [
+  6.0,
   10
  ],
  "Ephemeral Edge": [
@@ -191,11 +199,19 @@
   6.5,
   10
  ],
+ "Soul Catcher": [
+  6.5,
+  10
+ ],
  "Stormshroud": [
   0.6,
   10
  ],
  "The Winds of Fate": [
+  4.0,
+  10
+ ],
+ "The Apostate": [
   4.0,
   10
  ],

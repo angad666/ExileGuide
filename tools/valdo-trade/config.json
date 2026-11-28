@@ -15,6 +15,14 @@
     "stat.explicit.stat_1158433054": "Durability of Ichor Pumps in Area is 1"
   },
 
+  "max_one_of": {
+    "_note": "a map may have at most ONE of these mods; min = lowest value that counts",
+    "stat.explicit.stat_758191285":  {"text": "Area contains The Feared"},
+    "stat.explicit.stat_1715784068": {"text": "Players in Area are 100% Delirious", "min": 100},
+    "stat.explicit.stat_1095765106": {"text": "Players who Die in area are sent to the Void"},
+    "stat.explicit.stat_362579144":  {"text": "Rare and Unique Monsters are Possessed by Tormented Spirits (ghosted)"}
+  },
+
   "risky_mods": {
     "stat.explicit.stat_2283806768": "Many dangerous Apparitions (22k phys max hit)",
     "stat.explicit.stat_2573185638": "Einhar, Exilehunter (big phys projectiles)",
@@ -27,7 +35,8 @@
     "folder_title": "Valdo deals",
     "status": "securable",
     "min_max_price_div": 1,
-    "verify_rewards_min_ninja_div": 8
+    "verify_rewards_min_ninja_div": 8,
+    "check_delay_s": 15
   },
 
   "reward_value_overrides_div": {}
